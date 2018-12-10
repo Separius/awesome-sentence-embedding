@@ -37,3 +37,9 @@ A curated list of awesome sentence embedding models
 |[Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints](https://arxiv.org/pdf/1706.00374)|[TF](https://github.com/nmrksic/attract-repel)(official)|[Attract-Repel](https://github.com/nmrksic/attract-repel#available-word-vector-spaces)(bilingual)|
 |[Siamese CBOW: Optimizing Word Embeddings for Sentence Representations](https://arxiv.org/pdf/1606.04640)|<ul><li>[Theano](https://bitbucket.org/TomKenter/siamese-cbow/src/master/)(official)</li><li>[TF](https://github.com/raphael-sch/SiameseCBOW)</li></ul>|[Siamese CBOW](https://bitbucket.org/TomKenter/siamese-cbow/src/master/)|
 |[Offline bilingual word vectors, orthogonal transformations and the inverted softmax](https://arxiv.org/pdf/1702.03859)|[Python](https://github.com/Babylonpartners/fastText_multilingual)(official)|-|
+
+## OOV Handling
+* Drop OOV words!
+* One OOV vector(unk vector)
+* [A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors](http://aclweb.org/anthology/P18-1002): [ALaCarte](github.com/NLPrinceton/ALaCarte)
+* [Mimicking Word Embeddings using Subword RNNs](http://www.aclweb.org/anthology/D17-1010): [Mimick](https://github.com/yuvalpinter/Mimick)
