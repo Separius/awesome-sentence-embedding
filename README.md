@@ -1,4 +1,5 @@
 # awesome-sentence-embedding
+
 A curated list of awesome sentence embedding models
 
 ## Table of Contents
@@ -12,11 +13,12 @@ A curated list of awesome sentence embedding models
 * **[Encoders](#encoders)**
 * **[Surveys](#surveys)**
 * **[Evaluation](#evaluation)**
-* **[Multilingual Word Embeddings](#multilingual-word-embeddings)**
+* **[Learn Mapping](#learn-mapping)**
 * **[Articles](#articles)**
 * **[Code Less](#code-less)**
 
 ## About This Repo
+
 * well there are some awesome-lists for word embeddings and sentence embeddings, but all of them are outdated and more importantly incomplete
 * this repo will also be incomplete! but I try my best to find and include all the papers with pretrained models(so I have a strong bias toward papers with code and pretrained models)
 * this is not a typical awesome list, it has tables! but I guess it's ok and much better than just some lists
@@ -70,6 +72,7 @@ A curated list of awesome sentence embedding models
 |[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)|<ul><li>[TF](https://github.com/google-research/bert)(official)</li><li>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT)</li><li>[Keras](https://github.com/Separius/BERT-keras)</li></ul>|[BERT](https://github.com/google-research/bert#pre-trained-models)|
 
 ## Pooling Methods
+
 * {Last, Mean, Max}-Pooling
 * Special Token Pooling (like BERT and OpenAI's Transformer)
 * [SIF](https://github.com/PrincetonML/SIF): [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/pdf?id=SyK00v5xx)
@@ -77,6 +80,7 @@ A curated list of awesome sentence embedding models
 * [P-norm](https://github.com/UKPLab/arxiv2018-xling-sentence-embeddings): [Concatenated Power Mean Word Embeddings as Universal Cross-Lingual Sentence Representations](https://arxiv.org/pdf/1803.01400)
 
 ## Encoders
+
 |paper|code|name|
 |---|---|---|
 |[An efficient framework for learning sentence representations](https://arxiv.org/pdf/1803.02893.pdf)|[TF](https://github.com/lajanugen/S2V)(official, pretrained)|Quick-Thought|
@@ -105,7 +109,13 @@ A curated list of awesome sentence embedding models
 |[Learning Distributed Representations of Sentences from Unlabelled Data](https://arxiv.org/pdf/1602.03483)|[Python](https://github.com/fh295/SentenceRepresentation)(official)|FastSent|
 |[Embedding Text in Hyperbolic Spaces](https://arxiv.org/pdf/1806.04313.pdf)|[TF](https://github.com/brain-research/hyperbolictext)(official)|HyperText|
 
+## Surveys
+## Evaluation
+## Learn Mapping
+## Articles
+
 ## Code Less
+
 * papers here are just a paper and they don't have any released codes or pretrained models
 * are you sure? I have read the paper, googled the title, googled the title + github, and searched for the authors one by one and checked their pages, so yeah I'm 60% sure that they don't have anything! :))
 * I did these two months ago(Oct 2018), and they might have released their codes in this time, so If you found any of them let me know.
