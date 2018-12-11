@@ -92,3 +92,7 @@ A curated list of awesome sentence embedding models
 |[Charagram: Embedding Words and Sentences via Character n-grams](https://aclweb.org/anthology/D16-1157)|[Theano](https://github.com/jwieting/charagram)(official, pretrained)|Charagram|
 |[Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings](https://arxiv.org/pdf/1705.00364)|[Theano](https://github.com/jwieting/acl2017)(official, pretrained)|GRAN|
 |[Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations](https://arxiv.org/pdf/1711.05732)|[Theano](https://github.com/jwieting/para-nmt-50m)(official, pretrained)|para-nmt|
+|[Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](https://arxiv.org/pdf/1411.2539)|<ul><li>[Theano](https://github.com/ryankiros/visual-semantic-embedding)(official, pretrained)</li><li>[Pytorch](https://github.com/linxd5/VSE_Pytorch)(load_pretrained)</li></ul>|VSE|
+|[VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/pdf/1707.05612)|[Pytorch](https://github.com/fartashf/vsepp)(official, pretrained)|VSE++|
+|[End-Task Oriented Textual Entailment via Deep Explorations of Inter-Sentence Interactions](https://arxiv.org/pdf/1804.08813)|[Theano](https://github.com/yinwenpeng/SciTail)(official, pretrained)|DEISTE|
+|[Learning Universal Sentence Representations with Mean-Max Attention Autoencoder](http://aclweb.org/anthology/D18-1481)|[TF](https://github.com/Zminghua/SentEncoding)(official, pretrained)|Mean-MaxAAE|
