@@ -3,7 +3,7 @@ A curated list of awesome sentence embedding models
 
 ## Table of Contents
 
-
+* **[About This Repo](#about-this-repo)**
 * **[General Framework](#general-framework)**
 * **[Word Embeddings](#word-embeddings)**
 * **[OOV Handling](#oov-handling)**
@@ -14,6 +14,14 @@ A curated list of awesome sentence embedding models
 * **[Evaluation](#evaluation)**
 * **[Multilingual Word Embeddings](#multilingual-word-embeddings)**
 * **[Articles](#articles)**
+
+## About This Repo
+* well there are some awesome-lists for word embeddings and sentence embeddings, but all of them are outdated and more importantly incomplete
+* this repo will also be incomplete! but I try my best to find and include all the papers with pretrained models(so I have a strong bias toward papers with code and pretrained models)
+* this is not a typical awesome list, it has tables! but I guess it's ok and much better than just some lists
+* if you find any mistakes or find another paper or anything please send a pull request and help me to keep this list up to date
+* to be honest I'm not 100% sure how to represent this data and if you think there is a better way (for example by changing the table headers) please send a pull request and let us discuss it
+* enjoy!
 
 ## General Framework
 
@@ -76,3 +84,6 @@ A curated list of awesome sentence embedding models
 |[Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053)|<ul><li>[Pytorch](https://github.com/inejc/paragraph-vectors)</li><li>[Python](https://github.com/jhlau/doc2vec)(pretrained)</li></ul>|Doc2Vec|
 |[Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features](https://arxiv.org/pdf/1703.02507.pdf)|[C++](https://github.com/epfml/sent2vec)(official, pretrained)|Sent2Vec|
 |[Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/pdf/1506.06724)|<ul><li>[Theano](https://github.com/ryankiros/skip-thoughts)(official, pretrained)</li><li>[TF](https://github.com/tensorflow/models/tree/master/research/skip_thoughts)(pretrained)</li><li>[Pytorch,Torch](https://github.com/Cadene/skip-thoughts.torch)(load_pretrained)</li></ul>|SkipThought|
+|[Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/pdf/1704.01444)|<ul><li>[TF](https://github.com/openai/generating-reviews-discovering-sentiment)(official, pretrained)</li><li>[Pytorch](https://github.com/guillitte/pytorch-sentiment-neuron)(load_pretrained)</li><li>[Pytorch](https://github.com/NVIDIA/sentiment-discovery)(pretrained)</li></ul>|SentimentNeuron|
+|[From Word Embeddings to Document Distances](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf)|[C,Python](https://github.com/mkusner/wmd)(official)|Word Mover's Distance|
+|[Convolutional Neural Network for Universal Sentence Embeddings](https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf)|[Theano](https://github.com/XiaoqiJiao/COLING2018)(pretrained)|CSE|
