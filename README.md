@@ -97,7 +97,7 @@ A curated list of awesome sentence embedding models
 |[Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/pdf/1506.06724)|<ul><li>[Theano](https://github.com/ryankiros/skip-thoughts)(official, pretrained)</li><li>[TF](https://github.com/tensorflow/models/tree/master/research/skip_thoughts)(pretrained)</li><li>[Pytorch,Torch](https://github.com/Cadene/skip-thoughts.torch)(load_pretrained)</li></ul>|SkipThought|
 |[Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/pdf/1704.01444)|<ul><li>[TF](https://github.com/openai/generating-reviews-discovering-sentiment)(official, pretrained)</li><li>[Pytorch](https://github.com/guillitte/pytorch-sentiment-neuron)(load_pretrained)</li><li>[Pytorch](https://github.com/NVIDIA/sentiment-discovery)(pretrained)</li></ul>|SentimentNeuron|
 |[From Word Embeddings to Document Distances](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf)|[C,Python](https://github.com/mkusner/wmd)(official)|Word Mover's Distance|
-|[Word Mover's Embedding: From Word2Vec to Document Embedding](https://arxiv.org/pdf/1811.01713)|[C,Python](https://github.com/IBM/WordMoversEmbeddings)|WordMoversEmbeddings|
+|[Word Mover's Embedding: From Word2Vec to Document Embedding](https://arxiv.org/pdf/1811.01713)|[C,Python](https://github.com/IBM/WordMoversEmbeddings)(official)|WordMoversEmbeddings|
 |[Convolutional Neural Network for Universal Sentence Embeddings](https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf)|[Theano](https://github.com/XiaoqiJiao/COLING2018)(official, pretrained)|CSE|
 |[Towards Universal Paraphrastic Sentence Embeddings](https://arxiv.org/pdf/1511.08198)|[Theano](https://github.com/jwieting/iclr2016)(official, pretrained)|ParagramPhrase|
 |[Charagram: Embedding Words and Sentences via Character n-grams](https://aclweb.org/anthology/D16-1157)|[Theano](https://github.com/jwieting/charagram)(official, pretrained)|Charagram|
@@ -109,7 +109,7 @@ A curated list of awesome sentence embedding models
 |[Learning Universal Sentence Representations with Mean-Max Attention Autoencoder](http://aclweb.org/anthology/D18-1481)|[TF](https://github.com/Zminghua/SentEncoding)(official, pretrained)|Mean-MaxAAE|
 |[BioSentVec: creating sentence embeddings for biomedical texts](https://arxiv.org/pdf/1810.09302)|[Python](https://github.com/ncbi-nlp/BioSentVec)(official, pretrained)|BioSentVec|
 |[DisSent: Learning Sentence Representations from Explicit Discourse Relations](https://arxiv.org/pdf/1710.04334.pdf)|[Pytorch](https://github.com/windweller/DisExtract)(official, email_for_pretrained)|DisSent|
-|[Universal Sentence Encoder](https://arxiv.org/abs/1803.11175)|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder/2)(official, pretrained)|USE|
+|[Universal Sentence Encoder](https://arxiv.org/pdf/1803.11175.pdf)|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder/2)(official, pretrained)|USE|
 |[Learning Distributed Representations of Sentences from Unlabelled Data](https://arxiv.org/pdf/1602.03483)|[Python](https://github.com/fh295/SentenceRepresentation)(official)|FastSent|
 |[Embedding Text in Hyperbolic Spaces](https://arxiv.org/pdf/1806.04313.pdf)|[TF](https://github.com/brain-research/hyperbolictext)(official)|HyperText|
 
