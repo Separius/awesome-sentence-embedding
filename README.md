@@ -47,6 +47,7 @@ A curated list of awesome sentence embedding models
 |[Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints](https://arxiv.org/pdf/1706.00374)|[TF](https://github.com/nmrksic/attract-repel)(official)|[Attract-Repel](https://github.com/nmrksic/attract-repel#available-word-vector-spaces)(bilingual)|
 |[Siamese CBOW: Optimizing Word Embeddings for Sentence Representations](https://arxiv.org/pdf/1606.04640)|<ul><li>[Theano](https://bitbucket.org/TomKenter/siamese-cbow/src/master/)(official)</li><li>[TF](https://github.com/raphael-sch/SiameseCBOW)</li></ul>|[Siamese CBOW](https://bitbucket.org/TomKenter/siamese-cbow/src/master/)|
 |[Offline bilingual word vectors, orthogonal transformations and the inverted softmax](https://arxiv.org/pdf/1702.03859)|[Python](https://github.com/Babylonpartners/fastText_multilingual)(official)|-|
+|[From Paraphrase Database to Compositional Paraphrase Model and Back](http://www.aclweb.org/anthology/Q15-1025)|[Theano](https://github.com/jwieting/paragram-word)(official)|[PARAGRAM](http://ttic.uchicago.edu/~wieting/paragram-word-demo.zip)|
 
 ## OOV Handling
 
@@ -86,4 +87,8 @@ A curated list of awesome sentence embedding models
 |[Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/pdf/1506.06724)|<ul><li>[Theano](https://github.com/ryankiros/skip-thoughts)(official, pretrained)</li><li>[TF](https://github.com/tensorflow/models/tree/master/research/skip_thoughts)(pretrained)</li><li>[Pytorch,Torch](https://github.com/Cadene/skip-thoughts.torch)(load_pretrained)</li></ul>|SkipThought|
 |[Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/pdf/1704.01444)|<ul><li>[TF](https://github.com/openai/generating-reviews-discovering-sentiment)(official, pretrained)</li><li>[Pytorch](https://github.com/guillitte/pytorch-sentiment-neuron)(load_pretrained)</li><li>[Pytorch](https://github.com/NVIDIA/sentiment-discovery)(pretrained)</li></ul>|SentimentNeuron|
 |[From Word Embeddings to Document Distances](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf)|[C,Python](https://github.com/mkusner/wmd)(official)|Word Mover's Distance|
-|[Convolutional Neural Network for Universal Sentence Embeddings](https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf)|[Theano](https://github.com/XiaoqiJiao/COLING2018)(pretrained)|CSE|
+|[Convolutional Neural Network for Universal Sentence Embeddings](https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf)|[Theano](https://github.com/XiaoqiJiao/COLING2018)(official, pretrained)|CSE|
+|[Towards Universal Paraphrastic Sentence Embeddings](https://arxiv.org/pdf/1511.08198)|[Theano](https://github.com/jwieting/iclr2016)(official, pretrained)|ParagramPhrase|
+|[Charagram: Embedding Words and Sentences via Character n-grams](https://aclweb.org/anthology/D16-1157)|[Theano](https://github.com/jwieting/charagram)(official, pretrained)|Charagram|
+|[Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings](https://arxiv.org/pdf/1705.00364)|[Theano](https://github.com/jwieting/acl2017)(official, pretrained)|GRAN|
+|[Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations](https://arxiv.org/pdf/1711.05732)|[Theano](https://github.com/jwieting/para-nmt-50m)(official, pretrained)|para-nmt|
