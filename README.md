@@ -45,10 +45,11 @@ A curated list of awesome sentence embedding models
 |[Dependency-Based Word Embeddings](http://www.aclweb.org/anthology/P14-2050)|<ul><li>[C++](https://bitbucket.org/yoavgo/word2vecf/src/default/)(official)</li><li>[DL4J](https://github.com/IsaacChanghau/Word2VecfJava)</li></ul>|[word2vecf](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/)|
 |[Learning Word Meta-Embeddings](http://www.aclweb.org/anthology/P16-1128)|-|[Meta-Emb](http://cistern.cis.lmu.de/meta-emb/)(broken)|
 |[Dict2vec : Learning Word Embeddings using Lexical Dictionaries](http://aclweb.org/anthology/D17-1024)|[C++](https://github.com/tca19/dict2vec)(official)|[Dict2vec](https://github.com/tca19/dict2vec#download-pre-trained-vectors)|
-|[Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints](https://arxiv.org/pdf/1706.00374)|[TF](https://github.com/nmrksic/attract-repel)(official)|[Attract-Repel](https://github.com/nmrksic/attract-repel#available-word-vector-spaces)(bilingual)|
+|[Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints](https://arxiv.org/pdf/1706.00374)|[TF](https://github.com/nmrksic/attract-repel)(official)|[Attract-Repel](https://github.com/nmrksic/attract-repel#available-word-vector-spaces)|
 |[Siamese CBOW: Optimizing Word Embeddings for Sentence Representations](https://arxiv.org/pdf/1606.04640)|<ul><li>[Theano](https://bitbucket.org/TomKenter/siamese-cbow/src/master/)(official)</li><li>[TF](https://github.com/raphael-sch/SiameseCBOW)</li></ul>|[Siamese CBOW](https://bitbucket.org/TomKenter/siamese-cbow/src/master/)|
 |[Offline bilingual word vectors, orthogonal transformations and the inverted softmax](https://arxiv.org/pdf/1702.03859)|[Python](https://github.com/Babylonpartners/fastText_multilingual)(official)|-|
 |[From Paraphrase Database to Compositional Paraphrase Model and Back](http://www.aclweb.org/anthology/Q15-1025)|[Theano](https://github.com/jwieting/paragram-word)(official)|[PARAGRAM](http://ttic.uchicago.edu/~wieting/paragram-word-demo.zip)|
+|[Poincaré Embeddings for Learning Hierarchical Representations](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations.pdf)|[Pytorch](https://github.com/facebookresearch/poincare-embeddings)(official)|-|
 
 ## OOV Handling
 
@@ -107,8 +108,18 @@ A curated list of awesome sentence embedding models
 ## Code Less
 * papers here are just a paper and they don't have any released codes or pretrained models
 * are you sure? I have read the paper, googled the title, googled the title + github, and searched for the authors one by one and checked their pages, so yeah I'm 60% sure that they don't have anything! :))
+* I did these two months ago(Oct 2018), and they might have released their codes in this time, so If you found any of them let me know.
 * [TOWARDS LANGUAGE AGNOSTIC UNIVERSAL REPRESENTATIONS](https://arxiv.org/pdf/1809.08510.pdf)
 * [IS WASSERSTEIN ALL YOU NEED?](https://arxiv.org/pdf/1808.09663.pdf)
 * [Discourse-Based Objectives for Fast Unsupervised Sentence Representation Learning](https://arxiv.org/pdf/1705.00557.pdf)
 * [UNSUPERVISED SENTENCE EMBEDDING USING DOCUMENT STRUCTURE-BASED CONTEXT](https://openreview.net/pdf?id=H1a37GWCZ)
 * [CSE: Conceptual Sentence Embeddings based on Attention Model](https://www.aclweb.org/anthology/P/P16/P16-1048.pdf)
+* [Unsupervised Document Embedding With CNNs](https://arxiv.org/pdf/1711.04168.pdf)
+* [Learning Generic Sentence Representations Using Convolutional Neural Networks](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/sent2vec_emnlp2017.pdf)
+* [Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model](https://arxiv.org/pdf/1810.12836.pdf)
+* [Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling](https://openreview.net/pdf?id=Bkl87h09FX)
+* [ZERO-TRAINING SENTENCE EMBEDDING VIA ORTHOGONAL BASIS](https://arxiv.org/pdf/1810.00438.pdf)
+* [Improving Sentence Representations with Multi-view Frameworks](https://arxiv.org/pdf/1810.01064.pdf)
+* [UNSUPERVISED LEARNING OF SENTENCE REPRESENTATIONS USING SEQUENCE CONSISTENCY](https://openreview.net/pdf?id=BklUAoAcY7)
+* [FAKE SENTENCE DETECTION AS A TRAINING TASK FOR SENTENCE ENCODING](https://openreview.net/pdf?id=B1xFVhActm)
+* [POINCARE´ GLOVE: HYPERBOLIC WORD EMBEDDINGS](https://openreview.net/pdf?id=Ske5r3AqK7)
