@@ -21,6 +21,8 @@ A curated list of awesome sentence embedding models
 
 ## Word Embeddings
 
+* Note: don't worry about the language of the code, you can almost always (except for the subword models) just use the pretrained embedding table in the library of your choice and ignore the training code
+
 |paper|code|pretrained models|
 |---|---|---|
 |[GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf)|[C++](https://github.com/stanfordnlp/GloVe)(official)|[GloVe](https://nlp.stanford.edu/projects/glove/)|
@@ -39,17 +41,21 @@ A curated list of awesome sentence embedding models
 |[Offline bilingual word vectors, orthogonal transformations and the inverted softmax](https://arxiv.org/pdf/1702.03859)|[Python](https://github.com/Babylonpartners/fastText_multilingual)(official)|-|
 
 ## OOV Handling
+
 * Drop OOV words!
 * One OOV vector(unk vector)
 * [ALaCarte](https://github.com/NLPrinceton/ALaCarte): [A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors](http://aclweb.org/anthology/P18-1002)
 * [Mimick](https://github.com/yuvalpinter/Mimick): [Mimicking Word Embeddings using Subword RNNs](http://www.aclweb.org/anthology/D17-1010)
 
 ## Contextualized Word Embeddings
+
+* Note: all the unofficial models can load the pretrained models
+
 |paper|code|pretrained models|
 |---|---|---|
 |[Learned in Translation: Contextualized Word Vectors](http://papers.nips.cc/paper/7209-learned-in-translation-contextualized-word-vectors.pdf)|<ul><li>[Pytorch](https://github.com/salesforce/cove)(official)</li><li>[Keras](https://github.com/rgsachin/CoVe)</li></ul>|[CoVe](https://github.com/salesforce/cove)|
 |[Deep contextualized word representations](https://arxiv.org/pdf/1802.05365)|<ul><li>[Pytorch](https://github.com/allenai/allennlp)(official)</li><li>[TF](https://github.com/allenai/bilm-tf)(official)</li>|ELMO([AllenNLP](https://allennlp.org/elmo), [TF-Hub](https://tfhub.dev/google/elmo/2))|
-|[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)|<ul><li>[TF](https://github.com/openai/finetune-transformer-lm)(official)</li><li>[Pytorch](https://github.com/huggingface/pytorch-openai-transformer-lm)</li></ul>|[Transformer](https://github.com/openai/finetune-transformer-lm)
+|[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)|<ul><li>[TF](https://github.com/openai/finetune-transformer-lm)(official)</li><li>[Keras](https://github.com/Separius/BERT-keras)</li><li>[Pytorch](https://github.com/huggingface/pytorch-openai-transformer-lm)</li></ul>|[Transformer](https://github.com/openai/finetune-transformer-lm)
 |[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)|<ul><li>[TF](https://github.com/google-research/bert)(official)</li><li>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT)</li><li>[Keras](https://github.com/Separius/BERT-keras)</li></ul>|[BERT](https://github.com/google-research/bert#pre-trained-models)|
 
 ## Pooling Methods
@@ -63,8 +69,10 @@ A curated list of awesome sentence embedding models
 |paper|code|name|
 |---|---|---|
 |[An efficient framework for learning sentence representations](https://arxiv.org/pdf/1803.02893.pdf)|[TF](https://github.com/lajanugen/S2V)(official, pretrained)|Quick-Thought|
-|[Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm](https://arxiv.org/pdf/1708.00524)|<ul><li>[Keras](https://github.com/bfelbo/DeepMoji)(official, pretrained)</li><li>[Pytorch](https://github.com/huggingface/torchMoji)</li></ul>|DeepMoji|
+|[Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm](https://arxiv.org/pdf/1708.00524)|<ul><li>[Keras](https://github.com/bfelbo/DeepMoji)(official, pretrained)</li><li>[Pytorch](https://github.com/huggingface/torchMoji)(load_pretrained)</li></ul>|DeepMoji|
 |[Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/pdf/1705.02364)|[Pytorch](https://github.com/facebookresearch/InferSent)(official, pretrained)|InferSent|
 |[Learning Joint Multilingual Sentence Representations with Neural Machine Translation](https://aclanthology.info/papers/W17-2619/w17-2619)|[Pytorch](https://github.com/facebookresearch/LASER)(official, pretrained)|LASER|
 |[Learning general purpose distributed sentence representations via large scale multi-task learning](https://arxiv.org/pdf/1804.00079)|[Pytorch](https://github.com/Maluuba/gensen)(official, pretrained)|GenSen|
 |[Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053)|<ul><li>[Pytorch](https://github.com/inejc/paragraph-vectors)</li><li>[Python](https://github.com/jhlau/doc2vec)(pretrained)</li></ul>|Doc2Vec|
+|[Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features](https://arxiv.org/pdf/1703.02507.pdf)|[C++](https://github.com/epfml/sent2vec)(official, pretrained)|Sent2Vec|
+|[Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/pdf/1506.06724)|<ul><li>[Theano](https://github.com/ryankiros/skip-thoughts)(official, pretrained)</li><li>[TF](https://github.com/tensorflow/models/tree/master/research/skip_thoughts)(pretrained)</li><li>[Pytorch,Torch](https://github.com/Cadene/skip-thoughts.torch)(load_pretrained)</li></ul>|SkipThought|
