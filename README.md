@@ -29,9 +29,9 @@ A curated list of awesome sentence embedding models
 
 ## Word Embeddings
 
-* Note: don't worry about the language of the code, you can almost always (except for the subword models) just use the pretrained embedding table in the library of your choice and ignore the training code
+* Note: don't worry about the language of the code, you can almost always (except for the subword models) just use the pretrained embedding table in the framework of your choice and ignore the training code
 
-|paper|code|pretrained models|
+|paper|training code|pretrained models|
 |---|---|---|
 |[GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf)|[C++](https://github.com/stanfordnlp/GloVe)(official)|[GloVe](https://nlp.stanford.edu/projects/glove/)|
 |[Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)|[C++](https://code.google.com/archive/p/word2vec/)(official)|[Word2Vec](https://code.google.com/archive/p/word2vec/)|
@@ -58,7 +58,7 @@ A curated list of awesome sentence embedding models
 
 ## Contextualized Word Embeddings
 
-* Note: all the unofficial models can load the pretrained models
+* Note: all the unofficial models can load the official pretrained models
 
 |paper|code|pretrained models|
 |---|---|---|
@@ -96,3 +96,6 @@ A curated list of awesome sentence embedding models
 |[VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/pdf/1707.05612)|[Pytorch](https://github.com/fartashf/vsepp)(official, pretrained)|VSE++|
 |[End-Task Oriented Textual Entailment via Deep Explorations of Inter-Sentence Interactions](https://arxiv.org/pdf/1804.08813)|[Theano](https://github.com/yinwenpeng/SciTail)(official, pretrained)|DEISTE|
 |[Learning Universal Sentence Representations with Mean-Max Attention Autoencoder](http://aclweb.org/anthology/D18-1481)|[TF](https://github.com/Zminghua/SentEncoding)(official, pretrained)|Mean-MaxAAE|
+|[BioSentVec: creating sentence embeddings for biomedical texts](https://arxiv.org/pdf/1810.09302)|[Python](https://github.com/ncbi-nlp/BioSentVec)(official, pretrained)|BioSentVec|
+|[DisSent: Learning Sentence Representations from Explicit Discourse Relations](https://arxiv.org/pdf/1710.04334.pdf)|[Pytorch](https://github.com/windweller/DisExtract)(official, email_for_pretrained)|DisSent|
+|[Universal Sentence Encoder](https://arxiv.org/abs/1803.11175)|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder/2)(official, pretrained)|USE|
