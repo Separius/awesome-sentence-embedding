@@ -12,6 +12,7 @@ A curated list of pretrained sentence(and word) embedding models
 * **[Pooling Methods](#pooling-methods)**
 * **[Encoders](#encoders)**
 * **[Evaluation](#evaluation)**
+* **[Misc](#misc)**
 * **[Vector Mapping](#vector-mapping)**
 * **[Articles](#articles)**
 * **[Code Less](#code-less)**
@@ -54,6 +55,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[From Paraphrase Database to Compositional Paraphrase Model and Back](http://www.aclweb.org/anthology/Q15-1025)|[Theano](https://github.com/jwieting/paragram-word)(official)|[PARAGRAM](http://ttic.uchicago.edu/~wieting/paragram-word-demo.zip)|
 |[Poincaré Embeddings for Learning Hierarchical Representations](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations.pdf)|[Pytorch](https://github.com/facebookresearch/poincare-embeddings)(official)|-|
 |[Dynamic Meta-Embeddings for Improved Sentence Representations](https://arxiv.org/pdf/1804.07983.pdf)|[Pytorch](https://github.com/facebookresearch/DME)(official)|[DME/CDME](https://github.com/facebookresearch/DME#pre-trained-models)|
+|[WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models](https://rusvectores.org/static/data/webvectors_aist.pdf)|-|[RusVectōrēs](http://rusvectores.org/en/models/)|
 
 ## OOV Handling
 
@@ -127,6 +129,10 @@ A curated list of pretrained sentence(and word) embedding models
 * [wordvectors.net](https://github.com/mfaruqui/eval-word-vectors): [Community Evaluation and Exchange of Word Vectors at wordvectors.org](https://www.manaalfaruqui.com/papers/acl14-vecdemo.pdf)
 * [jiant](https://github.com/jsalt18-sentence-repl/jiant)
 * [Evaluation of sentence embeddings in downstream and linguistic probing tasks](https://arxiv.org/pdf/1806.06259)
+
+## Misc
+
+* [Word Embedding Dimensionality Selection](https://github.com/ziyin-dl/word-embedding-dimensionality-selection): [On the Dimensionality of Word Embedding](https://arxiv.org/pdf/1812.04224.pdf)
 
 ## Vector Mapping
 
