@@ -56,6 +56,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[Poincaré Embeddings for Learning Hierarchical Representations](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations.pdf)|[Pytorch](https://github.com/facebookresearch/poincare-embeddings)(official)|-|
 |[Dynamic Meta-Embeddings for Improved Sentence Representations](https://arxiv.org/pdf/1804.07983.pdf)|[Pytorch](https://github.com/facebookresearch/DME)(official)|[DME/CDME](https://github.com/facebookresearch/DME#pre-trained-models)|
 |[WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models](https://rusvectores.org/static/data/webvectors_aist.pdf)|-|[RusVectōrēs](http://rusvectores.org/en/models/)|
+|[Swivel: Improving Embeddings by Noticing What's Missing](https://arxiv.org/pdf/1602.02215)|[TF](https://github.com/tensorflow/models/tree/master/research/swivel)(official)|-|
 
 ## OOV Handling
 
