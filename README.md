@@ -135,6 +135,7 @@ A curated list of pretrained sentence(and word) embedding models
 ## Misc
 
 * [Word Embedding Dimensionality Selection](https://github.com/ziyin-dl/word-embedding-dimensionality-selection): [On the Dimensionality of Word Embedding](https://arxiv.org/pdf/1812.04224.pdf)
+* [ULMFit](https://github.com/fastai/fastai/tree/ulmfit_v1): [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/pdf/1801.06146.pdf)
 
 ## Vector Mapping
 
