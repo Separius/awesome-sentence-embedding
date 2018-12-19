@@ -28,7 +28,11 @@ A curated list of pretrained sentence(and word) embedding models
 
 ## General Framework
 
-* Almost all the sentence embeddings work like this: given some sort of word embeddings and an optional encoder (for example an LSTM) they obtain the contextualized word embeddings and then they define some sort of pooling (it can be as simple as last pooling) and then based on that they either use it directly for the supervised classification task (like infersent) or generate the target sequence (like skip-thought) so in general we have many sentence embeddings that you have never heard of, you can simply do mean-pooling over any word embedding and it's a sentence embedding!
+* Almost all the sentence embeddings work like this: 
+* Given some sort of word embeddings and an optional encoder (for example an LSTM) they obtain the contextualized word embeddings. 
+* Then they define some sort of pooling (it can be as simple as last pooling). 
+* Based on that they either use it directly for the supervised classification task (like infersent) or generate the target sequence (like skip-thought). 
+* So, in general, we have many sentence embeddings that you have never heard of, you can simply do mean-pooling over any word embedding and it's a sentence embedding!
 
 ## Word Embeddings
 
@@ -72,6 +76,7 @@ A curated list of pretrained sentence(and word) embedding models
 |paper|code|pretrained models|
 |---|---|---|
 |[Learned in Translation: Contextualized Word Vectors](http://papers.nips.cc/paper/7209-learned-in-translation-contextualized-word-vectors.pdf)|<ul><li>[Pytorch](https://github.com/salesforce/cove)(official)</li><li>[Keras](https://github.com/rgsachin/CoVe)</li></ul>|[CoVe](https://github.com/salesforce/cove)|
+|[Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/pdf/1801.06146.pdf)|[Pytorch](https://github.com/fastai/fastai/tree/ulmfit_v1)(official)|ULMFit([English](https://docs.fast.ai/text.html#Fine-tuning-a-language-model), [Zoo](https://forums.fast.ai/t/language-model-zoo-gorilla/14623/1))|
 |[Deep contextualized word representations](https://arxiv.org/pdf/1802.05365)|<ul><li>[Pytorch](https://github.com/allenai/allennlp)(official)</li><li>[TF](https://github.com/allenai/bilm-tf)(official)</li>|ELMO([AllenNLP](https://allennlp.org/elmo), [TF-Hub](https://tfhub.dev/google/elmo/2))|
 |[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)|<ul><li>[TF](https://github.com/openai/finetune-transformer-lm)(official)</li><li>[Keras](https://github.com/Separius/BERT-keras)</li><li>[Pytorch](https://github.com/huggingface/pytorch-openai-transformer-lm)</li></ul>|[Transformer](https://github.com/openai/finetune-transformer-lm)
 |[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)|<ul><li>[TF](https://github.com/google-research/bert)(official)</li><li>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT)</li><li>[Keras](https://github.com/Separius/BERT-keras)</li></ul>|[BERT](https://github.com/google-research/bert#pre-trained-models)|
@@ -136,7 +141,6 @@ A curated list of pretrained sentence(and word) embedding models
 ## Misc
 
 * [Word Embedding Dimensionality Selection](https://github.com/ziyin-dl/word-embedding-dimensionality-selection): [On the Dimensionality of Word Embedding](https://arxiv.org/pdf/1812.04224.pdf)
-* [ULMFit](https://github.com/fastai/fastai/tree/ulmfit_v1): [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/pdf/1801.06146.pdf)
 
 ## Vector Mapping
 
