@@ -137,7 +137,8 @@ A curated list of pretrained sentence(and word) embedding models
 * [MLDoc](https://github.com/facebookresearch/MLDoc): [A Corpus for Multilingual Document Classification in Eight Languages](http://www.lrec-conf.org/proceedings/lrec2018/pdf/658.pdf)
 * [LexNET](https://github.com/tensorflow/models/tree/master/research/lexnet_nc): [Olive Oil Is Made of Olives, Baby Oil Is Made for Babies: Interpreting Noun Compounds Using Paraphrases in a Neural Model](https://arxiv.org/pdf/1803.08073.pdf)
 * [wordvectors.net](https://github.com/mfaruqui/eval-word-vectors): [Community Evaluation and Exchange of Word Vectors at wordvectors.org](https://www.manaalfaruqui.com/papers/acl14-vecdemo.pdf)
-* [jiant](https://github.com/jsalt18-sentence-repl/jiant)
+* [jiant](https://github.com/jsalt18-sentence-repl/jiant): [Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling](https://arxiv.org/pdf/1812.10860.pdf)
+* [jiant](https://github.com/jsalt18-sentence-repl/jiant): [What do you learn from context? Probing for sentence structure in contextualized word representations](https://openreview.net/pdf?id=SJzSgnRcKX)
 * [Evaluation of sentence embeddings in downstream and linguistic probing tasks](https://arxiv.org/pdf/1806.06259)
 * [QVEC](https://github.com/ytsvetko/qvec): [Evaluation of Word Vector Representations by Subspace Alignment](http://aclweb.org/anthology/D15-1243)
 
@@ -177,7 +178,6 @@ A curated list of pretrained sentence(and word) embedding models
 * [Unsupervised Document Embedding With CNNs](https://arxiv.org/pdf/1711.04168.pdf)
 * [Learning Generic Sentence Representations Using Convolutional Neural Networks](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/sent2vec_emnlp2017.pdf)
 * [Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model](https://arxiv.org/pdf/1810.12836.pdf)
-* [Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling](https://openreview.net/pdf?id=Bkl87h09FX)
 * [ZERO-TRAINING SENTENCE EMBEDDING VIA ORTHOGONAL BASIS](https://arxiv.org/pdf/1810.00438.pdf)
 * [Improving Sentence Representations with Multi-view Frameworks](https://arxiv.org/pdf/1810.01064.pdf)
 * [UNSUPERVISED LEARNING OF SENTENCE REPRESENTATIONS USING SEQUENCE CONSISTENCY](https://openreview.net/pdf?id=BklUAoAcY7)
