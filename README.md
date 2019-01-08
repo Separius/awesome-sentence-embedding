@@ -61,6 +61,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[Dynamic Meta-Embeddings for Improved Sentence Representations](https://arxiv.org/pdf/1804.07983.pdf)|[Pytorch](https://github.com/facebookresearch/DME)(official)|[DME/CDME](https://github.com/facebookresearch/DME#pre-trained-models)|
 |[WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models](https://rusvectores.org/static/data/webvectors_aist.pdf)|-|[RusVectōrēs](http://rusvectores.org/en/models/)|
 |[Swivel: Improving Embeddings by Noticing What's Missing](https://arxiv.org/pdf/1602.02215)|[TF](https://github.com/tensorflow/models/tree/master/research/swivel)(official)|-|
+|[Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings](https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf)|-|[ChineseEmbedding](https://ai.tencent.com/ailab/nlp/embedding.html)|
 
 ## OOV Handling
 
