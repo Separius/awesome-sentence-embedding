@@ -187,3 +187,5 @@ A curated list of pretrained sentence(and word) embedding models
 * [NO TRAINING REQUIRED: EXPLORING RANDOM ENCODERS FOR SENTENCE CLASSIFICATION](openreview.net/pdf?id=BkgPajAcY7)
 * [VARIATIONAL AUTOENCODERS FOR TEXT MODELING WITHOUT WEAKENING THE DECODER](openreview.net/pdf?id=H1eZ6sRcFm)
 * [IMPROVING COMPOSITION OF SENTENCE EMBEDDINGS THROUGH THE LENS OF STATISTICAL RELATIONAL LEARNING](https://openreview.net/pdf?id=SkxZFoAqtQ)
+* [InferLite : Simple Universal Sentence Representations from Natural Language Inference Data](http://aclweb.org/anthology/D18-1524)
+
