@@ -94,6 +94,7 @@ A curated list of pretrained sentence(and word) embedding models
 * [TF-IDF](https://github.com/iarroyof/sentence_embedding): [Unsupervised Sentence Representations as Word Information Series: Revisiting TF--IDF](https://arxiv.org/pdf/1710.06524)
 * [P-norm](https://github.com/UKPLab/arxiv2018-xling-sentence-embeddings): [Concatenated Power Mean Word Embeddings as Universal Cross-Lingual Sentence Representations](https://arxiv.org/pdf/1803.01400)
 * [DisC](https://github.com/NLPrinceton/text_embedding): [A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs](https://openreview.net/pdf?id=B1e5ef-C-)
+* [GEM](https://github.com/fursovia/geometric_embedding): [Zero-Training Sentence Embedding via Orthogonal Basis](https://arxiv.org/pdf/1810.00438.pdf)
 
 ## Encoders
 
@@ -126,6 +127,8 @@ A curated list of pretrained sentence(and word) embedding models
 |[Embedding Text in Hyperbolic Spaces](https://arxiv.org/pdf/1806.04313.pdf)|[TF](https://github.com/brain-research/hyperbolictext)(official)|HyperText|
 |[StarSpace: Embed All The Things!](https://arxiv.org/pdf/1709.03856.pdf)|[C++](https://github.com/facebookresearch/StarSpace)(official)|StarSpace|
 |[A Hierarchical Multi-task Approach for Learning Embeddings from Semantic Tasks](https://arxiv.org/pdf/1811.06031.pdf)|[Pytorch](https://github.com/huggingface/hmtl)(official, pretrained)|HMTL|
+|[Learning Generic Sentence Representations Using Convolutional Neural Networks](https://arxiv.org/pdf/1611.07897.pdf)|[Theano](https://github.com/zhegan27/ConvSent)(official)|ConvSent|
+|[Context Mover’s Distance & Barycenters: Optimal transport of contexts for building representations](https://arxiv.org/pdf/1808.09663.pdf)|[Python](https://github.com/context-mover/context-mover-distance-and-barycenters)(official, pretrained)|CMD|
 
 ## Evaluation
 
@@ -174,21 +177,19 @@ A curated list of pretrained sentence(and word) embedding models
 * are you sure? I have read the paper, googled the title, googled the title + github, and searched for the authors one by one and checked their pages, so yeah I'm 60% sure that they don't have anything! :))
 * I did these two months ago(Oct 2018), and they might have released their codes in this time, so If you found any of them let me know.
 * [TOWARDS LANGUAGE AGNOSTIC UNIVERSAL REPRESENTATIONS](https://arxiv.org/pdf/1809.08510.pdf)
-* [IS WASSERSTEIN ALL YOU NEED?](https://arxiv.org/pdf/1808.09663.pdf)
 * [Discourse-Based Objectives for Fast Unsupervised Sentence Representation Learning](https://arxiv.org/pdf/1705.00557.pdf)
 * [UNSUPERVISED SENTENCE EMBEDDING USING DOCUMENT STRUCTURE-BASED CONTEXT](https://openreview.net/pdf?id=H1a37GWCZ)
 * [CSE: Conceptual Sentence Embeddings based on Attention Model](https://www.aclweb.org/anthology/P/P16/P16-1048.pdf)
 * [Unsupervised Document Embedding With CNNs](https://arxiv.org/pdf/1711.04168.pdf)
 * [Learning Generic Sentence Representations Using Convolutional Neural Networks](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/sent2vec_emnlp2017.pdf)
 * [Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model](https://arxiv.org/pdf/1810.12836.pdf)
-* [ZERO-TRAINING SENTENCE EMBEDDING VIA ORTHOGONAL BASIS](https://arxiv.org/pdf/1810.00438.pdf)
 * [Improving Sentence Representations with Multi-view Frameworks](https://arxiv.org/pdf/1810.01064.pdf)
 * [UNSUPERVISED LEARNING OF SENTENCE REPRESENTATIONS USING SEQUENCE CONSISTENCY](https://openreview.net/pdf?id=BklUAoAcY7)
 * [FAKE SENTENCE DETECTION AS A TRAINING TASK FOR SENTENCE ENCODING](https://openreview.net/pdf?id=B1xFVhActm)
 * [POINCARE´ GLOVE: HYPERBOLIC WORD EMBEDDINGS](https://openreview.net/pdf?id=Ske5r3AqK7)
-* [A NON-LINEAR THEORY FOR SENTENCE EMBEDDING](openreview.net/pdf?id=SJMZRsC9Y7)
-* [NO TRAINING REQUIRED: EXPLORING RANDOM ENCODERS FOR SENTENCE CLASSIFICATION](openreview.net/pdf?id=BkgPajAcY7)
-* [VARIATIONAL AUTOENCODERS FOR TEXT MODELING WITHOUT WEAKENING THE DECODER](openreview.net/pdf?id=H1eZ6sRcFm)
+* [A NON-LINEAR THEORY FOR SENTENCE EMBEDDING](https://openreview.net/pdf?id=SJMZRsC9Y7)
+* [NO TRAINING REQUIRED: EXPLORING RANDOM ENCODERS FOR SENTENCE CLASSIFICATION](https://openreview.net/pdf?id=BkgPajAcY7)
+* [VARIATIONAL AUTOENCODERS FOR TEXT MODELING WITHOUT WEAKENING THE DECODER](https://openreview.net/pdf?id=H1eZ6sRcFm)
 * [IMPROVING COMPOSITION OF SENTENCE EMBEDDINGS THROUGH THE LENS OF STATISTICAL RELATIONAL LEARNING](https://openreview.net/pdf?id=SkxZFoAqtQ)
 * [InferLite : Simple Universal Sentence Representations from Natural Language Inference Data](http://aclweb.org/anthology/D18-1524)
 
