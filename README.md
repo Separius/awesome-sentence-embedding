@@ -131,6 +131,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[A Hierarchical Multi-task Approach for Learning Embeddings from Semantic Tasks](https://arxiv.org/pdf/1811.06031.pdf)|[Pytorch](https://github.com/huggingface/hmtl)(official, pretrained)|HMTL|
 |[Learning Generic Sentence Representations Using Convolutional Neural Networks](https://arxiv.org/pdf/1611.07897.pdf)|[Theano](https://github.com/zhegan27/ConvSent)(official)|ConvSent|
 |[Context Mover’s Distance & Barycenters: Optimal transport of contexts for building representations](https://arxiv.org/pdf/1808.09663.pdf)|[Python](https://github.com/context-mover/context-mover-distance-and-barycenters)(official, pretrained)|CMD|
+|[No Training Required: Exploring Random Encoders for Sentence Classification](https://arxiv.org/pdf/1901.10444.pdf)|[Pytorch](https://github.com/facebookresearch/randsent)(official)|randsent|
 
 ## Evaluation
 
@@ -190,7 +191,6 @@ A curated list of pretrained sentence(and word) embedding models
 * [FAKE SENTENCE DETECTION AS A TRAINING TASK FOR SENTENCE ENCODING](https://openreview.net/pdf?id=B1xFVhActm)
 * [POINCARE´ GLOVE: HYPERBOLIC WORD EMBEDDINGS](https://openreview.net/pdf?id=Ske5r3AqK7)
 * [A NON-LINEAR THEORY FOR SENTENCE EMBEDDING](https://openreview.net/pdf?id=SJMZRsC9Y7)
-* [NO TRAINING REQUIRED: EXPLORING RANDOM ENCODERS FOR SENTENCE CLASSIFICATION](https://openreview.net/pdf?id=BkgPajAcY7)
 * [VARIATIONAL AUTOENCODERS FOR TEXT MODELING WITHOUT WEAKENING THE DECODER](https://openreview.net/pdf?id=H1eZ6sRcFm)
 * [IMPROVING COMPOSITION OF SENTENCE EMBEDDINGS THROUGH THE LENS OF STATISTICAL RELATIONAL LEARNING](https://openreview.net/pdf?id=SkxZFoAqtQ)
 * [InferLite : Simple Universal Sentence Representations from Natural Language Inference Data](http://aclweb.org/anthology/D18-1524)
