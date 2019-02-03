@@ -63,6 +63,8 @@ A curated list of pretrained sentence(and word) embedding models
 |[Swivel: Improving Embeddings by Noticing What's Missing](https://arxiv.org/pdf/1602.02215)|[TF](https://github.com/tensorflow/models/tree/master/research/swivel)(official)|-|
 |[Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings](https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf)|-|[ChineseEmbedding](https://ai.tencent.com/ailab/nlp/embedding.html)|
 |[Representation Tradeoffs for Hyperbolic Embeddings](https://arxiv.org/pdf/1804.03329.pdf)|[Pytorch](https://github.com/HazyResearch/hyperbolics)(official)|[h-MDS](https://github.com/HazyResearch/hyperbolics)|
+|[Analogical Reasoning on Chinese Morphological and Semantic Relations](http://aclweb.org/anthology/P18-2023)|-|[ChineseWordVectors](https://github.com/Embedding/Chinese-Word-Vectors)|
+|[Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics](http://www.aclweb.org/anthology/D17-1023)|[C](https://github.com/zhezhaoa/ngram2vec)(official)|-|
 
 ## OOV Handling
 
@@ -150,6 +152,7 @@ A curated list of pretrained sentence(and word) embedding models
 * [QVEC](https://github.com/ytsvetko/qvec): [Evaluation of Word Vector Representations by Subspace Alignment](http://aclweb.org/anthology/D15-1243)
 * [Grammatical Analysis of Pretrained Sentence Encoders with Acceptability Judgments](https://arxiv.org/pdf/1901.03438.pdf)
 * [EQUATE : A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference](https://arxiv.org/pdf/1901.03735.pdf)
+* [Evaluating Word Embedding Models: Methods andExperimental Results](https://arxiv.org/pdf/1901.09785.pdf)
 
 ## Misc
 
