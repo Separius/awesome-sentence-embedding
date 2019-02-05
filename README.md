@@ -89,6 +89,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[Contextual String Embeddings for Sequence Labeling](http://aclweb.org/anthology/C18-1139)|[Pytorch](https://github.com/zalandoresearch/flair)(official)|[Flair](https://github.com/zalandoresearch/flair/blob/master/flair/embeddings.py#L407)|
 |[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860)|<ul><li>[TF](https://github.com/kimiyoung/transformer-xl/tree/master/tf)(official)</li><li>[Pytorch](https://github.com/kimiyoung/transformer-xl/tree/master/pytorch)(official)</li></ul>|[Transformer-XL](https://github.com/kimiyoung/transformer-xl/tree/master/tf)|
 |[BioBERT: pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/pdf/1901.08746.pdf)|[TF](https://github.com/dmis-lab/biobert)(official)|[BioBERT](https://github.com/naver/biobert-pretrained)|
+|[Cross-lingual Language Model Pretraining](https://arxiv.org/pdf/1901.07291)|[Pytorch](https://github.com/facebookresearch/XLM)(official)|[XLM](https://github.com/facebookresearch/XLM#pretrained-models)|
 
 ## Pooling Methods
 
