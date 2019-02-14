@@ -92,6 +92,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[BioBERT: pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/pdf/1901.08746.pdf)|[TF](https://github.com/dmis-lab/biobert)(official)|[BioBERT](https://github.com/naver/biobert-pretrained)|
 |[Cross-lingual Language Model Pretraining](https://arxiv.org/pdf/1901.07291)|[Pytorch](https://github.com/facebookresearch/XLM)(official)|[XLM](https://github.com/facebookresearch/XLM#pretrained-models)|
 |[Direct Output Connection for a High-Rank Language Model](https://arxiv.org/pdf/1808.10143.pdf)|[Pytorch](https://github.com/nttcslab-nlp/doc_lm)(official)|[DOC](https://drive.google.com/open?id=1ug-6ISrXHEGcWTk5KIw8Ojdjuww-i-Ci)|
+|[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)|[Tensorflow](https://github.com/openai/gpt-2)(official, no training)|[GPT-2-117M](https://github.com/openai/gpt-2)|
 
 ## Pooling Methods
 
