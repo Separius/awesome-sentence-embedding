@@ -65,6 +65,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[Representation Tradeoffs for Hyperbolic Embeddings](https://arxiv.org/pdf/1804.03329.pdf)|[Pytorch](https://github.com/HazyResearch/hyperbolics)(official)|[h-MDS](https://github.com/HazyResearch/hyperbolics)|
 |[Analogical Reasoning on Chinese Morphological and Semantic Relations](http://aclweb.org/anthology/P18-2023)|-|[ChineseWordVectors](https://github.com/Embedding/Chinese-Word-Vectors)|
 |[Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics](http://www.aclweb.org/anthology/D17-1023)|[C](https://github.com/zhezhaoa/ngram2vec)(official)|-|
+|[FRAGE: Frequency-Agnostic Word Representation](https://arxiv.org/pdf/1809.06858.pdf)|[Pytorch](https://github.com/ChengyueGongR/Frequency-Agnostic)(official)|-|
 
 ## OOV Handling
 
