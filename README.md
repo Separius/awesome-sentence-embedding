@@ -91,6 +91,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860)|<ul><li>[TF](https://github.com/kimiyoung/transformer-xl/tree/master/tf)(official)</li><li>[Pytorch](https://github.com/kimiyoung/transformer-xl/tree/master/pytorch)(official)</li></ul>|[Transformer-XL](https://github.com/kimiyoung/transformer-xl/tree/master/tf)|
 |[BioBERT: pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/pdf/1901.08746.pdf)|[TF](https://github.com/dmis-lab/biobert)(official)|[BioBERT](https://github.com/naver/biobert-pretrained)|
 |[Cross-lingual Language Model Pretraining](https://arxiv.org/pdf/1901.07291)|[Pytorch](https://github.com/facebookresearch/XLM)(official)|[XLM](https://github.com/facebookresearch/XLM#pretrained-models)|
+|[Direct Output Connection for a High-Rank Language Model](https://arxiv.org/pdf/1808.10143.pdf)|[Pytorch](https://github.com/nttcslab-nlp/doc_lm)(official)|[DOC](https://drive.google.com/open?id=1ug-6ISrXHEGcWTk5KIw8Ojdjuww-i-Ci)|
 
 ## Pooling Methods
 
