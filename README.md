@@ -1,4 +1,5 @@
-# awesome-sentence-embedding
+# awesome-sentence-embedding [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Build Status](https://travis-ci.com/Separius/awesome-sentence-embedding.svg?branch=master)](https://travis-ci.com/Separius/awesome-sentence-embedding) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![HitCount](http://hits.dwyl.io/Separius/awesome-sentence-embedding.svg)](http://hits.dwyl.io/Separius/awesome-sentence-embedding)
 
 A curated list of pretrained sentence(and word) embedding models
 
@@ -17,7 +18,8 @@ A curated list of pretrained sentence(and word) embedding models
 * **[Articles](#articles)**
 * **[Code Less](#code-less)**
 
-## About This Repo
+## About This Repo [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+
 
 * well there are some awesome-lists for word embeddings and sentence embeddings, but all of them are outdated and more importantly incomplete
 * this repo will also be incomplete, but I try my best to find and include all the papers with pretrained models
