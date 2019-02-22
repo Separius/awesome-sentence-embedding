@@ -17,7 +17,6 @@ A curated list of pretrained sentence(and word) embedding models
 * **[Misc](#misc)**
 * **[Vector Mapping](#vector-mapping)**
 * **[Articles](#articles)**
-* **[Code Less](#code-less)**
 
 ## About This Repo
 
@@ -204,25 +203,3 @@ A curated list of pretrained sentence(and word) embedding models
 * [A Walkthrough of InferSent – Supervised Learning of Sentence Embeddings](https://yashuseth.blog/2018/08/06/infersent-supervised-learning-of-sentence-embeddings/)
 * [A survey of cross-lingual word embedding models](http://ruder.io/cross-lingual-embeddings/)
 * [Introducing state of the art text classification with universal language models](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
-
-## Code Less
-
-* papers here are just a paper and they don't have any released codes or pretrained models
-* are you sure? I have read the paper, googled the title, googled the title + github, and searched for the authors one by one and checked their pages, so yeah I'm 60% sure that they don't have anything! :))
-* I did these two months ago(Oct 2018), and they might have released their codes in this time, so If you found any of them let me know.
-* [TOWARDS LANGUAGE AGNOSTIC UNIVERSAL REPRESENTATIONS](https://arxiv.org/pdf/1809.08510.pdf)
-* [Discourse-Based Objectives for Fast Unsupervised Sentence Representation Learning](https://arxiv.org/pdf/1705.00557.pdf)
-* [UNSUPERVISED SENTENCE EMBEDDING USING DOCUMENT STRUCTURE-BASED CONTEXT](https://openreview.net/pdf?id=H1a37GWCZ)
-* [CSE: Conceptual Sentence Embeddings based on Attention Model](https://www.aclweb.org/anthology/P/P16/P16-1048.pdf)
-* [Unsupervised Document Embedding With CNNs](https://arxiv.org/pdf/1711.04168.pdf)
-* [Learning Generic Sentence Representations Using Convolutional Neural Networks](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/sent2vec_emnlp2017.pdf)
-* [Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model](https://arxiv.org/pdf/1810.12836.pdf)
-* [Improving Sentence Representations with Multi-view Frameworks](https://arxiv.org/pdf/1810.01064.pdf)
-* [UNSUPERVISED LEARNING OF SENTENCE REPRESENTATIONS USING SEQUENCE CONSISTENCY](https://openreview.net/pdf?id=BklUAoAcY7)
-* [FAKE SENTENCE DETECTION AS A TRAINING TASK FOR SENTENCE ENCODING](https://openreview.net/pdf?id=B1xFVhActm)
-* [POINCARE´ GLOVE: HYPERBOLIC WORD EMBEDDINGS](https://openreview.net/pdf?id=Ske5r3AqK7)
-* [A NON-LINEAR THEORY FOR SENTENCE EMBEDDING](https://openreview.net/pdf?id=SJMZRsC9Y7)
-* [VARIATIONAL AUTOENCODERS FOR TEXT MODELING WITHOUT WEAKENING THE DECODER](https://openreview.net/pdf?id=H1eZ6sRcFm)
-* [IMPROVING COMPOSITION OF SENTENCE EMBEDDINGS THROUGH THE LENS OF STATISTICAL RELATIONAL LEARNING](https://openreview.net/pdf?id=SkxZFoAqtQ)
-* [InferLite : Simple Universal Sentence Representations from Natural Language Inference Data](http://aclweb.org/anthology/D18-1524)
-
