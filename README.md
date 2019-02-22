@@ -98,6 +98,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[Cross-lingual Language Model Pretraining](https://arxiv.org/pdf/1901.07291)|[Pytorch](https://github.com/facebookresearch/XLM)(official)|[XLM](https://github.com/facebookresearch/XLM#pretrained-models)|
 |[Direct Output Connection for a High-Rank Language Model](https://arxiv.org/pdf/1808.10143.pdf)|[Pytorch](https://github.com/nttcslab-nlp/doc_lm)(official)|[DOC](https://drive.google.com/open?id=1ug-6ISrXHEGcWTk5KIw8Ojdjuww-i-Ci)|
 |[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)|<ul><li>[Tensorflow](https://github.com/openai/gpt-2)(official, no training)</li><li>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT)</li></ul>|[GPT-2-117M](https://github.com/openai/gpt-2)|
+  |[Efficient Contextualized Representation:Language Model Pruning for Sequence Labeling](https://arxiv.org/pdf/1804.07827.pdf)|[Pytorch](https://github.com/LiyuanLucasLiu/LD-Net)(official)|[LD-Net](https://github.com/LiyuanLucasLiu/LD-Net#language-models)|
 
 ## Pooling Methods
 
