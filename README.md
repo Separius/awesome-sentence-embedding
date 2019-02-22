@@ -73,6 +73,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[Context encoders as a simple but powerful extension of word2vec](https://arxiv.org/pdf/1706.02496.pdf)|[Python](https://github.com/cod3licious/conec)|-|
 |[Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec](https://arxiv.org/pdf/1605.02019.pdf)|<ul><li>[Chainer](https://github.com/cemoody/lda2vec)(official)</li><li>[TF](https://github.com/meereeum/lda2vec-tf)</li></ul>|-|
 |[Topical Word Embeddings](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9314/9535)|[Cython](https://github.com/largelymfs/topical_word_embeddings)(official)|-|
+|[Word Representations via Gaussian Embedding](https://arxiv.org/pdf/1412.6623.pdf)|[Cython](https://github.com/seomoz/word2gauss)(official)|-|
 
 ## OOV Handling
 
