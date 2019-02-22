@@ -1,1 +1,4 @@
-language: minimal
+language: ruby
+install: gem install mdl
+script:
+  - mdl -r ~MD013 README.md

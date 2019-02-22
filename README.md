@@ -1,4 +1,5 @@
 # awesome-sentence-embedding [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 [![Build Status](https://travis-ci.com/Separius/awesome-sentence-embedding.svg?branch=master)](https://travis-ci.com/Separius/awesome-sentence-embedding) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![HitCount](http://hits.dwyl.io/Separius/awesome-sentence-embedding.svg)](http://hits.dwyl.io/Separius/awesome-sentence-embedding)
 
 A curated list of pretrained sentence(and word) embedding models
@@ -20,7 +21,6 @@ A curated list of pretrained sentence(and word) embedding models
 
 ## About This Repo [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
-
 * well there are some awesome-lists for word embeddings and sentence embeddings, but all of them are outdated and more importantly incomplete
 * this repo will also be incomplete, but I try my best to find and include all the papers with pretrained models
 * this is not a typical awesome list because it has tables but I guess it's ok and much better than just a huge list
@@ -30,10 +30,10 @@ A curated list of pretrained sentence(and word) embedding models
 
 ## General Framework
 
-* Almost all the sentence embeddings work like this: 
-* Given some sort of word embeddings and an optional encoder (for example an LSTM) they obtain the contextualized word embeddings. 
-* Then they define some sort of pooling (it can be as simple as last pooling). 
-* Based on that they either use it directly for the supervised classification task (like infersent) or generate the target sequence (like skip-thought). 
+* Almost all the sentence embeddings work like this:
+* Given some sort of word embeddings and an optional encoder (for example an LSTM) they obtain the contextualized word embeddings.
+* Then they define some sort of pooling (it can be as simple as last pooling).
+* Based on that they either use it directly for the supervised classification task (like infersent) or generate the target sequence (like skip-thought).
 * So, in general, we have many sentence embeddings that you have never heard of, you can simply do mean-pooling over any word embedding and it's a sentence embedding!
 
 ## Word Embeddings
