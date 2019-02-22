@@ -69,6 +69,8 @@ A curated list of pretrained sentence(and word) embedding models
 |[Wikipedia2Vec: An Optimized Tool for LearningEmbeddings of Words and Entities from Wikipedia](https://arxiv.org/pdf/1812.06280.pdf)|[Cython](https://github.com/wikipedia2vec/wikipedia2vec)(official)|[Wikipedia2Vec](https://wikipedia2vec.github.io/wikipedia2vec/pretrained/)|
 |[SensEmbed: Learning Sense Embeddings for Word and Relational Similarity](http://www.aclweb.org/anthology/P/P15/P15-1010.pdf)|-|[SensEmbed](lcl.uniroma1.it/sensembed/sensembed_vectors.gz)|
 |[Morphological Priors for Probabilistic Neural Word Embeddings](https://arxiv.org/pdf/1608.01056.pdf)|[Theano](https://github.com/rguthrie3/MorphologicalPriorsForWordEmbeddings)(official)|-|
+|[SPINE: SParse Interpretable Neural Embeddings](https://arxiv.org/pdf/1711.08792.pdf)|[Pytorch](https://github.com/harsh19/SPINE)(official)|[SPINE](https://drive.google.com/drive/folders/1ksVcWDADmnp0Cl5kezjHqTg3Jnh8q031?usp=sharing)|
+|[Context encoders as a simple but powerful extension of word2vec](https://arxiv.org/pdf/1706.02496.pdf)|[Python](https://github.com/cod3licious/conec)|-|
 
 ## OOV Handling
 
