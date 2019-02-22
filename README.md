@@ -72,6 +72,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[SPINE: SParse Interpretable Neural Embeddings](https://arxiv.org/pdf/1711.08792.pdf)|[Pytorch](https://github.com/harsh19/SPINE)(official)|[SPINE](https://drive.google.com/drive/folders/1ksVcWDADmnp0Cl5kezjHqTg3Jnh8q031?usp=sharing)|
 |[Context encoders as a simple but powerful extension of word2vec](https://arxiv.org/pdf/1706.02496.pdf)|[Python](https://github.com/cod3licious/conec)|-|
 |[Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec](https://arxiv.org/pdf/1605.02019.pdf)|<ul><li>[Chainer](https://github.com/cemoody/lda2vec)(official)</li><li>[TF](https://github.com/meereeum/lda2vec-tf)</li></ul>|-|
+|[Topical Word Embeddings](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9314/9535)|[Cython](https://github.com/largelymfs/topical_word_embeddings)(official)|-|
 
 ## OOV Handling
 
