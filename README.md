@@ -77,6 +77,11 @@ A curated list of pretrained sentence(and word) embedding models
 |[Topical Word Embeddings](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9314/9535)|[Cython](https://github.com/largelymfs/topical_word_embeddings)(official)|-|
 |[Word Representations via Gaussian Embedding](https://arxiv.org/pdf/1412.6623.pdf)|[Cython](https://github.com/seomoz/word2gauss)(official)|-|
 |[Making Sense of Word Embeddings](http://aclweb.org/anthology/W/W16/W16-1620.pdf)|[Python](https://github.com/uhh-lt/sensegram)(official)|[sensegram](http://ltdata1.informatik.uni-hamburg.de/sensegram/)|
+|[A Probabilistic Model for Learning Multi-Prototype Word Embeddings](http://www.aclweb.org/anthology/C14-1016)|[DMTK](https://github.com/Microsoft/distributed_skipgram_mixture)(official)|-|
+|[cw2vec: Learning Chinese Word Embeddings with Stroke n-gram Information](http://www.statnlp.org/wp-content/uploads/papers/2018/cw2vec/cw2vec.pdf)|[C++](https://github.com/bamtercelboo/cw2vec)(official)|-|
+|[AraVec: A set of Arabic Word Embedding Models for use in Arabic NLP](https://www.researchgate.net/publication/319880027_AraVec_A_set_of_Arabic_Word_Embedding_Models_for_use_in_Arabic_NLP)|[gensim](https://github.com/bakrianoo/aravec)(official)|[AraVec](https://github.com/bakrianoo/aravec#n-grams-models-1)|
+|[Probabilistic FastText for Multi-Sense Word Embeddings](https://arxiv.org/pdf/1806.02901.pdf)|[C++](https://github.com/benathi/multisense-prob-fasttext)(official)|[Probabilistic FastText](https://github.com/benathi/multisense-prob-fasttext#3-loading-and-analyzing-pre-trained-models)|
+|[Multimodal Word Distributions](https://arxiv.org/pdf/1704.08424.pdf)|[TF](https://github.com/benathi/word2gm)(official)|[word2gm](https://github.com/benathi/word2gm#trained-model)|
 
 ## OOV Handling
 
