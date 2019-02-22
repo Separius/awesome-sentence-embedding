@@ -158,6 +158,7 @@ A curated list of pretrained sentence(and word) embedding models
 |[CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model](https://openreview.net/pdf?id=H1MgjoR9tQ)|[Pytorch](https://github.com/florianmai/word2mat)(official)|CMOW|
 |[Order-Embeddings of Images and Language](https://arxiv.org/pdf/1511.06361.pdf)|[Theano](https://github.com/ivendrov/order-embedding)(official, pretrained)|order-embedding|
 |[Dual-Path Convolutional Image-Text Embedding with Instance Loss](https://arxiv.org/pdf/1711.05535.pdf)|[Matlab](https://github.com/layumi/Image-Text-Embedding)(official, pretrained)|Image-Text-Embedding|
+|[Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model](https://arxiv.org/pdf/1810.12836.pdf)|[TF-Hub](https://tfhub.dev/s?q=universal-sentence-encoder-xling)(official, pretrained)|USE-xling|
 
 ## Evaluation
 
