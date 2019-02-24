@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/Separius/awesome-sentence-embedding.svg?branch=master)](https://travis-ci.com/Separius/awesome-sentence-embedding) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Separius/awesome-sentence-embedding/issues) [![HitCount](http://hits.dwyl.io/Separius/awesome-sentence-embedding.svg)](http://hits.dwyl.io/Separius/awesome-sentence-embedding)
 
-A curated list of pretrained sentence(and word) embedding models
+A curated list of pretrained sentence and word embedding models
 
 ## Table of Contents
 
@@ -21,10 +21,9 @@ A curated list of pretrained sentence(and word) embedding models
 ## About This Repo
 
 * well there are some awesome-lists for word embeddings and sentence embeddings, but all of them are outdated and more importantly incomplete
-* this repo will also be incomplete, but I try my best to find and include all the papers with pretrained models
+* this repo will also be incomplete, but I'll try my best to find and include all the papers with pretrained models
 * this is not a typical awesome list because it has tables but I guess it's ok and much better than just a huge list
 * if you find any mistakes or find another paper or anything please send a pull request and help me to keep this list up to date
-* to be honest I'm not 100% sure how to represent this data and if you think there is a better way (for example by changing the table headers) please send a pull request and let us discuss it
 * enjoy!
 
 ## General Framework
