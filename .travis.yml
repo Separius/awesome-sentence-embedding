@@ -3,4 +3,4 @@ install: gem install mdl awesome_bot
 script:
   - mdl -r ~MD013 README.md pull_request_template.md inbox.md CONTRIBUTING.md
   - mdl -r ~MD013,~MD034 CODE_OF_CONDUCT.md
-  - awesome_bot --allow-dupe --skip-save-results --allow-redirect ./README.md
+  - awesome_bot --allow-dupe --allow-redirect ./README.md
