@@ -1,4 +1,5 @@
 language: ruby
 install: gem install mdl
 script:
-  - mdl -r ~MD013 README.md
+  - mdl -r ~MD013 README.md pull_request_template.md inbox.md CONTRIBUTING.md
+  - mdl -r ~MD013,~MD034 CODE_OF_CONDUCT.md
