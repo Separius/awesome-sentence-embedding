@@ -80,6 +80,9 @@ A curated list of pretrained sentence and word embedding models
 |[AraVec: A set of Arabic Word Embedding Models for use in Arabic NLP](https://www.researchgate.net/publication/319880027_AraVec_A_set_of_Arabic_Word_Embedding_Models_for_use_in_Arabic_NLP)|[gensim](https://github.com/bakrianoo/aravec )(official)|[AraVec](https://github.com/bakrianoo/aravec#n-grams-models-1)|
 |[Probabilistic FastText for Multi-Sense Word Embeddings](https://arxiv.org/pdf/1806.02901.pdf)|[C++](https://github.com/benathi/multisense-prob-fasttext )(official)|[Probabilistic FastText](https://github.com/benathi/multisense-prob-fasttext#3-loading-and-analyzing-pre-trained-models)|
 |[Multimodal Word Distributions](https://arxiv.org/pdf/1704.08424.pdf)|[TF](https://github.com/benathi/word2gm )(official)|[word2gm](https://github.com/benathi/word2gm#trained-model)|
+|[Joint Embeddings of Chinese Words, Characters, and Fine-grainedSubcharacter Components](https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf)|[C](https://github.com/hkust-knowcomp/jwe )(official)|-|
+|[Learning Chinese Word Representations From Glyphs Of Characters](https://arxiv.org/pdf/1708.04755.pdf)|[C](https://github.com/ray1007/gwe )(official)|-|
+|[Joint Learning of Character and Word Embeddings](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2015_character.pdf)|[C](https://github.com/Leonard-Xu/CWE )(official)|-|
 
 ## OOV Handling
 
