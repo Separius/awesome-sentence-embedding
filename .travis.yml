@@ -8,4 +8,4 @@ script:
   - awesome_bot --allow-dupe --skip-save-results --allow-redirect --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ CONTRIBUTING.md
   - awesome_bot --allow-dupe --skip-save-results --allow-redirect --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ --white-list https://github.com/FudanNLP/VCWE inbox.md
   - awesome_bot --allow-dupe --skip-save-results --allow-redirect --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ pull_request_template.md
-  - travis_wait 100 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ README.md
+  - travis_wait 100 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/ --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ README.md
