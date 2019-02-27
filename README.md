@@ -86,7 +86,7 @@ A curated list of pretrained sentence and word embedding models
 |[Joint Embeddings of Chinese Words, Characters, and Fine-grainedSubcharacter Components](https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf)|[C](https://github.com/hkust-knowcomp/jwe )(official)|-|
 |[Learning Chinese Word Representations From Glyphs Of Characters](https://arxiv.org/pdf/1708.04755.pdf)|[C](https://github.com/ray1007/gwe )(official)|-|
 |[Joint Learning of Character and Word Embeddings](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2015_character.pdf)|[C](https://github.com/Leonard-Xu/CWE )(official)|-|
-|[Counter-fitting Word Vectors to Linguistic Constraints](http://www.aclweb.org/anthology/N16-1018)|[Python](https://github.com/nmrksic/counter-fitting )(official)|[http://mi.eng.cam.ac.uk/~nm480/counter-fitted-vectors.txt.zip](broken)|
+|[Counter-fitting Word Vectors to Linguistic Constraints](http://www.aclweb.org/anthology/N16-1018)|[Python](https://github.com/nmrksic/counter-fitting )(official)|[counter-fitting](http://mi.eng.cam.ac.uk/~nm480/counter-fitted-vectors.txt.zip )(broken)|
 
 ## OOV Handling
 
