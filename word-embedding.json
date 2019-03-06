@@ -89,12 +89,10 @@
       {
         "training_language": "C++",
         "code_link": "https://github.com/hassyGo/charNgram2vec",
-        "is_official": true
       },
       {
         "training_language": "Pytorch",
         "code_link": "https://github.com/hassyGo/pytorch-playground/tree/master/jmt",
-        "is_official": true
       }
     ],
     "name": "charNgram2vec",

@@ -1,0 +1,282 @@
+[
+  {
+    "paper_title": "Learned in Translation: Contextualized Word Vectors",
+    "paper_link": "https://arxiv.org/abs/1708.00107",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/salesforce/cove"
+      },
+      {
+        "training_language": "Keras",
+        "code_link": "https://github.com/rgsachin/CoVe",
+        "unofficial": true
+      }
+    ],
+    "model_name": "CoVe",
+    "pretrained_models": [
+      {
+        "name": "CoVe",
+        "link": "https://github.com/salesforce/cove"
+      }
+    ]
+  },
+  {
+    "paper_title": "Universal Language Model Fine-tuning for Text Classification",
+    "paper_link": "https://arxiv.org/abs/1801.06146",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/fastai/fastai/tree/ulmfit_v1",
+        "unofficial": true
+      }
+    ],
+    "model_name": "ULMFit",
+    "pretrained_models": [
+      {
+        "name": "English",
+        "link": "https://docs.fast.ai/text.html#Fine-tuning-a-language-model"
+      },
+      {
+        "name": "Zoo",
+        "link": "https://forums.fast.ai/t/language-model-zoo-gorilla/14623/1"
+      }
+    ]
+  },
+  {
+    "paper_title": "Deep contextualized word representations",
+    "paper_link": "https://arxiv.org/abs/1802.05365",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/allenai/allennlp"
+      },
+      {
+        "training_language": "TF",
+        "code_link": "https://github.com/allenai/bilm-tf"
+      }
+    ],
+    "model_name": "ELMO",
+    "pretrained_models": [
+      {
+        "name": "AllenNLP",
+        "link": "https://allennlp.org/elmo"
+      },
+      {
+        "name": "TF-Hub",
+        "link": "https://tfhub.dev/google/elmo/2"
+      }
+    ]
+  },
+  {
+    "paper_title": "Improving Language Understanding by Generative Pre-Training",
+    "paper_link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
+    "code": [
+      {
+        "training_language": "TF",
+        "code_link": "https://github.com/openai/finetune-transformer-lm"
+      },
+      {
+        "training_language": "Keras",
+        "code_link": "https://github.com/Separius/BERT-keras",
+        "unofficial": true
+      },
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "unofficial": true
+      }
+    ],
+    "model_name": "GPT",
+    "pretrained_models": [
+      {
+        "name": "GPT",
+        "link": "https://github.com/openai/finetune-transformer-lm"
+      }
+    ],
+    "s2_paper_id": "cd18800a0fe0b668a1cc19f2ec95b5003d0a5035"
+  },
+  {
+    "paper_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "paper_link": "https://arxiv.org/abs/1810.04805",
+    "code": [
+      {
+        "training_language": "TF",
+        "code_link": "https://github.com/google-research/bert"
+      },
+      {
+        "training_language": "Keras",
+        "code_link": "https://github.com/Separius/BERT-keras",
+        "unofficial": true
+      },
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "unofficial": true
+      },
+      {
+        "training_language": "MXNet",
+        "code_link": "https://github.com/imgarylai/bert-embedding",
+        "unofficial": true
+      }
+    ],
+    "model_name": "BERT",
+    "pretrained_models": [
+      {
+        "name": "BERT",
+        "link": "https://github.com/google-research/bert#pre-trained-models"
+      }
+    ]
+  },
+  {
+    "paper_title": "Towards Better UD Parsing: Deep Contextualized Word Embeddings, Ensemble, and Treebank Concatenation",
+    "paper_link": "https://arxiv.org/abs/1807.03121",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/HIT-SCIR/ELMoForManyLangs"
+      }
+    ],
+    "model_name": "ELMo",
+    "pretrained_models": [
+      {
+        "name": "ELMo",
+        "link": "https://github.com/HIT-SCIR/ELMoForManyLangs#downloads"
+      }
+    ]
+  },
+  {
+    "paper_title": "Contextual String Embeddings for Sequence Labeling",
+    "paper_link": "",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/zalandoresearch/flair"
+      }
+    ],
+    "model_name": "Flair",
+    "pretrained_models": [
+      {
+        "name": "Flair",
+        "link": "https://github.com/zalandoresearch/flair/blob/master/flair/embeddings.py#L407"
+      }
+    ],
+    "s2_paper_id": "421fc2556836a6b441de806d7b393a35b6eaea58"
+  },
+  {
+    "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+    "paper_link": "https://arxiv.org/abs/1901.02860",
+    "code": [
+      {
+        "training_language": "TF",
+        "code_link": "https://github.com/kimiyoung/transformer-xl/tree/master/tf"
+      },
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/kimiyoung/transformer-xl/tree/master/pytorch"
+      },
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "unofficial": true
+      }
+    ],
+    "model_name": "Transformer-XL",
+    "pretrained_models": [
+      {
+        "name": "Transformer-XL",
+        "link": "https://github.com/kimiyoung/transformer-xl/tree/master/tf"
+      }
+    ]
+  },
+  {
+    "paper_title": "BioBERT: pre-trained biomedical language representation model for biomedical text mining",
+    "paper_link": "https://arxiv.org/abs/1901.08746",
+    "code": [
+      {
+        "training_language": "TF",
+        "code_link": "https://github.com/dmis-lab/biobert"
+      }
+    ],
+    "model_name": "BioBERT",
+    "pretrained_models": [
+      {
+        "name": "BioBERT",
+        "link": "https://github.com/naver/biobert-pretrained"
+      }
+    ]
+  },
+  {
+    "paper_title": "Cross-lingual Language Model Pretraining",
+    "paper_link": "https://arxiv.org/abs/1901.07291",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/facebookresearch/XLM"
+      }
+    ],
+    "model_name": "XLM",
+    "pretrained_models": [
+      {
+        "name": "XLM",
+        "link": "https://github.com/facebookresearch/XLM#pretrained-models"
+      }
+    ]
+  },
+  {
+    "paper_title": "Direct Output Connection for a High-Rank Language Model",
+    "paper_link": "https://arxiv.org/abs/1808.10143",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/nttcslab-nlp/doc_lm"
+      }
+    ],
+    "model_name": "DOC",
+    "pretrained_models": [
+      {
+        "name": "DOC",
+        "link": "https://drive.google.com/open?id=1ug-6ISrXHEGcWTk5KIw8Ojdjuww-i-Ci"
+      }
+    ]
+  },
+  {
+    "paper_title": "Language Models are Unsupervised Multitask Learners",
+    "paper_link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf",
+    "code": [
+      {
+        "training_language": "TF",
+        "code_link": "https://github.com/openai/gpt-2"
+      },
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "unofficial": true
+      }
+    ],
+    "model_name": "GPT-2",
+    "pretrained_models": [
+      {
+        "name": "117M",
+        "link": "https://github.com/openai/gpt-2"
+      }
+    ]
+  },
+  {
+    "paper_title": "Efficient Contextualized Representation:Language Model Pruning for Sequence Labeling",
+    "paper_link": "https://arxiv.org/abs/1804.07827",
+    "code": [
+      {
+        "training_language": "Pytorch",
+        "code_link": "https://github.com/LiyuanLucasLiu/LD-Net"
+      }
+    ],
+    "model_name": "LD-Net",
+    "pretrained_models": [
+      {
+        "name": "LD-Net",
+        "link": "https://github.com/LiyuanLucasLiu/LD-Net#language-models"
+      }
+    ]
+  }
+]

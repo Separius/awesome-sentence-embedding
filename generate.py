@@ -36,10 +36,16 @@ class AttrDict(dict):
 
 
 def fancy_code(code):
-    return '[![{training_language}]({svg_address})]({code_link} ){unofficial}'.format(
-        training_language=code['training_language'], code_link=code['code_link'],
-        svg_address=svg_addresses[code['training_language']],
-        unofficial='(unofficial)' if code.get('unofficial', False) else '')
+    # return '[![{training_language}]({svg_address})]({code_link} ){unofficial}'.format(
+    #     training_language=code['training_language'], code_link=code['code_link'],
+    #     svg_address=svg_addresses[code['training_language']],
+    #     unofficial='(unofficial)' if code.get('unofficial', False) else '')
+    return '[{training_language}]({code_link} ){unofficial}'.format(training_language=code['training_language'],
+                                                                    code_link=code['code_link'],
+                                                                    svg_address=svg_addresses[
+                                                                        code['training_language']],
+                                                                    unofficial='(unofficial)' if code.get('unofficial',
+                                                                                                          False) else '')
 
 
 def query_semantic_scholar(query):
