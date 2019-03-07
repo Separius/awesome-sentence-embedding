@@ -117,7 +117,7 @@ def generate_contextualized_table():
                                                                               'link'])
             else:
                 pretrained_links = ', '.join(
-                    ['[{name}](link)'.format(name=x['name'], link=x['link']) for x in paper['pretrained_models']])
+                    ['[{name}]({link})'.format(name=x['name'], link=x['link']) for x in paper['pretrained_models']])
                 pretrained_models = '{name}({pretrained_link})'.format(name=paper['model_name'],
                                                                        pretrained_link=pretrained_links)
         else:
