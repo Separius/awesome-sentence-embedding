@@ -38,6 +38,20 @@ def query_semantic_scholar(query):
         return 'N/A', '-'
 
 
+def fetch_common_parts(paper):
+    is_arxiv = paper['paper_link'].startswith(arxiv_prefix)
+    if is_arxiv:
+        arxiv_id = paper['paper_link'][arxiv_prefix_len:]
+        arxiv_date = arxiv_id.split('.')[0]
+        date_part = '20' + arxiv_date[:2] + '/' + arxiv_date[2:]
+        citation_part, _ = query_semantic_scholar('arXiv:{}'.format(arxiv_id))
+    else:
+        citation_part, date_part = query_semantic_scholar(paper.get('doi', paper.get('s2_paper_id', '')))
+    paper_part = '[{paper_title}]({paper_link})'.format(paper_title=paper['paper_title'],
+                                                        paper_link=paper['paper_link'])
+    return citation_part, date_part, paper_part
+
+
 def generate_word_embedding_table():
     header = ['|date|paper|citation count|training code|pretrained models|',
               '|:---:|:---:|:---:|:---:|:---:|']
@@ -45,22 +59,11 @@ def generate_word_embedding_table():
     with open('word-embedding.json') as f:
         meta_info = json.load(f)
     for paper in tqdm(meta_info):
-        is_arxiv = paper['paper_link'].startswith(arxiv_prefix)
-        if is_arxiv:
-            arxiv_id = paper['paper_link'][arxiv_prefix_len:]
-            arxiv_date = arxiv_id.split('.')[0]
-            date_part = '20' + arxiv_date[:2] + '/' + arxiv_date[2:]
-            citation_part, _ = query_semantic_scholar('arXiv:{}'.format(arxiv_id))
-        else:
-            citation_part, date_part = query_semantic_scholar(paper.get('doi', paper.get('s2_paper_id', '')))
-        paper_part = '[{paper_title}]({paper_link})'.format(paper_title=paper['paper_title'],
-                                                            paper_link=paper['paper_link'])
+        citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
-            # training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])
             training_code_part = fancy_code(paper['code'][0])
         else:
             training_code_part = '-'
-            star_count = '-'
         pretrained_part = '-' if 'name' not in paper else '[{name}]({pretrained_link} ){broken_link}' \
             .format(name=paper['name'], pretrained_link=paper['pretrained_link'],
                     broken_link='(broken)' if paper.get('broken_link', False) else '')
@@ -75,11 +78,46 @@ def generate_word_embedding_table():
     return '\n'.join(header + generated_lines)
 
 
+def generate_contextualized_table():
+    header = ['|date|paper|citation count|code|pretrained models|',
+              '|:---:|:---:|:---:|:---:|:---:|']
+    generated_lines = []
+    with open('contextualized.json') as f:
+        meta_info = json.load(f)
+    for paper in tqdm(meta_info):
+        citation_part, date_part, paper_part = fetch_common_parts(paper)
+        if 'code' in paper:
+            training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])
+        else:
+            training_code_part = '-'
+        if 'pretrained_models' in paper:
+            if len(paper['pretrained_models']) == 1:
+                pretrained_models = '[{name}]({pretrained_link} )'.format(name=paper['model_name'],
+                                                                          pretrained_link=paper['pretrained_models'][0][
+                                                                              'link'])
+            else:
+                pretrained_links = ', '.join(
+                    ['[{name}](link)'.format(name=x['name'], link=x['link']) for x in paper['pretrained_models']])
+                pretrained_models = '{name}({pretrained_link})'.format(name=paper['model_name'],
+                                                                       pretrained_link=pretrained_links)
+        else:
+            pretrained_models = '-'
+        generated_lines.append(
+            AttrDict(date_part=date_part, paper_part=paper_part, training_code_part=training_code_part,
+                     pretrained_models=pretrained_models, citation_part=citation_part))
+    generated_lines = sorted(generated_lines, key=attrgetter('date_part', 'citation_part'))
+    generated_lines = [
+        '|{date_part}|{paper_part}|{citation_part}|{training_code_part}|{pretrained_models}|'.format(**x) for x in
+        generated_lines]
+    return '\n'.join(header + generated_lines)
+
+#unoficial, official, pretrained, load_pretrained, email_for_pretrained, no_training_code
+
 if __name__ == '__main__':
     with open('README_BASE.md') as f:
         readme = f.read()
-    readme.replace('{{{word-embedding-table}}}', generate_word_embedding_table())
-    # readme.replace('{{{contextualized-table}}}', generate_contextualized_table())
-    # readme.replace('{{{encoder-table}}}', generate_encoder_table())
+    readme = readme.replace('{{{word-embedding-table}}}', generate_word_embedding_table())
+    readme = readme.replace('{{{contextualized-table}}}', generate_contextualized_table())
+    # readme = readme.replace('{{{encoder-table}}}', generate_encoder_table())
     with open('README.md', 'w') as f:
         f.write(readme)
