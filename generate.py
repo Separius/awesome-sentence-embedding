@@ -9,20 +9,6 @@ except ImportError:
     def tqdm(x):
         return x
 
-svg_addresses = {
-    'C': 'https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg',
-    'C++': 'https://simpleicons.org/icons/cplusplus.svg',
-    'Gensim': 'https://upload.wikimedia.org/wikipedia/en/b/b1/Gensim_logo.png',
-    'Python': 'https://simpleicons.org/icons/python.svg',
-    'Go': 'https://simpleicons.org/icons/go.svg',
-    'Keras': 'https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png',
-    'TF': 'https://upload.wikimedia.org/wikipedia/commons/1/11/TensorFlowLogo.svg',
-    'Theano': 'https://upload.wikimedia.org/wikipedia/commons/5/55/Theano_logo.svg',
-    'Pytorch': 'https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png',
-    'Cython': 'https://upload.wikimedia.org/wikipedia/de/c/ce/Cython-logo.svg',
-    'Chainer': 'https://chainer.org/images/chainer_icon_red.png',
-    'DMTK': 'http://cranesoftworks.com/images/dmtk.jpg',
-}
 arxiv_prefix = 'https://arxiv.org/abs/'
 arxiv_prefix_len = len(arxiv_prefix)
 github_prefix = 'https://github.com/'
@@ -36,16 +22,9 @@ class AttrDict(dict):
 
 
 def fancy_code(code):
-    # return '[![{training_language}]({svg_address})]({code_link} ){unofficial}'.format(
-    #     training_language=code['training_language'], code_link=code['code_link'],
-    #     svg_address=svg_addresses[code['training_language']],
-    #     unofficial='(unofficial)' if code.get('unofficial', False) else '')
-    return '[{training_language}]({code_link} ){unofficial}'.format(training_language=code['training_language'],
-                                                                    code_link=code['code_link'],
-                                                                    svg_address=svg_addresses[
-                                                                        code['training_language']],
-                                                                    unofficial='(unofficial)' if code.get('unofficial',
-                                                                                                          False) else '')
+    return '[{training_language}]({code_link} ){unofficial}'.format(
+        training_language=code['training_language'], code_link=code['code_link'],
+        unofficial='(unofficial)' if code.get('unofficial', False) else '')
 
 
 def query_semantic_scholar(query):
@@ -59,15 +38,9 @@ def query_semantic_scholar(query):
         return 'N/A', '-'
 
 
-def get_github_stars(code):
-    return json.loads(urllib.request.urlopen(
-        'https://api.github.com/repos/' + '/'.join(code['code_link'][github_prefix_len:].split('/')[:2])).read())[
-        'stargazers_count']
-
-
 def generate_word_embedding_table():
-    header = ['|date|paper|citation count|training code|github stars ⭐|pretrained models|',
-              '|:---:|:---:|:---:|:---:|:---:|:---:|']
+    header = ['|date|paper|citation count|training code|pretrained models|',
+              '|:---:|:---:|:---:|:---:|:---:|']
     generated_lines = []
     with open('word-embedding.json') as f:
         meta_info = json.load(f)
@@ -85,10 +58,6 @@ def generate_word_embedding_table():
         if 'code' in paper:
             # training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])
             training_code_part = fancy_code(paper['code'][0])
-            if paper['code'][0]['code_link'].startswith(github_prefix):
-                star_count = get_github_stars(paper['code'][0])
-            else:
-                star_count = '-'
         else:
             training_code_part = '-'
             star_count = '-'
@@ -97,13 +66,20 @@ def generate_word_embedding_table():
                     broken_link='(broken)' if paper.get('broken_link', False) else '')
         generated_lines.append(
             AttrDict(date_part=date_part, paper_part=paper_part,
-                     training_code_part=training_code_part, stars=star_count,
+                     training_code_part=training_code_part,
                      pretrained_part=pretrained_part, citation_part=citation_part))
     generated_lines = sorted(generated_lines, key=attrgetter('date_part', 'citation_part'))
     generated_lines = [
-        '|{date_part}|{paper_part}|{citation_part}|{training_code_part}|{stars}|{pretrained_part}|'.format(**x) for x in
+        '|{date_part}|{paper_part}|{citation_part}|{training_code_part}|{pretrained_part}|'.format(**x) for x in
         generated_lines]
     return '\n'.join(header + generated_lines)
 
 
-print(generate_word_embedding_table())
+if __name__ == '__main__':
+    with open('README_BASE.md') as f:
+        readme = f.read()
+    readme.replace('{{{word-embedding-table}}}', generate_word_embedding_table())
+    # readme.replace('{{{contextualized-table}}}', generate_contextualized_table())
+    # readme.replace('{{{encoder-table}}}', generate_encoder_table())
+    with open('README.md', 'w') as f:
+        f.write(readme)
