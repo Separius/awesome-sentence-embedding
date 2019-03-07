@@ -4,8 +4,8 @@
     "paper_link": "https://nlp.stanford.edu/pubs/glove.pdf",
     "code": [
       {
-        "training_language": "C",
-        "code_link": "https://github.com/stanfordnlp/GloVe"
+        "language": "C",
+        "link": "https://github.com/stanfordnlp/GloVe"
       }
     ],
     "name": "GloVe",
@@ -17,8 +17,8 @@
     "paper_link": "https://arxiv.org/abs/1301.3781",
     "code": [
       {
-        "training_language": "C",
-        "code_link": "https://github.com/tmikolov/word2vec"
+        "language": "C",
+        "link": "https://github.com/tmikolov/word2vec"
       }
     ],
     "name": "Word2Vec",
@@ -29,8 +29,8 @@
     "paper_link": "https://arxiv.org/abs/1607.04606",
     "code": [
       {
-        "training_language": "C++",
-        "code_link": "https://github.com/facebookresearch/fastText"
+        "language": "C++",
+        "link": "https://github.com/facebookresearch/fastText"
       }
     ],
     "name": "fastText",
@@ -41,8 +41,8 @@
     "paper_link": "https://arxiv.org/abs/1710.02187",
     "code": [
       {
-        "training_language": "Gensim",
-        "code_link": "https://github.com/bheinzerling/bpemb"
+        "language": "Gensim",
+        "link": "https://github.com/bheinzerling/bpemb"
       }
     ],
     "name": "BPEmb",
@@ -53,8 +53,8 @@
     "paper_link": "https://arxiv.org/abs/1612.03975",
     "code": [
       {
-        "training_language": "Python",
-        "code_link": "https://github.com/commonsense/conceptnet-numberbatch"
+        "language": "Python",
+        "link": "https://github.com/commonsense/conceptnet-numberbatch"
       }
     ],
     "name": "Numberbatch",
@@ -65,8 +65,8 @@
     "paper_link": "https://arxiv.org/abs/1506.05230",
     "code": [
       {
-        "training_language": "Python",
-        "code_link": "https://github.com/mfaruqui/non-distributional"
+        "language": "Python",
+        "link": "https://github.com/mfaruqui/non-distributional"
       }
     ],
     "name": "WordFeat",
@@ -77,8 +77,8 @@
     "paper_link": "https://arxiv.org/abs/1506.02004",
     "code": [
       {
-        "training_language": "C++",
-        "code_link": "https://github.com/mfaruqui/sparse-coding"
+        "language": "C++",
+        "link": "https://github.com/mfaruqui/sparse-coding"
       }
     ]
   },
@@ -87,12 +87,12 @@
     "paper_link": "https://arxiv.org/abs/1611.01587",
     "code": [
       {
-        "training_language": "C++",
-        "code_link": "https://github.com/hassyGo/charNgram2vec"
+        "language": "C++",
+        "link": "https://github.com/hassyGo/charNgram2vec"
       },
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/hassyGo/pytorch-playground/tree/master/jmt"
+        "language": "Pytorch",
+        "link": "https://github.com/hassyGo/pytorch-playground/tree/master/jmt"
       }
     ],
     "name": "charNgram2vec",
@@ -103,8 +103,8 @@
     "paper_link": "https://arxiv.org/abs/1606.00819",
     "code": [
       {
-        "training_language": "Go",
-        "code_link": "https://github.com/alexandres/lexvec"
+        "language": "Go",
+        "link": "https://github.com/alexandres/lexvec"
       }
     ],
     "name": "lexvec",
@@ -115,12 +115,12 @@
     "paper_link": "https://arxiv.org/abs/1709.03933",
     "code": [
       {
-        "training_language": "Keras",
-        "code_link": "https://github.com/dsv77/hashembedding"
+        "language": "Keras",
+        "link": "https://github.com/dsv77/hashembedding"
       },
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/YannDubs/Hash-Embeddings",
+        "language": "Pytorch",
+        "link": "https://github.com/YannDubs/Hash-Embeddings",
         "unofficial": true
       }
     ]
@@ -130,12 +130,12 @@
     "paper_link": "http://www.aclweb.org/anthology/P14-2050",
     "code": [
       {
-        "training_language": "C++",
-        "code_link": "https://bitbucket.org/yoavgo/word2vecf/src/default/"
+        "language": "C++",
+        "link": "https://bitbucket.org/yoavgo/word2vecf/src/default/"
       },
       {
-        "training_language": "DL4J",
-        "code_link": "https://github.com/IsaacChanghau/Word2VecfJava",
+        "language": "DL4J",
+        "link": "https://github.com/IsaacChanghau/Word2VecfJava",
         "unofficial": true
       }
     ],
@@ -156,8 +156,8 @@
     "paper_link": "http://aclweb.org/anthology/D17-1024",
     "code": [
       {
-        "training_language": "C++",
-        "code_link": "https://github.com/tca19/dict2vec"
+        "language": "C++",
+        "link": "https://github.com/tca19/dict2vec"
       }
     ],
     "name": "Dict2vec",
@@ -169,8 +169,8 @@
     "paper_link": "https://arxiv.org/abs/1706.00374",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/nmrksic/attract-repel"
+        "language": "TF",
+        "link": "https://github.com/nmrksic/attract-repel"
       }
     ],
     "name": "Attract-Repel",
@@ -181,12 +181,12 @@
     "paper_link": "https://arxiv.org/abs/1606.04640",
     "code": [
       {
-        "training_language": "Theano",
-        "code_link": "https://bitbucket.org/TomKenter/siamese-cbow/src/master/"
+        "language": "Theano",
+        "link": "https://bitbucket.org/TomKenter/siamese-cbow/src/master/"
       },
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/raphael-sch/SiameseCBOW",
+        "language": "TF",
+        "link": "https://github.com/raphael-sch/SiameseCBOW",
         "unofficial": true
       }
     ],
@@ -198,8 +198,8 @@
     "paper_link": "https://arxiv.org/abs/1702.03859",
     "code": [
       {
-        "training_language": "Python",
-        "code_link": "https://github.com/Babylonpartners/fastText_multilingual"
+        "language": "Python",
+        "link": "https://github.com/Babylonpartners/fastText_multilingual"
       }
     ]
   },
@@ -208,8 +208,8 @@
     "paper_link": "https://arxiv.org/abs/1506.03487",
     "code": [
       {
-        "training_language": "Theano",
-        "code_link": "https://github.com/jwieting/paragram-word"
+        "language": "Theano",
+        "link": "https://github.com/jwieting/paragram-word"
       }
     ],
     "name": "PARAGRAM",
@@ -220,8 +220,8 @@
     "paper_link": "https://arxiv.org/abs/1705.08039",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/facebookresearch/poincare-embeddings"
+        "language": "Pytorch",
+        "link": "https://github.com/facebookresearch/poincare-embeddings"
       }
     ]
   },
@@ -230,8 +230,8 @@
     "paper_link": "https://arxiv.org/abs/1804.07983",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/facebookresearch/DME"
+        "language": "Pytorch",
+        "link": "https://github.com/facebookresearch/DME"
       }
     ],
     "name": "DME/CDME",
@@ -248,8 +248,8 @@
     "paper_link": "https://arxiv.org/abs/1602.02215",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/tensorflow/models/tree/master/research/swivel"
+        "language": "TF",
+        "link": "https://github.com/tensorflow/models/tree/master/research/swivel"
       }
     ]
   },
@@ -265,8 +265,8 @@
     "paper_link": "https://arxiv.org/abs/1804.03329",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/HazyResearch/hyperbolics"
+        "language": "Pytorch",
+        "link": "https://github.com/HazyResearch/hyperbolics"
       }
     ],
     "name": "h-MDS",
@@ -283,8 +283,8 @@
     "paper_link": "http://www.aclweb.org/anthology/D17-1023",
     "code": [
       {
-        "training_language": "C",
-        "code_link": "https://github.com/zhezhaoa/ngram2vec"
+        "language": "C",
+        "link": "https://github.com/zhezhaoa/ngram2vec"
       }
     ],
     "doi": "10.18653/v1/d17-1023"
@@ -294,8 +294,8 @@
     "paper_link": "https://arxiv.org/abs/1809.06858",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/ChengyueGongR/Frequency-Agnostic"
+        "language": "Pytorch",
+        "link": "https://github.com/ChengyueGongR/Frequency-Agnostic"
       }
     ]
   },
@@ -304,8 +304,8 @@
     "paper_link": "https://arxiv.org/abs/1812.06280",
     "code": [
       {
-        "training_language": "Cython",
-        "code_link": "https://github.com/wikipedia2vec/wikipedia2vec"
+        "language": "Cython",
+        "link": "https://github.com/wikipedia2vec/wikipedia2vec"
       }
     ],
     "name": "Wikipedia2Vec",
@@ -323,8 +323,8 @@
     "paper_link": "https://arxiv.org/abs/1608.01056",
     "code": [
       {
-        "training_language": "Theano",
-        "code_link": "https://github.com/rguthrie3/MorphologicalPriorsForWordEmbeddings"
+        "language": "Theano",
+        "link": "https://github.com/rguthrie3/MorphologicalPriorsForWordEmbeddings"
       }
     ]
   },
@@ -333,8 +333,8 @@
     "paper_link": "https://arxiv.org/abs/1711.08792",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/harsh19/SPINE"
+        "language": "Pytorch",
+        "link": "https://github.com/harsh19/SPINE"
       }
     ],
     "name": "SPINE",
@@ -345,8 +345,8 @@
     "paper_link": "https://arxiv.org/abs/1706.02496",
     "code": [
       {
-        "training_language": "Python",
-        "code_link": "https://github.com/cod3licious/conec"
+        "language": "Python",
+        "link": "https://github.com/cod3licious/conec"
       }
     ]
   },
@@ -355,12 +355,12 @@
     "paper_link": "https://arxiv.org/abs/1605.02019",
     "code": [
       {
-        "training_language": "Chainer",
-        "code_link": "https://github.com/cemoody/lda2vec"
+        "language": "Chainer",
+        "link": "https://github.com/cemoody/lda2vec"
       },
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/meereeum/lda2vec-tf",
+        "language": "TF",
+        "link": "https://github.com/meereeum/lda2vec-tf",
         "unofficial": true
       }
     ]
@@ -370,8 +370,8 @@
     "paper_link": "https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9314/9535",
     "code": [
       {
-        "training_language": "Cython",
-        "code_link": "https://github.com/largelymfs/topical_word_embeddings"
+        "language": "Cython",
+        "link": "https://github.com/largelymfs/topical_word_embeddings"
       }
     ],
     "name": "",
@@ -383,8 +383,8 @@
     "paper_link": "https://arxiv.org/abs/1412.6623",
     "code": [
       {
-        "training_language": "Cython",
-        "code_link": "https://github.com/seomoz/word2gauss"
+        "language": "Cython",
+        "link": "https://github.com/seomoz/word2gauss"
       }
     ]
   },
@@ -393,8 +393,8 @@
     "paper_link": "https://arxiv.org/abs/1708.03390",
     "code": [
       {
-        "training_language": "Python",
-        "code_link": "https://github.com/uhh-lt/sensegram"
+        "language": "Python",
+        "link": "https://github.com/uhh-lt/sensegram"
       }
     ],
     "name": "sensegram",
@@ -405,8 +405,8 @@
     "paper_link": "http://www.aclweb.org/anthology/C14-1016",
     "code": [
       {
-        "training_language": "DMTK",
-        "code_link": "https://github.com/Microsoft/distributed_skipgram_mixture"
+        "language": "DMTK",
+        "link": "https://github.com/Microsoft/distributed_skipgram_mixture"
       }
     ],
     "s2_paper_id": "3a90fbc91c59b63fcca1a93efe962e1fe8ed51ef"
@@ -416,8 +416,8 @@
     "paper_link": "http://www.statnlp.org/wp-content/uploads/papers/2018/cw2vec/cw2vec.pdf",
     "code": [
       {
-        "training_language": "C++",
-        "code_link": "https://github.com/bamtercelboo/cw2vec"
+        "language": "C++",
+        "link": "https://github.com/bamtercelboo/cw2vec"
       }
     ],
     "s2_paper_id": "57b57e88edcc9a20c78388e847b42e088b451c55"
@@ -427,8 +427,8 @@
     "paper_link": "https://www.researchgate.net/publication/319880027_AraVec_A_set_of_Arabic_Word_Embedding_Models_for_use_in_Arabic_NLP",
     "code": [
       {
-        "training_language": "Gensim",
-        "code_link": "https://github.com/bakrianoo/aravec"
+        "language": "Gensim",
+        "link": "https://github.com/bakrianoo/aravec"
       }
     ],
     "name": "AraVec",
@@ -440,8 +440,8 @@
     "paper_link": "https://arxiv.org/abs/1806.02901",
     "code": [
       {
-        "training_language": "C++",
-        "code_link": "https://github.com/benathi/multisense-prob-fasttext"
+        "language": "C++",
+        "link": "https://github.com/benathi/multisense-prob-fasttext"
       }
     ],
     "name": "Probabilistic FastText",
@@ -452,8 +452,8 @@
     "paper_link": "https://arxiv.org/abs/1704.08424",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/benathi/word2gm"
+        "language": "TF",
+        "link": "https://github.com/benathi/word2gm"
       }
     ],
     "name": "word2gm",
@@ -464,8 +464,8 @@
     "paper_link": "https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf",
     "code": [
       {
-        "training_language": "C",
-        "code_link": "https://github.com/hkust-knowcomp/jwe"
+        "language": "C",
+        "link": "https://github.com/hkust-knowcomp/jwe"
       }
     ],
     "doi": "10.18653/v1/d17-1027"
@@ -475,8 +475,8 @@
     "paper_link": "https://arxiv.org/abs/1708.04755",
     "code": [
       {
-        "training_language": "C",
-        "code_link": "https://github.com/ray1007/gwe"
+        "language": "C",
+        "link": "https://github.com/ray1007/gwe"
       }
     ]
   },
@@ -485,8 +485,8 @@
     "paper_link": "http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2015_character.pdf",
     "code": [
       {
-        "training_language": "C",
-        "code_link": "https://github.com/Leonard-Xu/CWE"
+        "language": "C",
+        "link": "https://github.com/Leonard-Xu/CWE"
       }
     ],
     "s2_paper_id": "1e662c87a36779dbe9f56f7ffd3ade756059d094"
@@ -496,8 +496,8 @@
     "paper_link": "https://arxiv.org/abs/1603.00892",
     "code": [
       {
-        "training_language": "Python",
-        "code_link": "https://github.com/nmrksic/counter-fitting"
+        "language": "Python",
+        "link": "https://github.com/nmrksic/counter-fitting"
       }
     ],
     "name": "counter-fitting",

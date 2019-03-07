@@ -21,10 +21,30 @@ class AttrDict(dict):
         self.__dict__ = self
 
 
-def fancy_code(code):
-    return '[{training_language}]({code_link} ){unofficial}'.format(
-        training_language=code['training_language'], code_link=code['code_link'],
-        unofficial='(unofficial)' if code.get('unofficial', False) else '')
+def fancy_code(code, no_attrs=True):
+    if no_attrs:
+        attrs = ''
+    else:
+        attrs = []
+        if 'unofficial' in code:
+            attrs.append('unofficial')
+        else:
+            if 'pretrained' in code and not code['pretrained']:
+                attrs.append('not pretrained')
+        if 'load_pretrained' in code:
+            attrs.append('load pretrained')
+        if 'pretrained' in code and 'unofficial' in code:
+            attrs.append('pretrained')
+        if 'email_for_pretrained' in code:
+            attrs.append('email for pretrained')
+        if 'no_training_code' in code:
+            attrs.append('no training code')
+        if len(attrs) == 0:
+            attrs = ''
+        else:
+            attrs = '({})'.format(', '.join(attrs))
+    return '[{training_language}]({code_link} ){attrs}'.format(
+        training_language=code['language'], code_link=code['link'], attrs=attrs)
 
 
 def query_semantic_scholar(query):
@@ -111,13 +131,35 @@ def generate_contextualized_table():
         generated_lines]
     return '\n'.join(header + generated_lines)
 
-#unoficial, official, pretrained, load_pretrained, email_for_pretrained, no_training_code
+
+def generate_encoder_table():
+    header = ['|date|paper|citation count|code|model_name|',
+              '|:---:|:---:|:---:|:---:|:---:|']
+    generated_lines = []
+    with open('encoder.json') as f:
+        meta_info = json.load(f)
+    for paper in tqdm(meta_info):
+        citation_part, date_part, paper_part = fetch_common_parts(paper)
+        if 'code' in paper:
+            training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])
+        else:
+            training_code_part = '-'
+        model_name = paper['name']
+        generated_lines.append(
+            AttrDict(date_part=date_part, paper_part=paper_part, training_code_part=training_code_part,
+                     model_name=model_name, citation_part=citation_part))
+    generated_lines = sorted(generated_lines, key=attrgetter('date_part', 'citation_part'))
+    generated_lines = [
+        '|{date_part}|{paper_part}|{citation_part}|{training_code_part}|{model_name}|'.format(**x) for x in
+        generated_lines]
+    return '\n'.join(header + generated_lines)
+
 
 if __name__ == '__main__':
     with open('README_BASE.md') as f:
         readme = f.read()
     readme = readme.replace('{{{word-embedding-table}}}', generate_word_embedding_table())
     readme = readme.replace('{{{contextualized-table}}}', generate_contextualized_table())
-    # readme = readme.replace('{{{encoder-table}}}', generate_encoder_table())
+    readme = readme.replace('{{{encoder-table}}}', generate_encoder_table())
     with open('README.md', 'w') as f:
         f.write(readme)

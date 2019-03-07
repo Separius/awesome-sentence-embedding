@@ -114,7 +114,7 @@
   {
     "paper_title": "Learning to Generate Reviews and Discovering Sentiment",
     "paper_link": "https://arxiv.org/abs/1704.01444",
-    "name": "",
+    "name": "Sentiment Neuron",
     "code": [
       {
         "language": "TF",
@@ -273,17 +273,6 @@
         "language": "TF",
         "link": "https://github.com/brain-research/hyperbolictext",
         "pretrained": false
-      }
-    ]
-  },
-  {
-    "paper_title": "",
-    "paper_link": "",
-    "name": "",
-    "code": [
-      {
-        "language": "",
-        "link": ""
       }
     ]
   },

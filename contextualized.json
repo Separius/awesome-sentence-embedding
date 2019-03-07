@@ -4,12 +4,12 @@
     "paper_link": "https://arxiv.org/abs/1708.00107",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/salesforce/cove"
+        "language": "Pytorch",
+        "link": "https://github.com/salesforce/cove"
       },
       {
-        "training_language": "Keras",
-        "code_link": "https://github.com/rgsachin/CoVe",
+        "language": "Keras",
+        "link": "https://github.com/rgsachin/CoVe",
         "unofficial": true
       }
     ],
@@ -26,8 +26,8 @@
     "paper_link": "https://arxiv.org/abs/1801.06146",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/fastai/fastai/tree/ulmfit_v1",
+        "language": "Pytorch",
+        "link": "https://github.com/fastai/fastai/tree/ulmfit_v1",
         "unofficial": true
       }
     ],
@@ -48,12 +48,12 @@
     "paper_link": "https://arxiv.org/abs/1802.05365",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/allenai/allennlp"
+        "language": "Pytorch",
+        "link": "https://github.com/allenai/allennlp"
       },
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/allenai/bilm-tf"
+        "language": "TF",
+        "link": "https://github.com/allenai/bilm-tf"
       }
     ],
     "model_name": "ELMO",
@@ -73,17 +73,17 @@
     "paper_link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/openai/finetune-transformer-lm"
+        "language": "TF",
+        "link": "https://github.com/openai/finetune-transformer-lm"
       },
       {
-        "training_language": "Keras",
-        "code_link": "https://github.com/Separius/BERT-keras",
+        "language": "Keras",
+        "link": "https://github.com/Separius/BERT-keras",
         "unofficial": true
       },
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch",
+        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
         "unofficial": true
       }
     ],
@@ -101,22 +101,22 @@
     "paper_link": "https://arxiv.org/abs/1810.04805",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/google-research/bert"
+        "language": "TF",
+        "link": "https://github.com/google-research/bert"
       },
       {
-        "training_language": "Keras",
-        "code_link": "https://github.com/Separius/BERT-keras",
+        "language": "Keras",
+        "link": "https://github.com/Separius/BERT-keras",
         "unofficial": true
       },
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch",
+        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
         "unofficial": true
       },
       {
-        "training_language": "MXNet",
-        "code_link": "https://github.com/imgarylai/bert-embedding",
+        "language": "MXNet",
+        "link": "https://github.com/imgarylai/bert-embedding",
         "unofficial": true
       }
     ],
@@ -133,8 +133,8 @@
     "paper_link": "https://arxiv.org/abs/1807.03121",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/HIT-SCIR/ELMoForManyLangs"
+        "language": "Pytorch",
+        "link": "https://github.com/HIT-SCIR/ELMoForManyLangs"
       }
     ],
     "model_name": "ELMo",
@@ -150,8 +150,8 @@
     "paper_link": "",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/zalandoresearch/flair"
+        "language": "Pytorch",
+        "link": "https://github.com/zalandoresearch/flair"
       }
     ],
     "model_name": "Flair",
@@ -168,16 +168,16 @@
     "paper_link": "https://arxiv.org/abs/1901.02860",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/kimiyoung/transformer-xl/tree/master/tf"
+        "language": "TF",
+        "link": "https://github.com/kimiyoung/transformer-xl/tree/master/tf"
       },
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/kimiyoung/transformer-xl/tree/master/pytorch"
+        "language": "Pytorch",
+        "link": "https://github.com/kimiyoung/transformer-xl/tree/master/pytorch"
       },
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch",
+        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
         "unofficial": true
       }
     ],
@@ -194,8 +194,8 @@
     "paper_link": "https://arxiv.org/abs/1901.08746",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/dmis-lab/biobert"
+        "language": "TF",
+        "link": "https://github.com/dmis-lab/biobert"
       }
     ],
     "model_name": "BioBERT",
@@ -211,8 +211,8 @@
     "paper_link": "https://arxiv.org/abs/1901.07291",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/facebookresearch/XLM"
+        "language": "Pytorch",
+        "link": "https://github.com/facebookresearch/XLM"
       }
     ],
     "model_name": "XLM",
@@ -228,8 +228,8 @@
     "paper_link": "https://arxiv.org/abs/1808.10143",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/nttcslab-nlp/doc_lm"
+        "language": "Pytorch",
+        "link": "https://github.com/nttcslab-nlp/doc_lm"
       }
     ],
     "model_name": "DOC",
@@ -245,12 +245,12 @@
     "paper_link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf",
     "code": [
       {
-        "training_language": "TF",
-        "code_link": "https://github.com/openai/gpt-2"
+        "language": "TF",
+        "link": "https://github.com/openai/gpt-2"
       },
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch",
+        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
         "unofficial": true
       }
     ],
@@ -267,8 +267,8 @@
     "paper_link": "https://arxiv.org/abs/1804.07827",
     "code": [
       {
-        "training_language": "Pytorch",
-        "code_link": "https://github.com/LiyuanLucasLiu/LD-Net"
+        "language": "Pytorch",
+        "link": "https://github.com/LiyuanLucasLiu/LD-Net"
       }
     ],
     "model_name": "LD-Net",
