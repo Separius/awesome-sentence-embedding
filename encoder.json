@@ -425,5 +425,17 @@
         "link": "https://github.com/jwieting/charagram"
       }
     ]
+  },
+  {
+    "paper_title": "Representation Learning with Contrastive Predictive Coding",
+    "paper_link": "https://arxiv.org/abs/1807.03748",
+    "name": "CPC",
+    "code": [
+      {
+        "language": "Keras",
+        "link": "https://github.com/davidtellez/contrastive-predictive-coding",
+        "unofficial": true
+      }
+    ]
   }
 ]
