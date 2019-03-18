@@ -278,5 +278,22 @@
         "link": "https://github.com/LiyuanLucasLiu/LD-Net#language-models"
       }
     ]
+  },
+  {
+    "paper_title": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+    "paper_link": "https://arxiv.org/abs/1901.11504",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/namisan/mt-dnn"
+      }
+    ],
+    "model_name": "MT-DNN",
+    "pretrained_models": [
+      {
+        "name": "MT-DNN",
+        "link": "https://github.com/namisan/mt-dnn/blob/master/download.sh"
+      }
+    ]
   }
 ]
