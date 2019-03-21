@@ -2,6 +2,7 @@
   {
     "paper_title": "GloVe: Global Vectors for Word Representation",
     "paper_link": "https://nlp.stanford.edu/pubs/glove.pdf",
+    "is_awesome": true,
     "code": [
       {
         "language": "C",
@@ -14,6 +15,7 @@
   },
   {
     "paper_title": "Efficient Estimation of Word Representations in Vector Space",
+    "is_awesome": true,
     "paper_link": "https://arxiv.org/abs/1301.3781",
     "code": [
       {
@@ -34,6 +36,7 @@
       }
     ],
     "name": "fastText",
+    "is_awesome": true,
     "pretrained_link": "https://fasttext.cc/docs/en/english-vectors.html"
   },
   {
@@ -113,6 +116,7 @@
   {
     "paper_title": "Hash Embeddings for Efficient Word Representations",
     "paper_link": "https://arxiv.org/abs/1709.03933",
+    "is_awesome": true,
     "code": [
       {
         "language": "Keras",
@@ -218,6 +222,7 @@
   {
     "paper_title": "Poincaré Embeddings for Learning Hierarchical Representations",
     "paper_link": "https://arxiv.org/abs/1705.08039",
+    "is_awesome": true,
     "code": [
       {
         "language": "Pytorch",
@@ -228,6 +233,7 @@
   {
     "paper_title": "Dynamic Meta-Embeddings for Improved Sentence Representations",
     "paper_link": "https://arxiv.org/abs/1804.07983",
+    "is_awesome": true,
     "code": [
       {
         "language": "Pytorch",
@@ -258,6 +264,7 @@
     "paper_link": "https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf",
     "name": "ChineseEmbedding",
     "pretrained_link": "https://ai.tencent.com/ailab/nlp/embedding.html",
+    "is_awesome": true,
     "doi": "10.18653/v1/n18-2028"
   },
   {
@@ -270,6 +277,7 @@
       }
     ],
     "name": "h-MDS",
+    "is_awesome": true,
     "pretrained_link": "https://github.com/HazyResearch/hyperbolics"
   },
   {
@@ -281,6 +289,7 @@
   {
     "paper_title": "Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics",
     "paper_link": "http://www.aclweb.org/anthology/D17-1023",
+    "is_awesome": true,
     "code": [
       {
         "language": "C",

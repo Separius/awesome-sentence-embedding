@@ -4,8 +4,6 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
   - inbox.md
   - README.md
   - LICENSE

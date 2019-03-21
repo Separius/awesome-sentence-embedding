@@ -13,6 +13,7 @@
   {
     "paper_title": "Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm",
     "paper_link": "https://arxiv.org/abs/1708.00524",
+    "is_awesome": true,
     "name": "DeepMoji",
     "code": [
       {
@@ -40,6 +41,7 @@
   {
     "paper_title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond",
     "paper_link": "https://arxiv.org/abs/1812.10464",
+    "is_awesome": true,
     "name": "LASER",
     "code": [
       {
@@ -51,6 +53,7 @@
   {
     "paper_title": "Learning general purpose distributed sentence representations via large scale multi-task learning",
     "paper_link": "https://arxiv.org/abs/1804.00079",
+    "is_awesome": true,
     "name": "GenSen",
     "code": [
       {
@@ -92,6 +95,7 @@
     "paper_title": "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books",
     "paper_link": "https://arxiv.org/abs/1506.06724",
     "name": "SkipThought",
+    "is_awesome": true,
     "code": [
       {
         "language": "Theano",
@@ -232,6 +236,7 @@
   {
     "paper_title": ": Learning Sentence Representations from Explicit Discourse Relations",
     "paper_link": "https://arxiv.org/abs/1710.04334",
+    "is_awesome": true,
     "name": "DisSent",
     "code": [
       {
@@ -244,6 +249,7 @@
   {
     "paper_title": "Universal Sentence Encoder",
     "paper_link": "https://arxiv.org/abs/1803.11175",
+    "is_awesome": true,
     "name": "USE",
     "code": [
       {
@@ -279,6 +285,7 @@
   {
     "paper_title": "StarSpace: Embed All The Things!",
     "paper_link": "https://arxiv.org/abs/1709.03856",
+    "is_awesome": true,
     "name": "StarSpace",
     "code": [
       {
@@ -290,6 +297,7 @@
   {
     "paper_title": "A Hierarchical Multi-task Approach for Learning Embeddings from Semantic Tasks",
     "paper_link": "https://arxiv.org/abs/1811.06031",
+    "is_awesome": true,
     "name": "HMTL",
     "code": [
       {
@@ -358,6 +366,7 @@
   {
     "paper_title": "Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model",
     "paper_link": "https://arxiv.org/abs/1810.12836",
+    "is_awesome": true,
     "name": "USE-xling",
     "code": [
       {
@@ -430,6 +439,7 @@
     "paper_title": "Representation Learning with Contrastive Predictive Coding",
     "paper_link": "https://arxiv.org/abs/1807.03748",
     "name": "CPC",
+    "is_awesome": true,
     "code": [
       {
         "language": "Keras",

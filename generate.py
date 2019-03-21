@@ -1,6 +1,7 @@
 import json
 import urllib.parse
 import urllib.request
+import datetime
 from operator import attrgetter
 
 try:
@@ -79,6 +80,8 @@ def generate_word_embedding_table():
     with open('word-embedding.json') as f:
         meta_info = json.load(f)
     for paper in tqdm(meta_info):
+        if 'is_awesome' not in paper or not paper['is_awesome']:
+            continue
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
             training_code_part = fancy_code(paper['code'][0])
@@ -105,6 +108,8 @@ def generate_contextualized_table():
     with open('contextualized.json') as f:
         meta_info = json.load(f)
     for paper in tqdm(meta_info):
+        if 'is_awesome' not in paper or not paper['is_awesome']:
+            continue
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
             training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])
@@ -139,6 +144,8 @@ def generate_encoder_table():
     with open('encoder.json') as f:
         meta_info = json.load(f)
     for paper in tqdm(meta_info):
+        if 'is_awesome' not in paper or not paper['is_awesome']:
+            continue
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
             training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])
@@ -161,5 +168,6 @@ if __name__ == '__main__':
     readme = readme.replace('{{{word-embedding-table}}}', generate_word_embedding_table())
     readme = readme.replace('{{{contextualized-table}}}', generate_contextualized_table())
     readme = readme.replace('{{{encoder-table}}}', generate_encoder_table())
+    readme = readme.replace('{{{generation-time}}}', 'citation counts were last updated at ' + str(datetime.datetime.now()))
     with open('README.md', 'w') as f:
         f.write(readme)

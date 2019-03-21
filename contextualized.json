@@ -99,6 +99,7 @@
   {
     "paper_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
     "paper_link": "https://arxiv.org/abs/1810.04805",
+    "is_awesome": true,
     "code": [
       {
         "language": "TF",
@@ -156,7 +157,8 @@
   },
   {
     "paper_title": "Contextual String Embeddings for Sequence Labeling",
-    "paper_link": "",
+    "paper_link": "https://alanakbik.github.io/papers/coling2018.pdf",
+    "is_awesome": true,
     "code": [
       {
         "language": "Pytorch",
@@ -175,6 +177,7 @@
   {
     "paper_title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
     "paper_link": "https://arxiv.org/abs/1901.02860",
+    "is_awesome": true,
     "code": [
       {
         "language": "TF",
@@ -218,6 +221,7 @@
   {
     "paper_title": "Cross-lingual Language Model Pretraining",
     "paper_link": "https://arxiv.org/abs/1901.07291",
+    "is_awesome": true,
     "code": [
       {
         "language": "Pytorch",
@@ -252,6 +256,7 @@
   {
     "paper_title": "Language Models are Unsupervised Multitask Learners",
     "paper_link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf",
+    "is_awesome": true,
     "code": [
       {
         "language": "TF",
@@ -291,6 +296,7 @@
   {
     "paper_title": "Multi-Task Deep Neural Networks for Natural Language Understanding",
     "paper_link": "https://arxiv.org/abs/1901.11504",
+    "is_awesome": true,
     "code": [
       {
         "language": "Pytorch",

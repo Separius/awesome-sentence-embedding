@@ -25,7 +25,8 @@ A curated list of pretrained sentence and word embedding models
 * well there are some awesome-lists for word embeddings and sentence embeddings, but all of them are outdated and more importantly incomplete
 * this repo will also be incomplete, but I'll try my best to find and include all the papers with pretrained models
 * this is not a typical awesome list because it has tables but I guess it's ok and much better than just a huge list
-* if you find any mistakes or find another paper or anything please send a pull request and help me to keep this list up to date
+* if you find any mistakes or find another paper or anything please send a pull request
+* {{{generation-time}}}
 * enjoy!
 
 ## General Framework
