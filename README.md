@@ -26,7 +26,7 @@ A curated list of pretrained sentence and word embedding models
 * this repo will also be incomplete, but I'll try my best to find and include all the papers with pretrained models
 * this is not a typical awesome list because it has tables but I guess it's ok and much better than just a huge list
 * if you find any mistakes or find another paper or anything please send a pull request
-* citation counts were last updated at 2019-03-21 13:40:47.408521
+* citation counts were last updated at 2019-03-21 13:44:40.507807
 * enjoy!
 
 ## General Framework
@@ -68,7 +68,7 @@ A curated list of pretrained sentence and word embedding models
 |date|paper|citation count|code|pretrained models|
 |:---:|:---:|:---:|:---:|:---:|
 |-|[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)|N/A|[TF](https://github.com/openai/gpt-2 )<br>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT )|[GPT-2](https://github.com/openai/gpt-2 )|
-|2018/10|[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)|82|[TF](https://github.com/google-research/bert )<br>[Keras](https://github.com/Separius/BERT-keras )<br>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT )<br>[MXNet](https://github.com/imgarylai/bert-embedding )<br>[PaddlePaddle](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE )|BERT([BERT](https://github.com/google-research/bert#pre-trained-models), [ERNIE](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE))|
+|2018/10|[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)|83|[TF](https://github.com/google-research/bert )<br>[Keras](https://github.com/Separius/BERT-keras )<br>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT )<br>[MXNet](https://github.com/imgarylai/bert-embedding )<br>[PaddlePaddle](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE )|BERT([BERT](https://github.com/google-research/bert#pre-trained-models), [ERNIE](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE))|
 |2018/??|[Contextual String Embeddings for Sequence Labeling](https://alanakbik.github.io/papers/coling2018.pdf)|4|[Pytorch](https://github.com/zalandoresearch/flair )|[Flair](https://github.com/zalandoresearch/flair/blob/master/flair/embeddings.py#L407 )|
 |2019/01|[Cross-lingual Language Model Pretraining](https://arxiv.org/abs/1901.07291)|1|[Pytorch](https://github.com/facebookresearch/XLM )|[XLM](https://github.com/facebookresearch/XLM#pretrained-models )|
 |2019/01|[Multi-Task Deep Neural Networks for Natural Language Understanding](https://arxiv.org/abs/1901.11504)|1|[Pytorch](https://github.com/namisan/mt-dnn )|[MT-DNN](https://github.com/namisan/mt-dnn/blob/master/download.sh )|
@@ -111,23 +111,10 @@ A curated list of pretrained sentence and word embedding models
 * [MLDoc](https://github.com/facebookresearch/MLDoc): [A Corpus for Multilingual Document Classification in Eight Languages](http://www.lrec-conf.org/proceedings/lrec2018/pdf/658.pdf)
 * [Evaluation of sentence embeddings in downstream and linguistic probing tasks](https://arxiv.org/abs/1806.06259)
 
-[//]: # (* [Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks](https://arxiv.org/abs/1608.04207))
-[//]: # (* [Word Embeddings Benchmarks](https://github.com/kudkudak/word-embeddings-benchmarks): [How to evaluate word embeddings? On importance of data efficiency and simple supervised tasks](https://arxiv.org/abs/1702.02170))
-[//]: # (* [LexNET](https://github.com/tensorflow/models/tree/master/research/lexnet_nc): [Olive Oil Is Made of Olives, Baby Oil Is Made for Babies: Interpreting Noun Compounds Using Paraphrases in a Neural Model](https://arxiv.org/abs/1803.08073))
-[//]: # (* [wordvectors.net](https://github.com/mfaruqui/eval-word-vectors): [Community Evaluation and Exchange of Word Vectors at wordvectors.org](https://www.manaalfaruqui.com/papers/acl14-vecdemo.pdf))
-[//]: # (* [jiant](https://github.com/jsalt18-sentence-repl/jiant): [Looking for ELMo's friends: Sentence-Level Pretraining Beyond Language Modeling](https://arxiv.org/abs/1812.10860))
-[//]: # (* [QVEC](https://github.com/ytsvetko/qvec): [Evaluation of Word Vector Representations by Subspace Alignment](http://aclweb.org/anthology/D15-1243))
-[//]: # (* [Grammatical Analysis of Pretrained Sentence Encoders with Acceptability Judgments](https://arxiv.org/abs/1901.03438))
-[//]: # (* [EQUATE : A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference](https://arxiv.org/abs/1901.03735))
-[//]: # (* [Evaluating Word Embedding Models: Methods andExperimental Results](https://arxiv.org/abs/1901.09785))
-
 ## Misc
 
 * [Word Embedding Dimensionality Selection](https://github.com/ziyin-dl/word-embedding-dimensionality-selection): [On the Dimensionality of Word Embedding](https://arxiv.org/abs/1812.04224)
 * [To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks](https://arxiv.org/abs/1903.05987)
-
-[//]: # (* [Half-Size](https://github.com/vyraun/Half-Size): [Simple and Effective Dimensionality Reduction forWord Embeddings](https://arxiv.org/abs/1708.03629))
-[//]: # (* [magnitude](https://github.com/plasticityai/magnitude): [Magnitude: A Fast, Efficient Universal Vector Embedding Utility Package](https://arxiv.org/abs/1810.11190))
 
 ## Vector Mapping
 
@@ -135,17 +122,11 @@ A curated list of pretrained sentence and word embedding models
 * [MUSE](https://github.com/facebookresearch/MUSE): [Unsupervised Machine Translation Using Monolingual Corpora Only](https://arxiv.org/abs/1711.00043)
 * [CrossLingualELMo](https://github.com/TalSchuster/CrossLingualELMo): [Cross-Lingual Alignment of Contextual Word Embeddings, with Applications to Zero-shot Dependency Parsing](https://arxiv.org/abs/1902.09492)
 
-[//]: # (* [Cross-lingual Word Vectors Projection Using CCA](https://github.com/mfaruqui/crosslingual-cca): [Improving Vector Space Word Representations Using Multilingual Correlation](http://www.aclweb.org/anthology/E14-1049))
-
 ## Articles
 
-* [Comparing Sentence Similarity Methods](http://nlp.town/blog/sentence-similarity/)
 * [The Current Best of Universal Word Embeddings and Sentence Embeddings](https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a)
 * [On sentence representations, pt. 1: what can you fit into a single #$!%@*&% blog post?](https://supernlp.github.io/2018/11/26/sentreps/)
 * [Deep-learning-free Text and Sentence Embedding, Part 1](https://www.offconvex.org/2018/06/17/textembeddings/)
 * [Deep-learning-free Text and Sentence Embedding, Part 2](https://www.offconvex.org/2018/06/25/textembeddings/)
-* [An Overview of Sentence Embedding Methods](http://mlexplained.com/2017/12/28/an-overview-of-sentence-embedding-methods/)
 * [Word embeddings in 2017: Trends and future directions](http://ruder.io/word-embeddings-2017/)
-* [A Walkthrough of InferSent – Supervised Learning of Sentence Embeddings](https://yashuseth.blog/2018/08/06/infersent-supervised-learning-of-sentence-embeddings/)
 * [A survey of cross-lingual word embedding models](http://ruder.io/cross-lingual-embeddings/)
-* [Introducing state of the art text classification with universal language models](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
