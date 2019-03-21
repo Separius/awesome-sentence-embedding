@@ -118,6 +118,11 @@
         "language": "MXNet",
         "link": "https://github.com/imgarylai/bert-embedding",
         "unofficial": true
+        },
+        {
+          "language": "PaddlePaddle",
+          "link": "https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE",
+          "unofficial": true
       }
     ],
     "model_name": "BERT",
@@ -125,6 +130,10 @@
       {
         "name": "BERT",
         "link": "https://github.com/google-research/bert#pre-trained-models"
+      },
+      {
+        "name": "ERNIE",
+        "link": "https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE"
       }
     ]
   },
