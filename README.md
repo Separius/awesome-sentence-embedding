@@ -186,6 +186,7 @@ A curated list of pretrained sentence and word embedding models
 * [EQUATE : A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference](https://arxiv.org/abs/1901.03735)
 * [Evaluating Word Embedding Models: Methods andExperimental Results](https://arxiv.org/abs/1901.09785)
 * [How to (Properly) Evaluate Cross-Lingual Word Embeddings: On Strong Baselines, Comparative Analyses, and Some Misconceptions](https://arxiv.org/abs/1902.00508)
+* [Linguistic Knowledge and Transferability of Contextual Representations](https://homes.cs.washington.edu/~nfliu/papers/liu+gardner+belinkov+peters+smith.naacl2019.pdf): [contextual-repr-analysis](https://github.com/nelson-liu/contextual-repr-analysis)
 
 ## Misc
 

@@ -2,12 +2,7 @@ import json
 import urllib.parse
 import urllib.request
 from operator import attrgetter
-
-try:
-    from tqdm import tqdm
-except ImportError:
-    def tqdm(x):
-        return x
+from tqdm import tqdm
 
 arxiv_prefix = 'https://arxiv.org/abs/'
 arxiv_prefix_len = len(arxiv_prefix)
