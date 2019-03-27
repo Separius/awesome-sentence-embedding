@@ -209,6 +209,23 @@
     ]
   },
   {
+    "paper_title": "SciBERT: Pretrained Contextualized Embeddings for Scientific Text",
+    "paper_link": "https://arxiv.org/abs/1903.10676",
+    "code": [
+      {
+        "language": "Pytorch, TF",
+        "link": "https://github.com/allenai/scibert"
+      }
+    ],
+    "model_name": "SciBERT",
+    "pretrained_models": [
+      {
+        "name": "SciBERT",
+        "link": "https://github.com/allenai/scibert#downloading-trained-models"
+      }
+    ]
+  },
+  {
     "paper_title": "BioBERT: pre-trained biomedical language representation model for biomedical text mining",
     "paper_link": "https://arxiv.org/abs/1901.08746",
     "code": [
