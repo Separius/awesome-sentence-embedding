@@ -230,7 +230,7 @@
     ]
   },
   {
-    "paper_title": ": Learning Sentence Representations from Explicit Discourse Relations",
+    "paper_title": "DisSent: Learning Sentence Representations from Explicit Discourse Relations",
     "paper_link": "https://arxiv.org/abs/1710.04334",
     "name": "DisSent",
     "code": [
