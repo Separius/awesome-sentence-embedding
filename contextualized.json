@@ -336,5 +336,22 @@
         "link": "https://github.com/namisan/mt-dnn/blob/master/download.sh"
       }
     ]
+  },
+  {
+    "paper_title": "ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission",
+    "paper_link": "https://arxiv.org/abs/1904.05342",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/kexinhuang12345/clinicalBERT"
+      }
+    ],
+    "model_name": "ClinicalBERT",
+    "pretrained_models": [
+      {
+        "name": "ClinicalBERT",
+        "link": "https://drive.google.com/file/d/1t8L9w-r88Q5-sfC993x2Tjt1pu--A900/view"
+      }
+    ]
   }
 ]
