@@ -504,5 +504,17 @@
     "name": "counter-fitting",
     "pretrained_link": "http://mi.eng.cam.ac.uk/~nm480/counter-fitted-vectors.txt.zip",
     "broken_link": true
+  },
+  {
+    "paper_title": "VCWE: Visual Character-Enhanced Word Embeddings",
+    "paper_link": "https://arxiv.org/abs/1902.08795",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/HSLCY/VCWE"
+      }
+    ],
+    "pretrained_link": "https://github.com/HSLCY/VCWE/blob/master/embedding/zh_wiki_VCWE_ep50.txt",
+    "name": "VCWE"
   }
 ]

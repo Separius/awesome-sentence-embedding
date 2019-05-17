@@ -353,5 +353,22 @@
         "link": "https://drive.google.com/file/d/1t8L9w-r88Q5-sfC993x2Tjt1pu--A900/view"
       }
     ]
+  },
+  {
+    "paper_title": "Publicly Available Clinical BERT Embeddings",
+    "paper_link": "https://arxiv.org/abs/1904.03323",
+    "code": [
+      {
+        "language": "Text",
+        "link": "https://github.com/EmilyAlsentzer/clinicalBERT"
+      }
+    ],
+    "model_name": "clinicalBERT",
+    "pretrained_models": [
+      {
+        "name": "clinicalBERT",
+        "link": "https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=0"
+      }
+    ]
   }
 ]
