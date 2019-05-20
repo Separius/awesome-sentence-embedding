@@ -370,5 +370,22 @@
         "link": "https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=0"
       }
     ]
+  },
+  {
+    "paper_title": "ERNIE: Enhanced Language Representation with Informative Entities",
+    "paper_link": "https://arxiv.org/abs/1905.07129",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/thunlp/ERNIE"
+      }
+    ],
+    "model_name": "ERNIE",
+    "pretrained_models": [
+      {
+        "name": "ERNIE",
+        "link": "https://drive.google.com/open?id=1m673-YB-4j1ISNDlk5oZjpPF2El7vn6f"
+      }
+    ]
   }
 ]
