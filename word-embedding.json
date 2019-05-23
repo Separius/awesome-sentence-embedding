@@ -516,5 +516,17 @@
     ],
     "pretrained_link": "https://github.com/HSLCY/VCWE/blob/master/embedding/zh_wiki_VCWE_ep50.txt",
     "name": "VCWE"
+  },
+  {
+    "paper_title": "Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks",
+    "paper_link": "https://arxiv.org/abs/1809.04283",
+    "code": [
+      {
+        "language": "TF",
+        "link": "https://github.com/malllabiisc/WordGCN"
+      }
+    ],
+    "pretrained_link": "https://drive.google.com/open?id=17wgNSMkyQwVHeHipk_Mp3y2Q0Kvhu6Mm",
+    "name": "SynGCN"
   }
 ]
