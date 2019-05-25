@@ -528,5 +528,16 @@
     ],
     "pretrained_link": "https://drive.google.com/open?id=17wgNSMkyQwVHeHipk_Mp3y2Q0Kvhu6Mm",
     "name": "SynGCN"
+  },
+  {
+    "paper_title": "Learning Cross-lingual Embeddings from Twitter via Distant Supervision",
+    "paper_link": "https://arxiv.org/abs/1905.07358",
+    "code": [
+      {
+        "language": "Text",
+        "link": "https://github.com/pedrada88/crossembeddings-twitter"
+      }
+    ],
+    "pretrained_link": "https://github.com/pedrada88/crossembeddings-twitter#twitter-pre-trained-word-embeddings"
   }
 ]
