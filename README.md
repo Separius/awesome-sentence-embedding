@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.com/Separius/awesome-sentence-embedding.svg?branch=master)](https://travis-ci.com/Separius/awesome-sentence-embedding)
 [![GitHub - LICENSE](https://img.shields.io/github/license/Separius/awesome-sentence-embedding.svg?style=flat)](./LICENSE)
-[![HitCount](http://hits.dwyl.io/Separius/awesome-sentence-embedding.svg)](http://hits.dwyl.io/Separius/awesome-sentence-embedding)
 
 A curated list of pretrained sentence and word embedding models
 
@@ -43,6 +42,7 @@ A curated list of pretrained sentence and word embedding models
 |date|paper|citation count|training code|pretrained models|
 |:---:|:---:|:---:|:---:|:---:|
 |-|[WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models](https://rusvectores.org/static/data/webvectors_aist.pdf)|N/A|-|[RusVectōrēs](http://rusvectores.org/en/models/ )(broken)|
+|-|[Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components](https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf)|N/A|[C](https://github.com/hkust-knowcomp/jwe )|-|
 |2013/01|[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)|999+|[C](https://github.com/tmikolov/word2vec )|[Word2Vec](https://code.google.com/archive/p/word2vec/ )|
 |2014/12|[Word Representations via Gaussian Embedding](https://arxiv.org/abs/1412.6623)|122|[Cython](https://github.com/seomoz/word2gauss )|-|
 |2014/??|[Dependency-Based Word Embeddings](http://www.aclweb.org/anthology/P14-2050)|504|[C++](https://bitbucket.org/yoavgo/word2vecf/src/default/ )|[word2vecf](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/ )|
@@ -75,7 +75,6 @@ A curated list of pretrained sentence and word embedding models
 |2017/10|[BPEmb: Tokenization-free Pre-trained Subword Embeddings in 275 Languages](https://arxiv.org/abs/1710.02187)|8|[Gensim](https://github.com/bheinzerling/bpemb )|[BPEmb](https://github.com/bheinzerling/bpemb#downloads-for-each-language )|
 |2017/11|[SPINE: SParse Interpretable Neural Embeddings](https://arxiv.org/abs/1711.08792)|8|[Pytorch](https://github.com/harsh19/SPINE )|[SPINE](https://drive.google.com/drive/folders/1ksVcWDADmnp0Cl5kezjHqTg3Jnh8q031?usp=sharing )|
 |2017/??|[Dict2vec : Learning Word Embeddings using Lexical Dictionaries](http://aclweb.org/anthology/D17-1024)|14|[C++](https://github.com/tca19/dict2vec )|[Dict2vec](https://github.com/tca19/dict2vec#download-pre-trained-vectors )|
-|2017/??|[Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components](https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf)|15|[C](https://github.com/hkust-knowcomp/jwe )|-|
 |2017/??|[AraVec: A set of Arabic Word Embedding Models for use in Arabic NLP](https://www.researchgate.net/publication/319880027_AraVec_A_set_of_Arabic_Word_Embedding_Models_for_use_in_Arabic_NLP)|21|[Gensim](https://github.com/bakrianoo/aravec )|[AraVec](https://github.com/bakrianoo/aravec#n-grams-models-1 )|
 |2017/??|[Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics](http://www.aclweb.org/anthology/D17-1023)|8|[C](https://github.com/zhezhaoa/ngram2vec )|-|
 |2018/04|[Representation Tradeoffs for Hyperbolic Embeddings](https://arxiv.org/abs/1804.03329)|18|[Pytorch](https://github.com/HazyResearch/hyperbolics )|[h-MDS](https://github.com/HazyResearch/hyperbolics )|
@@ -106,12 +105,12 @@ A curated list of pretrained sentence and word embedding models
 |:---:|:---:|:---:|:---:|:---:|
 |-|[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)|N/A|[TF](https://github.com/openai/gpt-2 )<br>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT )<br>[Keras](https://github.com/CyberZHG/keras-gpt-2 )|[GPT-2](https://github.com/openai/gpt-2 )|
 |2017/08|[Learned in Translation: Contextualized Word Vectors](https://arxiv.org/abs/1708.00107)|161|[Pytorch](https://github.com/salesforce/cove )<br>[Keras](https://github.com/rgsachin/CoVe )|[CoVe](https://github.com/salesforce/cove )|
-|2018/01|[Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146)|155|[Pytorch](https://github.com/fastai/fastai/tree/ulmfit_v1 )|ULMFit([English](https://docs.fast.ai/text.html#Fine-tuning-a-language-model), [Zoo](https://forums.fast.ai/t/language-model-zoo-gorilla/14623/1))|
-|2018/02|[Deep contextualized word representations](https://arxiv.org/abs/1802.05365)|596|[Pytorch](https://github.com/allenai/allennlp )<br>[TF](https://github.com/allenai/bilm-tf )|ELMO([AllenNLP](https://allennlp.org/elmo), [TF-Hub](https://tfhub.dev/google/elmo/2))|
+|2018/01|[Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146)|156|[Pytorch](https://github.com/fastai/fastai/tree/ulmfit_v1 )|ULMFit([English](https://docs.fast.ai/text.html#Fine-tuning-a-language-model), [Zoo](https://forums.fast.ai/t/language-model-zoo-gorilla/14623/1))|
+|2018/02|[Deep contextualized word representations](https://arxiv.org/abs/1802.05365)|597|[Pytorch](https://github.com/allenai/allennlp )<br>[TF](https://github.com/allenai/bilm-tf )|ELMO([AllenNLP](https://allennlp.org/elmo), [TF-Hub](https://tfhub.dev/google/elmo/2))|
 |2018/04|[Efficient Contextualized Representation:Language Model Pruning for Sequence Labeling](https://arxiv.org/abs/1804.07827)|3|[Pytorch](https://github.com/LiyuanLucasLiu/LD-Net )|[LD-Net](https://github.com/LiyuanLucasLiu/LD-Net#language-models )|
 |2018/07|[Towards Better UD Parsing: Deep Contextualized Word Embeddings, Ensemble, and Treebank Concatenation](https://arxiv.org/abs/1807.03121)|8|[Pytorch](https://github.com/HIT-SCIR/ELMoForManyLangs )|[ELMo](https://github.com/HIT-SCIR/ELMoForManyLangs#downloads )|
 |2018/08|[Direct Output Connection for a High-Rank Language Model](https://arxiv.org/abs/1808.10143)|5|[Pytorch](https://github.com/nttcslab-nlp/doc_lm )|[DOC](https://drive.google.com/open?id=1ug-6ISrXHEGcWTk5KIw8Ojdjuww-i-Ci )|
-|2018/10|[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)|382|[TF](https://github.com/google-research/bert )<br>[Keras](https://github.com/Separius/BERT-keras )<br>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT )<br>[MXNet](https://github.com/imgarylai/bert-embedding )<br>[PaddlePaddle](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE )<br>[TF](https://github.com/hanxiao/bert-as-service/ )<br>[Keras](https://github.com/CyberZHG/keras-bert )|BERT([BERT](https://github.com/google-research/bert#pre-trained-models), [ERNIE](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE))|
+|2018/10|[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)|384|[TF](https://github.com/google-research/bert )<br>[Keras](https://github.com/Separius/BERT-keras )<br>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT )<br>[MXNet](https://github.com/imgarylai/bert-embedding )<br>[PaddlePaddle](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE )<br>[TF](https://github.com/hanxiao/bert-as-service/ )<br>[Keras](https://github.com/CyberZHG/keras-bert )|BERT([BERT](https://github.com/google-research/bert#pre-trained-models), [ERNIE](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE))|
 |2018/??|[Contextual String Embeddings for Sequence Labeling]()|12|[Pytorch](https://github.com/zalandoresearch/flair )|[Flair](https://github.com/zalandoresearch/flair/blob/master/flair/embeddings.py#L407 )|
 |2018/??|[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)|154|[TF](https://github.com/openai/finetune-transformer-lm )<br>[Keras](https://github.com/Separius/BERT-keras )<br>[Pytorch](https://github.com/huggingface/pytorch-pretrained-BERT )|[GPT](https://github.com/openai/finetune-transformer-lm )|
 |2019/01|[Cross-lingual Language Model Pretraining](https://arxiv.org/abs/1901.07291)|12|[Pytorch](https://github.com/facebookresearch/XLM )|[XLM](https://github.com/facebookresearch/XLM#pretrained-models )|
@@ -154,14 +153,14 @@ A curated list of pretrained sentence and word embedding models
 |2017/05|[Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364)|332|[Pytorch](https://github.com/facebookresearch/InferSent )|InferSent|
 |2017/07|[VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/abs/1707.05612)|71|[Pytorch](https://github.com/fartashf/vsepp )|VSE++|
 |2017/08|[Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm](https://arxiv.org/abs/1708.00524)|N/A|[Keras](https://github.com/bfelbo/DeepMoji )<br>[Pytorch](https://github.com/huggingface/torchMoji )|DeepMoji|
-|2017/09|[StarSpace: Embed All The Things!](https://arxiv.org/abs/1709.03856)|38|[C++](https://github.com/facebookresearch/StarSpace )|StarSpace|
+|2017/09|[StarSpace: Embed All The Things!](https://arxiv.org/abs/1709.03856)|39|[C++](https://github.com/facebookresearch/StarSpace )|StarSpace|
 |2017/10|[DisSent: Learning Sentence Representations from Explicit Discourse Relations](https://arxiv.org/abs/1710.04334)|30|[Pytorch](https://github.com/windweller/DisExtract )|DisSent|
 |2017/11|[Dual-Path Convolutional Image-Text Embedding with Instance Loss](https://arxiv.org/abs/1711.05535)|1|[Matlab](https://github.com/layumi/Image-Text-Embedding )|Image-Text-Embedding|
 |2017/11|[Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations](https://arxiv.org/abs/1711.05732)|28|[Theano](https://github.com/jwieting/para-nmt-50m )|para-nmt|
 |2018/03|[An efficient framework for learning sentence representations](https://arxiv.org/abs/1803.02893)|38|[TF](https://github.com/lajanugen/S2V )|Quick-Thought|
 |2018/03|[Universal Sentence Encoder](https://arxiv.org/abs/1803.11175)|66|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder/2 )|USE|
 |2018/04|[End-Task Oriented Textual Entailment via Deep Explorations of Inter-Sentence Interactions](https://arxiv.org/abs/1804.08813)|2|[Theano](https://github.com/yinwenpeng/SciTail )|DEISTE|
-|2018/04|[Learning general purpose distributed sentence representations via large scale multi-task learning](https://arxiv.org/abs/1804.00079)|58|[Pytorch](https://github.com/Maluuba/gensen )|GenSen|
+|2018/04|[Learning general purpose distributed sentence representations via large scale multi-task learning](https://arxiv.org/abs/1804.00079)|59|[Pytorch](https://github.com/Maluuba/gensen )|GenSen|
 |2018/06|[Embedding Text in Hyperbolic Spaces](https://arxiv.org/abs/1806.04313)|12|[TF](https://github.com/brain-research/hyperbolictext )|HyperText|
 |2018/07|[Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748)|45|[Keras](https://github.com/davidtellez/contrastive-predictive-coding )|CPC|
 |2018/08|[Context Mover’s Distance & Barycenters: Optimal transport of contexts for building representations](https://arxiv.org/abs/1808.09663)|0|[Python](https://github.com/context-mover/context-mover-distance-and-barycenters )|CMD|
@@ -205,6 +204,7 @@ A curated list of pretrained sentence and word embedding models
 * [To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks](https://arxiv.org/abs/1903.05987)
 * [Don't Settle for Average, Go for the Max: Fuzzy Sets and Max-Pooled Word Vectors](https://arxiv.org/abs/1904.13264): [fuzzymax](https://github.com/Babylonpartners/fuzzymax)
 * [The Pupil Has Become the Master: Teacher-Student Model-BasedWord Embedding Distillation with Ensemble Learning](https://arxiv.org/abs/1906.00095): [EmbeddingDistillation](https://github.com/bgshin/distill_demo)
+* [Improving Distributional Similaritywith Lessons Learned from Word Embeddings](https://www.aclweb.org/anthology/Q15-1016): [hyperwords](https://bitbucket.org/omerlevy/hyperwords/src/default/)
 
 ## Vector Mapping
 
