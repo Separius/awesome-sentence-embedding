@@ -48,6 +48,7 @@ A curated list of pretrained sentence and word embedding models
 * Use subword models(ngram, bpe, char)
 * [ALaCarte](https://github.com/NLPrinceton/ALaCarte): [A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors](http://aclweb.org/anthology/P18-1002)
 * [Mimick](https://github.com/yuvalpinter/Mimick): [Mimicking Word Embeddings using Subword RNNs](http://www.aclweb.org/anthology/D17-1010)
+* [CompactReconstruction](https://github.com/losyer/compact_reconstruction): [Subword-based Compact Reconstruction of Word Embeddings](https://www.aclweb.org/anthology/N19-1353)
 
 ## Contextualized Word Embeddings
 
