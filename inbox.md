@@ -9,3 +9,4 @@
 * [Unified Language Model Pre-training forNatural Language Understanding and Generation](https://arxiv.org/abs/1905.03197)
 * [HIBERT: Document Level Pre-training of Hierarchical BidirectionalTransformers for Document Summarization](https://arxiv.org/abs/1905.06566)
 * Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings: [AraSIF](https://github.com/DFKI-Interactive-Machine-Learning/AraSIF)
+* Probing Multilingual Sentence Representations With X-PROBE[https://arxiv.org/abs/1906.05061]: [xprobe](https://github.com/ltgoslo/xprobe)
