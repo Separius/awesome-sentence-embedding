@@ -10,3 +10,6 @@
 * [HIBERT: Document Level Pre-training of Hierarchical BidirectionalTransformers for Document Summarization](https://arxiv.org/abs/1905.06566)
 * Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings: [AraSIF](https://github.com/DFKI-Interactive-Machine-Learning/AraSIF)
 * Probing Multilingual Sentence Representations With X-PROBE[https://arxiv.org/abs/1906.05061]: [xprobe](https://github.com/ltgoslo/xprobe)
+
+## not free
+* [Unsupervised word embeddings capture latent knowledge from materials science literature](https://www.nature.com/articles/s41586-019-1335-8): [mat2vec](https://github.com/materialsintelligence/mat2vec)
