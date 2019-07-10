@@ -242,13 +242,25 @@
     ]
   },
   {
+    "paper_title": "Multilingual Universal Sentence Encoder",
+    "paper_link": "https://arxiv.org/abs/1907.04307",
+    "name": "MultilingualUSE",
+    "code": [
+      {
+        "language": "TF-Hub",
+        "link": "https://tfhub.dev/google/universal-sentence-encoder-multilingual/1",
+        "no_training_code": true
+      }
+    ]
+  },
+  {
     "paper_title": "Universal Sentence Encoder",
     "paper_link": "https://arxiv.org/abs/1803.11175",
     "name": "USE",
     "code": [
       {
         "language": "TF-Hub",
-        "link": "https://tfhub.dev/google/universal-sentence-encoder/2",
+        "link": "https://tfhub.dev/google/universal-sentence-encoder-large/2",
         "no_training_code": true
       }
     ]
