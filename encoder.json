@@ -449,5 +449,16 @@
         "unofficial": true
       }
     ]
+  },
+  {
+    "paper_title": "Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings",
+    "paper_link": "https://www.aclweb.org/anthology/W19-4601",
+    "name": "AraSIF",
+    "code": [
+      {
+        "language": "Python",
+        "link": "https://github.com/DFKI-Interactive-Machine-Learning/AraSIF"
+      }
+    ]
   }
 ]

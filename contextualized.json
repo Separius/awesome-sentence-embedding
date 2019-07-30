@@ -338,6 +338,23 @@
     ]
   },
   {
+    "paper_title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+    "paper_link": "https://arxiv.org/abs/1907.11692",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/pytorch/fairseq"
+      }
+    ],
+    "model_name": "RoBERTa",
+    "pretrained_models": [
+      {
+        "name": "roberta.large",
+        "link": "https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md#pre-trained-models"
+      }
+    ]
+  },
+  {
     "paper_title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
     "paper_link": "https://arxiv.org/abs/1906.08237",
     "code": [
