@@ -338,6 +338,23 @@
     ]
   },
   {
+    "paper_title": "ERNIE 2.0: A Continual Pre-training Framework for Language Understanding",
+    "paper_link": "https://arxiv.org/abs/1907.12412",
+    "code": [
+      {
+        "language": "PaddlePaddle",
+        "link": "https://github.com/PaddlePaddle/ERNIE"
+      }
+    ],
+    "model_name": "ERNIE 2.0",
+    "pretrained_models": [
+      {
+        "name": "ERNIE 2.0 Large",
+        "link": "https://github.com/PaddlePaddle/ERNIE#models"
+      }
+    ]
+  },
+  {
     "paper_title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
     "paper_link": "https://arxiv.org/abs/1907.11692",
     "code": [

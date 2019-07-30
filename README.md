@@ -127,6 +127,7 @@ A curated list of pretrained sentence and word embedding models
 |2019/06|[Pre-Training with Whole Word Masking for Chinese BERT](https://arxiv.org/abs/1906.08101)|0|[Pytorch, TF](https://github.com/ymcui/Chinese-BERT-wwm )|[BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm#pytorch%E7%89%88%E6%9C%AC%E8%AF%B7%E4%BD%BF%E7%94%A8-%E7%9A%84pytorch-bert--06%E5%85%B6%E4%BB%96%E7%89%88%E6%9C%AC%E8%AF%B7%E8%87%AA%E8%A1%8C%E8%BD%AC%E6%8D%A2 )|
 |2019/06|[XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237)|7|[TF](https://github.com/zihangdai/xlnet )|[XLNet](https://github.com/zihangdai/xlnet#released-models )|
 |2019/07|[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)|0|[Pytorch](https://github.com/pytorch/fairseq )|[RoBERTa](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md#pre-trained-models )|
+|2019/07|[ERNIE 2.0: A Continual Pre-training Framework for Language Understanding](https://arxiv.org/abs/1907.12412)|N/A|[PaddlePaddle](https://github.com/PaddlePaddle/ERNIE )|[ERNIE 2.0](https://github.com/PaddlePaddle/ERNIE#models )|
 
 ## Pooling Methods
 
