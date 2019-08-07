@@ -11,6 +11,7 @@
 * [Probing Multilingual Sentence Representations With X-PROBE](https://arxiv.org/abs/1906.05061): [xprobe](https://github.com/ltgoslo/xprobe)
 * [GLOSS: Generative Latent Optimization of Sentence Representations](https://arxiv.org/abs/1907.06385)
 * [SpanBERT: Improving Pre-training byRepresenting and Predicting Spans](https://arxiv.org/abs/1907.10529)
+* [An Unsupervised Character-Aware Neural Approach to Word and Context Representation Learning](https://arxiv.org/abs/1908.01819)
 
 ## not free
 * [Unsupervised word embeddings capture latent knowledge from materials science literature](https://www.nature.com/articles/s41586-019-1335-8): [mat2vec](https://github.com/materialsintelligence/mat2vec)
