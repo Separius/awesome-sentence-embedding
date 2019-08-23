@@ -12,6 +12,7 @@
 * [GLOSS: Generative Latent Optimization of Sentence Representations](https://arxiv.org/abs/1907.06385)
 * [SpanBERT: Improving Pre-training byRepresenting and Predicting Spans](https://arxiv.org/abs/1907.10529)
 * [An Unsupervised Character-Aware Neural Approach to Word and Context Representation Learning](https://arxiv.org/abs/1908.01819)
+* [ViCo: Word Embeddings from Visual Co-occurrences](https://arxiv.org/abs/1908.08527)
 
 ## not free
 * [Unsupervised word embeddings capture latent knowledge from materials science literature](https://www.nature.com/articles/s41586-019-1335-8): [mat2vec](https://github.com/materialsintelligence/mat2vec)
