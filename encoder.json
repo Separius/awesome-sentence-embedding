@@ -78,6 +78,18 @@
     ]
   },
   {
+    "paper_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "paper_link": "https://arxiv.org/abs/1908.10084",
+    "name": "Sentence-BERT",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/UKPLab/sentence-transformers",
+        "pretrained": true
+      }
+    ]
+  },
+  {
     "paper_title": "Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features",
     "paper_link": "https://arxiv.org/abs/1703.02507",
     "name": "Sent2Vec",
