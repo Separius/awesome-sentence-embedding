@@ -104,6 +104,8 @@ A curated list of pretrained sentence and word embedding models
 * [The Pupil Has Become the Master: Teacher-Student Model-BasedWord Embedding Distillation with Ensemble Learning](https://arxiv.org/abs/1906.00095): [EmbeddingDistillation](https://github.com/bgshin/distill_demo)
 * [Improving Distributional Similarity with Lessons Learned from Word Embeddings](https://www.aclweb.org/anthology/Q15-1016): [hyperwords](https://bitbucket.org/omerlevy/hyperwords/src/default/)
 * [Misspelling Oblivious Word Embeddings](https://arxiv.org/abs/1905.09755): [moe](https://github.com/facebookresearch/moe)
+* [Single Training Dimension Selection for Word Embedding with
+    PCA](https://arxiv.org/abs/1909.01761)
 * [Compressing Word Embeddings via Deep Compositional Code Learning](https://arxiv.org/abs/1711.01068): [neuralcompressor](https://github.com/zomux/neuralcompressor)
 
 ## Vector Mapping
