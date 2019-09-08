@@ -80,7 +80,7 @@ A curated list of pretrained sentence and word embedding models
 |2018/04|[Dynamic Meta-Embeddings for Improved Sentence Representations](https://arxiv.org/abs/1804.07983)|16|[Pytorch](https://github.com/facebookresearch/DME )|[DME/CDME](https://github.com/facebookresearch/DME#pre-trained-models )|
 |2018/04|[Representation Tradeoffs for Hyperbolic Embeddings](https://arxiv.org/abs/1804.03329)|27|[Pytorch](https://github.com/HazyResearch/hyperbolics )|[h-MDS](https://github.com/HazyResearch/hyperbolics )|
 |2018/05|[Analogical Reasoning on Chinese Morphological and Semantic Relations](https://arxiv.org/abs/1805.06504)|29|-|[ChineseWordVectors](https://github.com/Embedding/Chinese-Word-Vectors )|
-|2018/06|[Probabilistic FastText for Multi-Sense Word Embeddings](https://arxiv.org/abs/1806.02901)|N/A|[C++](https://github.com/benathi/multisense-prob-fasttext )|[Probabilistic FastText](https://github.com/benathi/multisense-prob-fasttext#3-loading-and-analyzing-pre-trained-models )|
+|2018/06|[Probabilistic FastText for Multi-Sense Word Embeddings](https://arxiv.org/abs/1806.02901)|12|[C++](https://github.com/benathi/multisense-prob-fasttext )|[Probabilistic FastText](https://github.com/benathi/multisense-prob-fasttext#3-loading-and-analyzing-pre-trained-models )|
 |2018/09|[Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks](https://arxiv.org/abs/1809.04283)|1|[TF](https://github.com/malllabiisc/WordGCN )|[SynGCN](https://drive.google.com/open?id=17wgNSMkyQwVHeHipk_Mp3y2Q0Kvhu6Mm )|
 |2018/09|[FRAGE: Frequency-Agnostic Word Representation](https://arxiv.org/abs/1809.06858)|21|[Pytorch](https://github.com/ChengyueGongR/Frequency-Agnostic )|-|
 |2018/12|[Wikipedia2Vec: An Optimized Tool for LearningEmbeddings of Words and Entities from Wikipedia](https://arxiv.org/abs/1812.06280)|2|[Cython](https://github.com/wikipedia2vec/wikipedia2vec )|[Wikipedia2Vec](https://wikipedia2vec.github.io/wikipedia2vec/pretrained/ )|
@@ -145,7 +145,7 @@ A curated list of pretrained sentence and word embedding models
 |:---:|:---:|:---:|:---:|:---:|
 |-|[Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings](https://www.aclweb.org/anthology/W19-4601)|N/A|[Python](https://github.com/DFKI-Interactive-Machine-Learning/AraSIF )|AraSIF|
 |2014/05|[Distributed Representations of Sentences and Documents](https://arxiv.org/abs/1405.4053)|998|[Pytorch](https://github.com/inejc/paragraph-vectors )<br>[Python](https://github.com/jhlau/doc2vec )|Doc2Vec|
-|2014/11|[Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](https://arxiv.org/abs/1411.2539)|N/A|[Theano](https://github.com/ryankiros/visual-semantic-embedding )<br>[Pytorch](https://github.com/linxd5/VSE_Pytorch )|VSE|
+|2014/11|[Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](https://arxiv.org/abs/1411.2539)|475|[Theano](https://github.com/ryankiros/visual-semantic-embedding )<br>[Pytorch](https://github.com/linxd5/VSE_Pytorch )|VSE|
 |2015/06|[Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/abs/1506.06724)|276|[Theano](https://github.com/ryankiros/skip-thoughts )<br>[TF](https://github.com/tensorflow/models/tree/master/research/skip_thoughts )<br>[Pytorch, Torch](https://github.com/Cadene/skip-thoughts.torch )|SkipThought|
 |2015/11|[Order-Embeddings of Images and Language](https://arxiv.org/abs/1511.06361)|183|[Theano](https://github.com/ivendrov/order-embedding )|order-embedding|
 |2015/11|[Towards Universal Paraphrastic Sentence Embeddings](https://arxiv.org/abs/1511.08198)|246|[Theano](https://github.com/jwieting/iclr2016 )|ParagramPhrase|
@@ -154,7 +154,7 @@ A curated list of pretrained sentence and word embedding models
 |2016/07|[Charagram: Embedding Words and Sentences via Character n-grams](https://arxiv.org/abs/1607.02789)|83|[Theano](https://github.com/jwieting/charagram )|Charagram|
 |2016/11|[Learning Generic Sentence Representations Using Convolutional Neural Networks](https://arxiv.org/abs/1611.07897)|39|[Theano](https://github.com/zhegan27/ConvSent )|ConvSent|
 |2017/03|[Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features](https://arxiv.org/abs/1703.02507)|146|[C++](https://github.com/epfml/sent2vec )|Sent2Vec|
-|2017/04|[Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/abs/1704.01444)|N/A|[TF](https://github.com/openai/generating-reviews-discovering-sentiment )<br>[Pytorch](https://github.com/guillitte/pytorch-sentiment-neuron )<br>[Pytorch](https://github.com/NVIDIA/sentiment-discovery )|Sentiment Neuron|
+|2017/04|[Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/abs/1704.01444)|162|[TF](https://github.com/openai/generating-reviews-discovering-sentiment )<br>[Pytorch](https://github.com/guillitte/pytorch-sentiment-neuron )<br>[Pytorch](https://github.com/NVIDIA/sentiment-discovery )|Sentiment Neuron|
 |2017/05|[Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings](https://arxiv.org/abs/1705.00364)|37|[Theano](https://github.com/jwieting/acl2017 )|GRAN|
 |2017/05|[Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364)|446|[Pytorch](https://github.com/facebookresearch/InferSent )|InferSent|
 |2017/07|[VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/abs/1707.05612)|45|[Pytorch](https://github.com/fartashf/vsepp )|VSE++|
@@ -164,11 +164,11 @@ A curated list of pretrained sentence and word embedding models
 |2017/11|[Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations](https://arxiv.org/abs/1711.05732)|41|[Theano](https://github.com/jwieting/para-nmt-50m )|para-nmt|
 |2017/11|[Dual-Path Convolutional Image-Text Embedding with Instance Loss](https://arxiv.org/abs/1711.05535)|5|[Matlab](https://github.com/layumi/Image-Text-Embedding )|Image-Text-Embedding|
 |2018/03|[An efficient framework for learning sentence representations](https://arxiv.org/abs/1803.02893)|56|[TF](https://github.com/lajanugen/S2V )|Quick-Thought|
-|2018/03|[Universal Sentence Encoder](https://arxiv.org/abs/1803.11175)|N/A|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder-large/2 )|USE|
+|2018/03|[Universal Sentence Encoder](https://arxiv.org/abs/1803.11175)|96|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder-large/2 )|USE|
 |2018/04|[End-Task Oriented Textual Entailment via Deep Explorations of Inter-Sentence Interactions](https://arxiv.org/abs/1804.08813)|2|[Theano](https://github.com/yinwenpeng/SciTail )|DEISTE|
 |2018/04|[Learning general purpose distributed sentence representations via large scale multi-task learning](https://arxiv.org/abs/1804.00079)|87|[Pytorch](https://github.com/Maluuba/gensen )|GenSen|
 |2018/06|[Embedding Text in Hyperbolic Spaces](https://arxiv.org/abs/1806.04313)|18|[TF](https://github.com/brain-research/hyperbolictext )|HyperText|
-|2018/07|[Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748)|N/A|[Keras](https://github.com/davidtellez/contrastive-predictive-coding )|CPC|
+|2018/07|[Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748)|77|[Keras](https://github.com/davidtellez/contrastive-predictive-coding )|CPC|
 |2018/08|[Context Mover’s Distance & Barycenters: Optimal transport of contexts for building representations](https://arxiv.org/abs/1808.09663)|1|[Python](https://github.com/context-mover/context-mover-distance-and-barycenters )|CMD|
 |2018/09|[Learning Universal Sentence Representations with Mean-Max Attention Autoencoder](https://arxiv.org/abs/1809.06590)|2|[TF](https://github.com/Zminghua/SentEncoding )|Mean-MaxAAE|
 |2018/10|[BioSentVec: creating sentence embeddings for biomedical texts](https://arxiv.org/abs/1810.09302)|11|[Python](https://github.com/ncbi-nlp/BioSentVec )|BioSentVec|
@@ -179,7 +179,7 @@ A curated list of pretrained sentence and word embedding models
 |2018/??|[Convolutional Neural Network for Universal Sentence Embeddings](https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf)|0|[Theano](https://github.com/XiaoqiJiao/COLING2018 )|CSE|
 |2019/01|[No Training Required: Exploring Random Encoders for Sentence Classification](https://arxiv.org/abs/1901.10444)|11|[Pytorch](https://github.com/facebookresearch/randsent )|randsent|
 |2019/02|[CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model](https://arxiv.org/abs/1902.06423)|0|[Pytorch](https://github.com/florianmai/word2mat )|CMOW|
-|2019/07|[Multilingual Universal Sentence Encoder](https://arxiv.org/abs/1907.04307)|N/A|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder-multilingual/1 )|MultilingualUSE|
+|2019/07|[Multilingual Universal Sentence Encoder](https://arxiv.org/abs/1907.04307)|1|[TF-Hub](https://tfhub.dev/google/universal-sentence-encoder-multilingual/1 )|MultilingualUSE|
 |2019/08|[Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084)|0|[Pytorch](https://github.com/UKPLab/sentence-transformers )|Sentence-BERT|
 
 ## Evaluation
