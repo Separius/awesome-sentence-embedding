@@ -67,6 +67,7 @@ A curated list of pretrained sentence and word embedding models
 * [GEM](https://github.com/fursovia/geometric_embedding): [Zero-Training Sentence Embedding via Orthogonal Basis](https://arxiv.org/abs/1810.00438)
 * [SWEM](https://github.com/dinghanshen/SWEM): [Baseline Needs More Love: On Simple Word-Embedding-Based Modelsand Associated Pooling Mechanisms](https://arxiv.org/abs/1805.09843)
 * [VLAWE](https://github.com/raduionescu/vlawe-boswe/): [Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation](https://arxiv.org/abs/1902.08850)
+* [Efficient Sentence Embedding using Discrete Cosine Transform](https://arxiv.org/abs/1909.03104)
 
 ## Encoders
 
@@ -127,3 +128,4 @@ A curated list of pretrained sentence and word embedding models
 * [A Walkthrough of InferSent – Supervised Learning of Sentence Embeddings](https://yashuseth.blog/2018/08/06/infersent-supervised-learning-of-sentence-embeddings/)
 * [A survey of cross-lingual word embedding models](http://ruder.io/cross-lingual-embeddings/)
 * [Introducing state of the art text classification with universal language models](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
+* [Document Embedding Techniques](https://towardsdatascience.com/document-embedding-techniques-fed3e7a6a25d)
