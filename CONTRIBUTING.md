@@ -12,8 +12,10 @@ You have discovered something cool, but don't know exactly if it suits the
 list or it doesn't have a pretrained model or even source code? :+1: Submit a pull request to the [inbox](inbox.md)!
 We'll consider your addition, wait for the code and add to the main list for you! :smiley:
 
-:boom: If you know something pretty cool, it suits the awesome list, works for you
-and seems to be useful for the community please add it to the [main list](README.md).
+:boom: If you know something pretty cool, it suits the awesome list, works for you and seems to be useful 
+for the community please add it to the [main readme](READREADME_BASE.md) or the corresponding json file and then 
+rerun the [read me generator](generate.py). 
+
 In this case please ensure your pull request adheres to the following guidelines:
 
 - Use one commit per addition (several commits per PR are OK).
