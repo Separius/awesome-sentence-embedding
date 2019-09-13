@@ -60,7 +60,7 @@ A curated list of pretrained sentence and word embedding models
 |2016/05|[Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec](https://arxiv.org/abs/1605.02019)|33|[Chainer](https://github.com/cemoody/lda2vec )|-|
 |2016/06|[Siamese CBOW: Optimizing Word Embeddings for Sentence Representations](https://arxiv.org/abs/1606.04640)|101|[Theano](https://bitbucket.org/TomKenter/siamese-cbow/src/master/ )|[Siamese CBOW](https://bitbucket.org/TomKenter/siamese-cbow/src/master/ )|
 |2016/06|[Matrix Factorization using Window Sampling and Negative Sampling for Improved Word Representations](https://arxiv.org/abs/1606.00819)|31|[Go](https://github.com/alexandres/lexvec )|[lexvec](https://github.com/alexandres/lexvec#pre-trained-vectors )|
-|2016/07|[Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606)|999+|[C++](https://github.com/facebookresearch/fastText )|[fastText](https://fasttext.cc/docs/en/english-vectors.html )|
+|2016/07|[Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606)|998|[C++](https://github.com/facebookresearch/fastText )|[fastText](https://fasttext.cc/docs/en/english-vectors.html )|
 |2016/08|[Morphological Priors for Probabilistic Neural Word Embeddings](https://arxiv.org/abs/1608.01056)|21|[Theano](https://github.com/rguthrie3/MorphologicalPriorsForWordEmbeddings )|-|
 |2016/11|[A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks](https://arxiv.org/abs/1611.01587)|180|[C++](https://github.com/hassyGo/charNgram2vec )|[charNgram2vec](http://www.logos.t.u-tokyo.ac.jp/~hassy/publications/arxiv2016jmt/jmt_pre-trained_embeddings.tar.gz )|
 |2016/12|[ConceptNet 5.5: An Open Multilingual Graph of General Knowledge](https://arxiv.org/abs/1612.03975)|159|[Python](https://github.com/commonsense/conceptnet-numberbatch )|[Numberbatch](https://github.com/commonsense/conceptnet-numberbatch#downloads )|
@@ -145,7 +145,7 @@ A curated list of pretrained sentence and word embedding models
 |date|paper|citation count|code|model_name|
 |:---:|:---:|:---:|:---:|:---:|
 |-|[Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings](https://www.aclweb.org/anthology/W19-4601)|N/A|[Python](https://github.com/DFKI-Interactive-Machine-Learning/AraSIF )|AraSIF|
-|2014/05|[Distributed Representations of Sentences and Documents](https://arxiv.org/abs/1405.4053)|999+|[Pytorch](https://github.com/inejc/paragraph-vectors )<br>[Python](https://github.com/jhlau/doc2vec )|Doc2Vec|
+|2014/05|[Distributed Representations of Sentences and Documents](https://arxiv.org/abs/1405.4053)|998|[Pytorch](https://github.com/inejc/paragraph-vectors )<br>[Python](https://github.com/jhlau/doc2vec )|Doc2Vec|
 |2014/11|[Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](https://arxiv.org/abs/1411.2539)|478|[Theano](https://github.com/ryankiros/visual-semantic-embedding )<br>[Pytorch](https://github.com/linxd5/VSE_Pytorch )|VSE|
 |2015/06|[Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/abs/1506.06724)|282|[Theano](https://github.com/ryankiros/skip-thoughts )<br>[TF](https://github.com/tensorflow/models/tree/master/research/skip_thoughts )<br>[Pytorch, Torch](https://github.com/Cadene/skip-thoughts.torch )|SkipThought|
 |2015/11|[Order-Embeddings of Images and Language](https://arxiv.org/abs/1511.06361)|185|[Theano](https://github.com/ivendrov/order-embedding )|order-embedding|
@@ -219,6 +219,8 @@ A curated list of pretrained sentence and word embedding models
 * [Single Training Dimension Selection for Word Embedding with
     PCA](https://arxiv.org/abs/1909.01761)
 * [Compressing Word Embeddings via Deep Compositional Code Learning](https://arxiv.org/abs/1711.01068): [neuralcompressor](https://github.com/zomux/neuralcompressor)
+* [UER: An Open-Source Toolkit for Pre-training
+    Models](https://arxiv.org/abs/1909.05658): [UER-py](https://github.com/dbiir/UER-py)
 
 ## Vector Mapping
 

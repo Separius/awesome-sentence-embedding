@@ -109,6 +109,8 @@ A curated list of pretrained sentence and word embedding models
 * [Single Training Dimension Selection for Word Embedding with
     PCA](https://arxiv.org/abs/1909.01761)
 * [Compressing Word Embeddings via Deep Compositional Code Learning](https://arxiv.org/abs/1711.01068): [neuralcompressor](https://github.com/zomux/neuralcompressor)
+* [UER: An Open-Source Toolkit for Pre-training
+    Models](https://arxiv.org/abs/1909.05658): [UER-py](https://github.com/dbiir/UER-py)
 
 ## Vector Mapping
 
