@@ -241,8 +241,7 @@
     "paper_title": "WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models",
     "paper_link": "https://rusvectores.org/static/data/webvectors_aist.pdf",
     "name": "RusVectōrēs",
-    "pretrained_link": "http://rusvectores.org/en/models/",
-    "broken_link": true
+    "pretrained_link": "http://rusvectores.org/en/models/"
   },
   {
     "paper_title": "Swivel: Improving Embeddings by Noticing What's Missing",
