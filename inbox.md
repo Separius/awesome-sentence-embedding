@@ -14,6 +14,9 @@
 * [ViCo: Word Embeddings from Visual Co-occurrences](https://arxiv.org/abs/1908.08527)
 * [Unicoder: A Universal Language Encoder by Pre-training with Multiple Cross-lingual Tasks](https://arxiv.org/abs/1909.00964)
 * [MULE: Multimodal Universal Language Embedding](https://arxiv.org/abs/1909.03493)
+* [Knowledge Enhanced Contextual Word Representations](https://arxiv.org/abs/1909.04164)
+* [K-BERT: Enabling Language Representation with Knowledge
+    Graph](https://arxiv.org/abs/1909.07606()
 
 ## not free
 * [Unsupervised word embeddings capture latent knowledge from materials science literature](https://www.nature.com/articles/s41586-019-1335-8): [mat2vec](https://github.com/materialsintelligence/mat2vec)

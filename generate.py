@@ -73,7 +73,7 @@ def generate_word_embedding_table():
     generated_lines = []
     with open('word-embedding.json') as f:
         meta_info = json.load(f)
-    for paper in tqdm(meta_info):
+    for paper in tqdm(meta_info, desc='word embedding'):
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
             training_code_part = fancy_code(paper['code'][0])
@@ -99,7 +99,7 @@ def generate_contextualized_table():
     generated_lines = []
     with open('contextualized.json') as f:
         meta_info = json.load(f)
-    for paper in tqdm(meta_info):
+    for paper in tqdm(meta_info, desc='contextualized'):
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
             training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])
@@ -133,7 +133,7 @@ def generate_encoder_table():
     generated_lines = []
     with open('encoder.json') as f:
         meta_info = json.load(f)
-    for paper in tqdm(meta_info):
+    for paper in tqdm(meta_info, 'encoder'):
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
             training_code_part = '<br>'.join([fancy_code(code) for code in paper['code']])

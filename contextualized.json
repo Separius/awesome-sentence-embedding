@@ -44,6 +44,17 @@
     ]
   },
   {
+    "paper_title": "MultiFiT: Efficient Multi-lingual Language Model Fine-tuning",
+    "paper_link": "https://arxiv.org/abs/1909.04761",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/n-waves/ulmfit-multilingual"
+      }
+    ],
+    "model_name": "MultiFiT"
+  },
+  {
     "paper_title": "Deep contextualized word representations",
     "paper_link": "https://arxiv.org/abs/1802.05365",
     "code": [
