@@ -242,5 +242,5 @@ A curated list of pretrained sentence and word embedding models
 * [Word embeddings in 2017: Trends and future directions](http://ruder.io/word-embeddings-2017/)
 * [A Walkthrough of InferSent – Supervised Learning of Sentence Embeddings](https://yashuseth.blog/2018/08/06/infersent-supervised-learning-of-sentence-embeddings/)
 * [A survey of cross-lingual word embedding models](http://ruder.io/cross-lingual-embeddings/)
-* [Introducing state of the art text classification with universal language models](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
+* [Introducing state of the art text classification with universal language models](http://nlp.fast.ai/classification/2018/05/15/introducing-ulmfit.html)
 * [Document Embedding Techniques](https://towardsdatascience.com/document-embedding-techniques-fed3e7a6a25d)
