@@ -127,6 +127,7 @@ A curated list of pretrained sentence and word embedding models
 |2019/07|[ERNIE 2.0: A Continual Pre-training Framework for Language Understanding](https://arxiv.org/abs/1907.12412)|0|[PaddlePaddle](https://github.com/PaddlePaddle/ERNIE )|[ERNIE 2.0](https://github.com/PaddlePaddle/ERNIE#models )|
 |2019/07|[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)|9|[Pytorch](https://github.com/pytorch/fairseq )|[RoBERTa](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md#pre-trained-models )|
 |2019/09|[MultiFiT: Efficient Multi-lingual Language Model Fine-tuning](https://arxiv.org/abs/1909.04761)|0|[Pytorch](https://github.com/n-waves/ulmfit-multilingual )|-|
+|2019/09|[Subword ELMo](https://arxiv.org/abs/1909.08357)|N/A|[Pytorch](https://github.com/Jiangtong-Li/Subword-ELMo/ )|[ESuLMo](https://pan.baidu.com/s/1cVVwNvvAuV_gy7uekMLBBA )|
 
 ## Pooling Methods
 
@@ -157,8 +158,8 @@ A curated list of pretrained sentence and word embedding models
 |2016/11|[Learning Generic Sentence Representations Using Convolutional Neural Networks](https://arxiv.org/abs/1611.07897)|39|[Theano](https://github.com/zhegan27/ConvSent )|ConvSent|
 |2017/03|[Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features](https://arxiv.org/abs/1703.02507)|149|[C++](https://github.com/epfml/sent2vec )|Sent2Vec|
 |2017/04|[Learning to Generate Reviews and Discovering Sentiment](https://arxiv.org/abs/1704.01444)|163|[TF](https://github.com/openai/generating-reviews-discovering-sentiment )<br>[Pytorch](https://github.com/guillitte/pytorch-sentiment-neuron )<br>[Pytorch](https://github.com/NVIDIA/sentiment-discovery )|Sentiment Neuron|
+|2017/05|[Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364)|0|[Pytorch](https://github.com/facebookresearch/InferSent )|InferSent|
 |2017/05|[Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings](https://arxiv.org/abs/1705.00364)|37|[Theano](https://github.com/jwieting/acl2017 )|GRAN|
-|2017/05|[Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364)|458|[Pytorch](https://github.com/facebookresearch/InferSent )|InferSent|
 |2017/07|[VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/abs/1707.05612)|45|[Pytorch](https://github.com/fartashf/vsepp )|VSE++|
 |2017/08|[Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm](https://arxiv.org/abs/1708.00524)|151|[Keras](https://github.com/bfelbo/DeepMoji )<br>[Pytorch](https://github.com/huggingface/torchMoji )|DeepMoji|
 |2017/09|[StarSpace: Embed All The Things!](https://arxiv.org/abs/1709.03856)|49|[C++](https://github.com/facebookresearch/StarSpace )|StarSpace|

@@ -55,6 +55,23 @@
     "model_name": "MultiFiT"
   },
   {
+    "paper_title": "Subword ELMo",
+    "paper_link": "https://arxiv.org/abs/1909.08357",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/Jiangtong-Li/Subword-ELMo/"
+      }
+    ],
+    "model_name": "ESuLMo",
+    "pretrained_models": [
+      {
+        "name": "ESuLMo",
+        "link": "https://pan.baidu.com/s/1cVVwNvvAuV_gy7uekMLBBA"
+      }
+    ]
+  },
+  {
     "paper_title": "Deep contextualized word representations",
     "paper_link": "https://arxiv.org/abs/1802.05365",
     "code": [
