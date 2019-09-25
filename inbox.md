@@ -17,6 +17,7 @@
 * [Knowledge Enhanced Contextual Word Representations](https://arxiv.org/abs/1909.04164)
 * [K-BERT: Enabling Language Representation with Knowledge
     Graph](https://arxiv.org/abs/1909.07606()
+* [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
 
 ## not free
 * [Unsupervised word embeddings capture latent knowledge from materials science literature](https://www.nature.com/articles/s41586-019-1335-8): [mat2vec](https://github.com/materialsintelligence/mat2vec)
