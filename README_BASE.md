@@ -95,6 +95,7 @@ A curated list of pretrained sentence and word embedding models
 * [Linguistic Knowledge and Transferability of Contextual Representations](https://homes.cs.washington.edu/~nfliu/papers/liu+gardner+belinkov+peters+smith.naacl2019.pdf): [contextual-repr-analysis](https://github.com/nelson-liu/contextual-repr-analysis)
 * [LINSPECTOR](https://github.com/UKPLab/linspector): [Multilingual Probing Tasks for Word Representations](https://arxiv.org/abs/1903.09442)
 * [Pitfalls in the Evaluation of Sentence Embeddings](https://arxiv.org/abs/1906.01575)
+* [Probing Multilingual Sentence Representations With X-Probe](https://arxiv.org/abs/1906.05061): [xprobe](https://github.com/ltgoslo/xprobe)
 
 ## Misc
 

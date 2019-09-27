@@ -55,6 +55,73 @@
     "model_name": "MultiFiT"
   },
   {
+    "paper_title": "Efficient Contextual Representation Learning Without Softmax Layer",
+    "paper_link": "https://arxiv.org/abs/1902.11269",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/uclanlp/ELMO-C"
+      }
+    ],
+    "model_name": "ELMO-C"
+  },
+  {
+    "paper_title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+    "paper_link": "https://arxiv.org/abs/1909.11942",
+    "code": [
+    ],
+    "model_name": "ALBERT"
+  },
+  {
+    "paper_title": "MULE: Multimodal Universal Language Embedding",
+    "paper_link": "https://arxiv.org/abs/1909.03493",
+    "code": [
+    ],
+    "model_name": "MULE"
+  },
+  {
+    "paper_title": "Unicoder: A Universal Language Encoder by Pre-training with Multiple Cross-lingual Tasks",
+    "paper_link": "https://arxiv.org/abs/1909.00964",
+    "code": [
+    ],
+    "model_name": "Unicoder"
+  },
+  {
+    "paper_title": "HIBERT: Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization",
+    "paper_link": "https://arxiv.org/abs/1905.06566",
+    "code": [
+    ],
+    "model_name": "HIBERT"
+  },
+  {
+    "paper_title": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
+    "paper_link": "https://arxiv.org/abs/1905.03197",
+    "code": [
+    ],
+    "model_name": "UniLM"
+  },
+  {
+    "paper_title": "Knowledge Enhanced Contextual Word Representations",
+    "paper_link": "https://arxiv.org/abs/1909.04164",
+    "code": [
+    ],
+    "model_name": "KnowBert"
+  },
+  {
+    "paper_title": "TinyBERT: Distilling BERT for Natural Language Understanding",
+    "paper_link": "https://arxiv.org/abs/1909.10351",
+    "code": [
+    ],
+    "model_name": "TinyBERT"
+  },
+  {
+    "paper_title": "K-BERT: Enabling Language Representation with Knowledge Graph",
+    "paper_link": "https://arxiv.org/abs/1909.07606",
+    "code": [
+    ],
+    "model_name": "K-BERT"
+  },
+  {
     "paper_title": "Subword ELMo",
     "paper_link": "https://arxiv.org/abs/1909.08357",
     "code": [
@@ -68,6 +135,23 @@
       {
         "name": "ESuLMo",
         "link": "https://pan.baidu.com/s/1cVVwNvvAuV_gy7uekMLBBA"
+      }
+    ]
+  },
+  {
+    "paper_title": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+    "paper_link": "https://arxiv.org/abs/1907.10529",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/facebookresearch/SpanBERT"
+      }
+    ],
+    "model_name": "SpanBERT",
+    "pretrained_models": [
+      {
+        "name": "SpanBERT",
+        "link": "https://github.com/facebookresearch/SpanBERT#pre-trained-models"
       }
     ]
   },
@@ -110,8 +194,8 @@
         "unofficial": true
       },
       {
-        "language": "Pytorch",
-        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers",
         "unofficial": true
       }
     ],
@@ -138,8 +222,8 @@
         "unofficial": true
       },
       {
-        "language": "Pytorch",
-        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers",
         "unofficial": true
       },
       {
@@ -223,8 +307,8 @@
         "link": "https://github.com/kimiyoung/transformer-xl/tree/master/pytorch"
       },
       {
-        "language": "Pytorch",
-        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers",
         "unofficial": true
       }
     ],
@@ -294,6 +378,11 @@
       {
         "language": "Pytorch",
         "link": "https://github.com/facebookresearch/XLM"
+      },
+      {
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers",
+        "unofficial": true
       }
     ],
     "model_name": "XLM",
@@ -330,8 +419,8 @@
         "link": "https://github.com/openai/gpt-2"
       },
       {
-        "language": "Pytorch",
-        "link": "https://github.com/huggingface/pytorch-pretrained-BERT",
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers",
         "unofficial": true
       },
       {
@@ -389,6 +478,11 @@
       {
         "language": "Pytorch",
         "link": "https://github.com/pytorch/fairseq"
+      },
+      {
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers",
+        "unofficial": true
       }
     ],
     "model_name": "RoBERTa",
@@ -406,6 +500,11 @@
       {
         "language": "TF",
         "link": "https://github.com/zihangdai/xlnet"
+      },
+      {
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers",
+        "unofficial": true
       }
     ],
     "model_name": "XLNet",

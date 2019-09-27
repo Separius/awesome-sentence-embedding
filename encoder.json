@@ -11,6 +11,16 @@
     ]
   },
   {
+    "paper_title": "Improving Sentence Representations with Consensus Maximisation",
+    "paper_link": "https://arxiv.org/abs/1810.01064",
+    "name": "Multi-view"
+  },
+  {
+    "paper_title": "GLOSS: Generative Latent Optimization of Sentence Representations",
+    "paper_link": "https://arxiv.org/abs/1907.06385",
+    "name": "GLOSS"
+  },
+  {
     "paper_title": "Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm",
     "paper_link": "https://arxiv.org/abs/1708.00524",
     "name": "DeepMoji",

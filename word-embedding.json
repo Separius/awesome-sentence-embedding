@@ -13,6 +13,39 @@
     "doi": "10.3115/v1/D14-1162"
   },
   {
+    "paper_title": "ViCo: Word Embeddings from Visual Co-occurrences",
+    "paper_link": "https://arxiv.org/abs/1908.08527",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/BigRedT/vico/"
+      }
+    ],
+    "name": "ViCo",
+    "pretrained_link": "https://github.com/BigRedT/vico/#just-give-me-pretrained-vico"
+  },
+  {
+    "paper_title": "Unsupervised word embeddings capture latent knowledge from materials science literature",
+    "paper_link": "https://www.nature.com/articles/s41586-019-1335-8",
+    "code": [
+      {
+        "language": "Gensim",
+        "link": "https://github.com/materialsintelligence/mat2vec"
+      }
+    ],
+    "doi": "10.1038/s41586-019-1335-8"
+  },
+  {
+    "paper_title": "An Unsupervised Character-Aware Neural Approach to Word and Context Representation Learning",
+    "paper_link": "https://arxiv.org/abs/1908.01819",
+    "code": [
+      {
+        "language": "TF",
+        "link": "https://github.com/GiuseppeMarra/char-word-embeddings"
+      }
+    ]
+  },
+  {
     "paper_title": "Efficient Estimation of Word Representations in Vector Space",
     "paper_link": "https://arxiv.org/abs/1301.3781",
     "code": [
@@ -482,7 +515,7 @@
   },
   {
     "paper_title": "Joint Learning of Character and Word Embeddings",
-    "paper_link": "http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2015_character.pdf",
+    "paper_link": "https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/11000/10834",
     "code": [
       {
         "language": "C",
