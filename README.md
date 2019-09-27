@@ -134,6 +134,8 @@ A curated list of pretrained sentence and word embedding models
 |2019/07|[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)|15|[Pytorch](https://github.com/pytorch/fairseq )<br>[Pytorch, TF2.0](https://github.com/huggingface/transformers )|[RoBERTa](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md#pre-trained-models )|
 |2019/07|[SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/abs/1907.10529)|2|[Pytorch](https://github.com/facebookresearch/SpanBERT )|[SpanBERT](https://github.com/facebookresearch/SpanBERT#pre-trained-models )|
 |2019/09|[MultiFiT: Efficient Multi-lingual Language Model Fine-tuning](https://arxiv.org/abs/1909.04761)|0|[Pytorch](https://github.com/n-waves/ulmfit-multilingual )|-|
+|2019/09|[Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)|0||-|
+|2019/09|[UNITER: Learning UNiversal Image-TExt Representations](https://arxiv.org/abs/1909.11740)|0||-|
 |2019/09|[MULE: Multimodal Universal Language Embedding](https://arxiv.org/abs/1909.03493)|0||-|
 |2019/09|[Unicoder: A Universal Language Encoder by Pre-training with Multiple Cross-lingual Tasks](https://arxiv.org/abs/1909.00964)|0||-|
 |2019/09|[Knowledge Enhanced Contextual Word Representations](https://arxiv.org/abs/1909.04164)|0||-|

@@ -73,6 +73,20 @@
     "model_name": "ALBERT"
   },
   {
+    "paper_title": "Extreme Language Model Compression with Optimal Subwords and Shared Projections",
+    "paper_link": "https://arxiv.org/abs/1909.11687",
+    "code": [
+    ],
+    "model_name": "BERT_DISTILLED"
+  },
+  {
+    "paper_title": "UNITER: Learning UNiversal Image-TExt Representations",
+    "paper_link": "https://arxiv.org/abs/1909.11740",
+    "code": [
+    ],
+    "model_name": "UNITER"
+  },
+  {
     "paper_title": "MULE: Multimodal Universal Language Embedding",
     "paper_link": "https://arxiv.org/abs/1909.03493",
     "code": [
