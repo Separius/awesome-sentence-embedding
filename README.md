@@ -142,7 +142,7 @@ A curated list of pretrained sentence and word embedding models
 |2019/09|[Knowledge Enhanced Contextual Word Representations](https://arxiv.org/abs/1909.04164)|0||-|
 |2019/09|[TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)|0||-|
 |2019/09|[K-BERT: Enabling Language Representation with Knowledge Graph](https://arxiv.org/abs/1909.07606)|0||-|
-|2019/09|[Subword ELMo](https://arxiv.org/abs/1909.08357)|0|[Pytorch](https://github.com/Jiangtong-Li/Subword-ELMo/ )|[ESuLMo](https://pan.baidu.com/s/1cVVwNvvAuV_gy7uekMLBBA )|
+|2019/09|[Subword ELMo](https://arxiv.org/abs/1909.08357)|0|[Pytorch](https://github.com/Jiangtong-Li/Subword-ELMo/ )|-|
 
 ## Pooling Methods
 

@@ -143,13 +143,6 @@
         "language": "Pytorch",
         "link": "https://github.com/Jiangtong-Li/Subword-ELMo/"
       }
-    ],
-    "model_name": "ESuLMo",
-    "pretrained_models": [
-      {
-        "name": "ESuLMo",
-        "link": "https://pan.baidu.com/s/1cVVwNvvAuV_gy7uekMLBBA"
-      }
     ]
   },
   {
