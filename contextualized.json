@@ -86,6 +86,11 @@
     "paper_title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
     "paper_link": "https://arxiv.org/abs/1909.11942",
     "code": [
+      {
+        "language": "TF",
+        "link": "https://github.com/brightmart/albert_zh",
+        "unofficial": true
+      }
     ],
     "model_name": "ALBERT"
   },
@@ -280,6 +285,10 @@
       {
         "name": "ERNIE",
         "link": "https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE"
+      },
+      {
+        "name": "KoBERT",
+        "link": "https://github.com/SKTBrain/KoBERT"
       }
     ]
   },
