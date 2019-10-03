@@ -44,6 +44,23 @@
     ]
   },
   {
+    "paper_title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+    "paper_link": "https://arxiv.org/abs/1910.01108",
+    "code": [
+      {
+        "language": "Pytorch, TF2.0",
+        "link": "https://github.com/huggingface/transformers"
+      }
+    ],
+    "model_name": "DistilBERT",
+    "pretrained_models": [
+      {
+        "name": "DistilBERT",
+        "link": "https://github.com/huggingface/transformers/tree/master/examples/distillation"
+      }
+    ]
+  },
+  {
     "paper_title": "MultiFiT: Efficient Multi-lingual Language Model Fine-tuning",
     "paper_link": "https://arxiv.org/abs/1909.04761",
     "code": [
