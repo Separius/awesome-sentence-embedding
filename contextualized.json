@@ -133,8 +133,18 @@
     "paper_title": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
     "paper_link": "https://arxiv.org/abs/1905.03197",
     "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/microsoft/unilm"
+      }
     ],
-    "model_name": "UniLM"
+    "model_name": "UniLM",
+    "pretrained_models": [
+      {
+        "name": "UniLMv1",
+        "link": "https://github.com/microsoft/unilm#pre-trained-models"
+      }
+    ]
   },
   {
     "paper_title": "Knowledge Enhanced Contextual Word Representations",
