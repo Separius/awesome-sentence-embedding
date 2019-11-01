@@ -625,5 +625,22 @@
         "link": "https://drive.google.com/open?id=1m673-YB-4j1ISNDlk5oZjpPF2El7vn6f"
       }
     ]
+  },
+  {
+    "paper_title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "paper_link": "https://arxiv.org/abs/1910.10683",
+    "code": [
+      {
+        "language": "TF",
+        "link": "https://github.com/google-research/text-to-text-transfer-transformer"
+      }
+    ],
+    "model_name": "T5",
+    "pretrained_models": [
+      {
+        "name": "T5",
+        "link": "https://github.com/google-research/text-to-text-transfer-transformer#released-model-checkpoints"
+      }
+    ]
   }
 ]
