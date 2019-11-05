@@ -46,6 +46,16 @@
     ]
   },
   {
+    "paper_title": "Spherical Text Embedding",
+    "paper_link": "https://arxiv.org/abs/1911.01196",
+    "code": [
+      {
+        "language": "C",
+        "link": "https://github.com/yumeng5/Spherical-Text-Embedding"
+      }
+    ]
+  },
+  {
     "paper_title": "Efficient Estimation of Word Representations in Vector Space",
     "paper_link": "https://arxiv.org/abs/1301.3781",
     "code": [

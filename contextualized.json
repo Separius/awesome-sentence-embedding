@@ -178,6 +178,16 @@
     ]
   },
   {
+    "paper_title": "ZEN: Pre-training Chinese Text Encoder Enhanced by N-gram Representations",
+    "paper_link": "https://arxiv.org/abs/1911.00720",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/sinovation/ZEN"
+      }
+    ]
+  },
+  {
     "paper_title": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
     "paper_link": "https://arxiv.org/abs/1907.10529",
     "code": [
