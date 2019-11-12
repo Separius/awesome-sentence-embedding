@@ -147,6 +147,17 @@
     ]
   },
   {
+    "paper_title": "CamemBERT: a Tasty French Language Model",
+    "paper_link": "https://arxiv.org/abs/1911.03894",
+    "model_name": "CamemBERT",
+    "pretrained_models": [
+      {
+        "name": "CamemBERT",
+        "link": "https://camembert-model.fr/#download"
+      }
+    ]
+  },
+  {
     "paper_title": "Knowledge Enhanced Contextual Word Representations",
     "paper_link": "https://arxiv.org/abs/1909.04164",
     "code": [

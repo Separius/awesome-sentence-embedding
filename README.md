@@ -146,6 +146,7 @@ A curated list of pretrained sentence and word embedding models
 |2019/09|[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)|3|[TF](https://github.com/brightmart/albert_zh )|-|
 |2019/10|[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)|0|[TF](https://github.com/google-research/text-to-text-transfer-transformer )|[T5](https://github.com/google-research/text-to-text-transfer-transformer#released-model-checkpoints )|
 |2019/10|[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)|4|[Pytorch, TF2.0](https://github.com/huggingface/transformers )|[DistilBERT](https://github.com/huggingface/transformers/tree/master/examples/distillation )|
+|2019/11|[CamemBERT: a Tasty French Language Model](https://arxiv.org/abs/1911.03894)|N/A|-|[CamemBERT](https://camembert-model.fr/#download )|
 |2019/11|[ZEN: Pre-training Chinese Text Encoder Enhanced by N-gram Representations](https://arxiv.org/abs/1911.00720)|N/A|[Pytorch](https://github.com/sinovation/ZEN )|-|
 
 ## Pooling Methods
@@ -171,7 +172,7 @@ A curated list of pretrained sentence and word embedding models
 |2015/06|[Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/abs/1506.06724)|314|[Theano](https://github.com/ryankiros/skip-thoughts )<br>[TF](https://github.com/tensorflow/models/tree/master/research/skip_thoughts )<br>[Pytorch, Torch](https://github.com/Cadene/skip-thoughts.torch )|SkipThought|
 |2015/11|[Order-Embeddings of Images and Language](https://arxiv.org/abs/1511.06361)|200|[Theano](https://github.com/ivendrov/order-embedding )|order-embedding|
 |2015/11|[Towards Universal Paraphrastic Sentence Embeddings](https://arxiv.org/abs/1511.08198)|262|[Theano](https://github.com/jwieting/iclr2016 )|ParagramPhrase|
-|2015/??|[From Word Embeddings to Document Distances](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf)|541|[C, Python](https://github.com/mkusner/wmd )|Word Mover's Distance|
+|2015/??|[From Word Embeddings to Document Distances](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf)|540|[C, Python](https://github.com/mkusner/wmd )|Word Mover's Distance|
 |2016/02|[Learning Distributed Representations of Sentences from Unlabelled Data](https://arxiv.org/abs/1602.03483)|251|[Python](https://github.com/fh295/SentenceRepresentation )|FastSent|
 |2016/07|[Charagram: Embedding Words and Sentences via Character n-grams](https://arxiv.org/abs/1607.02789)|87|[Theano](https://github.com/jwieting/charagram )|Charagram|
 |2016/11|[Learning Generic Sentence Representations Using Convolutional Neural Networks](https://arxiv.org/abs/1611.07897)|46|[Theano](https://github.com/zhegan27/ConvSent )|ConvSent|
@@ -247,6 +248,7 @@ A curated list of pretrained sentence and word embedding models
     Models](https://arxiv.org/abs/1909.05658): [UER-py](https://github.com/dbiir/UER-py)
 * [Situating Sentence Embedders with Nearest Neighbor
     Overlap](https://arxiv.org/abs/1909.10724)
+* [German BERT](https://deepset.ai/german-bert)
 
 ## Vector Mapping
 

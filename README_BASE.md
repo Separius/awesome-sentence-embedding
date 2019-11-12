@@ -114,6 +114,7 @@ A curated list of pretrained sentence and word embedding models
     Models](https://arxiv.org/abs/1909.05658): [UER-py](https://github.com/dbiir/UER-py)
 * [Situating Sentence Embedders with Nearest Neighbor
     Overlap](https://arxiv.org/abs/1909.10724)
+* [German BERT](https://deepset.ai/german-bert)
 
 ## Vector Mapping
 
