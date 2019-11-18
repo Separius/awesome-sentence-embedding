@@ -5,6 +5,8 @@
 
 A curated list of pretrained sentence and word embedding models
 
+Update: I won't be able to update the repo for a while, because I [don't have internet access](https://techcrunch.com/2019/11/17/iran-shuts-down-countrys-internet-in-the-wake-of-fuel-protests/)
+
 ## Table of Contents
 
 * **[About This Repo](#about-this-repo)**
