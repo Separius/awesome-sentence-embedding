@@ -158,7 +158,7 @@ A curated list of pretrained sentence and word embedding models
 |2020/04|[MPNet: Masked and Permuted Pre-training for Language Understanding](https://arxiv.org/abs/2004.09297)|2|[Pytorch](https://github.com/microsoft/MPNet ) ![](https://img.shields.io/github/stars/microsoft/MPNet.svg?style=social )|[MPNet](https://modelrelease.blob.core.windows.net/pre-training/MPNet/mpnet.base.tar.gz )|
 |2020/05|[ParsBERT: Transformer-based Model for Persian Language Understanding](https://arxiv.org/abs/2005.12515)|0|[Pytorch](https://github.com/hooshvare/parsbert ) ![](https://img.shields.io/github/stars/hooshvare/parsbert.svg?style=social )|[ParsBERT](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased )|
 |2020/05|[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)|56|-|-|
-|2020/07|[InfoXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre-Training](https://arxiv.org/abs/2007.07834)|0|[Pytorch](https://github.com/microsoft/unilm/tree/master/infoxlm ) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social )|-|
+|2020/07|[InfoXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre-Training](https://arxiv.org/abs/2007.07834)|N/A|[Pytorch](https://github.com/microsoft/unilm/tree/master/infoxlm ) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social )|-|
 
 ## Pooling Methods
 

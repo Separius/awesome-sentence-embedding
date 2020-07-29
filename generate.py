@@ -10,6 +10,7 @@ arxiv_prefix = 'https://arxiv.org/abs/'
 arxiv_prefix_len = len(arxiv_prefix)
 github_prefix = 'https://github.com/'
 github_prefix_len = len(github_prefix)
+arxiv_papers = set()
 
 
 class AttrDict(dict):
@@ -63,6 +64,10 @@ def query_semantic_scholar(query):
     if query == '':
         return 'N/A', '-'
     try:
+        global arxiv_papers
+        if query in arxiv_papers:
+            raise ValueError('Duplicate Paper {}'.format(query))
+        arxiv_papers.add(query)
         res = json.loads(urllib.request.urlopen("https://api.semanticscholar.org/v1/paper/" + query).read())
         count = len(res['citations'])
         return (str(count) if count < 999 else '999+'), str(res['year']) + '/??'
