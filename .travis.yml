@@ -1,4 +1,7 @@
 language: ruby
 install: gem install mdl awesome_bot
 script:
-  - travis_wait 120 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/drive.google.com --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ README_BASE.md,contextualized.json,encoder.json,word-embedding.json
+  - travis_wait 120 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/drive.google.com --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ README_BASE.md
+  - travis_wait 120 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/drive.google.com --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ contextualized.json
+  - travis_wait 120 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/drive.google.com --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ encoder.json
+  - travis_wait 120 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/drive.google.com --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ word-embedding.json
