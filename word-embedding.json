@@ -139,7 +139,7 @@
       }
     ],
     "name": "charNgram2vec",
-    "pretrained_link": "http://www.logos.t.u-tokyo.ac.jp/~hassy/publications/arxiv2016jmt/jmt_pre-trained_embeddings.tar.gz"
+    "pretrained_link": "https://www.logos.t.u-tokyo.ac.jp/~hassy/publications/arxiv2016jmt/jmt_pre-trained_embeddings.tar.gz"
   },
   {
     "paper_title": "Matrix Factorization using Window Sampling and Negative Sampling for Improved Word Representations",
@@ -300,7 +300,7 @@
     "paper_title": "Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings",
     "paper_link": "https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf",
     "name": "ChineseEmbedding",
-    "pretrained_link": "https://ai.tencent.com/ailab/nlp/embedding.html",
+    "pretrained_link": "https://ai.tencent.com/ailab/nlp/en/embedding.html",
     "doi": "10.18653/v1/n18-2028"
   },
   {
