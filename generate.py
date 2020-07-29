@@ -42,7 +42,7 @@ def fancy_code(code, no_attrs=True):
         tmp = code['link'][github_prefix_len:]
         if tmp.endswith('/'):
             tmp = tmp[:-1]
-        github_stars = ' [](https://img.shields.io/github/stars/{}.svg?style=social)'.format(tmp)
+        github_stars = ' [](https://img.shields.io/github/stars/{}.svg?style=social )'.format(tmp)
     else:
         github_stars = ''
     return '[{training_language}]({code_link} ){attrs}{github_stars}'.format(
