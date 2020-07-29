@@ -38,8 +38,15 @@ def fancy_code(code, no_attrs=True):
             attrs = ''
         else:
             attrs = '({})'.format(', '.join(attrs))
-    return '[{training_language}]({code_link} ){attrs}'.format(
-        training_language=code['language'], code_link=code['link'], attrs=attrs)
+    if code['link'].startswith(github_prefix):
+        tmp = code['link'][github_prefix_len:]
+        if tmp.endswith('/'):
+            tmp = tmp[:-1]
+        github_stars = ' [](https://img.shields.io/github/stars/{}.svg?style=social)'.format(tmp)
+    else:
+        github_stars = ''
+    return '[{training_language}]({code_link} ){attrs}{github_stars}'.format(
+        training_language=code['language'], code_link=code['link'], attrs=attrs, github_stars=github_stars)
 
 
 def query_semantic_scholar(query):
