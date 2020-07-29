@@ -90,6 +90,23 @@
     ]
   },
   {
+    "paper_title": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+    "paper_link": "https://arxiv.org/abs/2004.09297",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/microsoft/MPNet"
+      }
+    ],
+    "model_name": "MPNet",
+    "pretrained_models": [
+      {
+        "name": "MPNet",
+        "link": "https://modelrelease.blob.core.windows.net/pre-training/MPNet/mpnet.base.tar.gz"
+      }
+    ]
+  },
+  {
     "paper_title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
     "paper_link": "https://arxiv.org/abs/1910.01108",
     "code": [
@@ -176,21 +193,156 @@
     "model_name": "HIBERT"
   },
   {
+    "paper_title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+    "paper_link": "https://arxiv.org/abs/1909.08053",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/NVIDIA/Megatron-LM"
+      }
+    ],
+    "model_name": "Megatron-LM",
+    "pretrained_models": [
+      {
+        "name": "BERT-345M",
+        "link": "https://ngc.nvidia.com/catalog/models/nvidia:megatron_bert_345m"
+      },
+      {
+        "name": "GPT-2-345M",
+        "link": "https://ngc.nvidia.com/catalog/models/nvidia:megatron_lm_345m"
+      }
+    ]
+  },
+  {
+    "paper_title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+    "paper_link": "https://arxiv.org/abs/2002.08155",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/microsoft/CodeBERT"
+      }
+    ],
+    "model_name": "CodeBERT",
+    "pretrained_models": [
+      {
+        "name": "CodeBERT",
+        "link": "https://drive.google.com/drive/folders/1MfkEkPlo_Cb8vZruOjbepNHEQHQEgoRm?usp=sharing"
+      }
+    ]
+  },
+  {
+    "paper_title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+    "paper_link": "https://arxiv.org/abs/1910.13461",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/pytorch/fairseq/tree/master/examples/bart"
+      }
+    ],
+    "model_name": "BART",
+    "pretrained_models": [
+      {
+        "name": "bart.base",
+        "link": "https://dl.fbaipublicfiles.com/fairseq/models/bart.base.tar.gz"
+      },
+      {
+        "name": "bart.large",
+        "link": "https://dl.fbaipublicfiles.com/fairseq/models/bart.large.tar.gz"
+      },
+      {
+        "name": "bart.large.mnli",
+        "link": "https://dl.fbaipublicfiles.com/fairseq/models/bart.large.mnli.tar.gz"
+      },
+      {
+        "name": "bart.large.cnn",
+        "link": "https://dl.fbaipublicfiles.com/fairseq/models/bart.large.cnn.tar.gz"
+      },
+      {
+        "name": "bart.large.xsum",
+        "link": "https://dl.fbaipublicfiles.com/fairseq/models/bart.large.xsum.tar.gz"
+      }
+    ]
+  },
+  {
+    "paper_title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "paper_link": "https://arxiv.org/abs/2005.12515",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/hooshvare/parsbert"
+      }
+    ],
+    "model_name": "ParsBERT",
+    "pretrained_models": [
+      {
+        "name": "bert-base-parsbert-uncased",
+        "link": "https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased"
+      }
+    ]
+  },
+  {
+    "paper_title": "ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training",
+    "paper_link": "https://arxiv.org/abs/2001.04063",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/microsoft/ProphetNet"
+      }
+    ],
+    "model_name": "ProphetNet",
+    "pretrained_models": [
+      {
+        "name": "ProphetNet-large-16GB",
+        "link": "https://drive.google.com/file/d/1PctDAca8517_weYUUBW96OjIPdolbQkd/view?usp=sharing"
+      },
+      {
+        "name": "ProphetNet-large-160GB",
+        "link": "https://drive.google.com/file/d/1_nZcF-bBCQvBBcoPzA1nPZsz-Wo7hzEL/view?usp=sharing"
+      }
+    ]
+  },
+  {
     "paper_title": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
     "paper_link": "https://arxiv.org/abs/1905.03197",
     "code": [
       {
         "language": "Pytorch",
-        "link": "https://github.com/microsoft/unilm"
+        "link": "https://github.com/microsoft/unilm/tree/master/unilm-v1"
       }
     ],
-    "model_name": "UniLM",
+    "model_name": "UniLMv1",
     "pretrained_models": [
       {
-        "name": "UniLMv1",
-        "link": "https://github.com/microsoft/unilm#pre-trained-models"
+        "name": "unilm1-large-cased",
+        "link": "https://unilm.blob.core.windows.net/ckpt/unilm1-large-cased.bin"
+      },
+      {
+        "name": "unilm1-base-cased",
+        "link": "https://unilm.blob.core.windows.net/ckpt/unilm1-base-cased.bin"
       }
     ]
+  },
+  {
+    "paper_title": "UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training",
+    "paper_link": "https://arxiv.org/abs/2002.12804",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/microsoft/unilm/tree/master/unilm"
+      }
+    ],
+    "model_name": "UniLMv2"
+  },
+  {
+    "paper_title": "InfoXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre-Training",
+    "paper_link": "https://arxiv.org/abs/2007.07834",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/microsoft/unilm/tree/master/infoxlm"
+      }
+    ],
+    "model_name": "InfoXLM"
   },
   {
     "paper_title": "CamemBERT: a Tasty French Language Model",
@@ -544,8 +696,33 @@
       {
         "name": "117M",
         "link": "https://github.com/openai/gpt-2"
+      },
+      {
+        "name": "124M",
+        "link": "https://github.com/openai/gpt-2"
+      },
+      {
+        "name": "345M",
+        "link": "https://github.com/openai/gpt-2"
+      },
+      {
+        "name": "355M",
+        "link": "https://github.com/openai/gpt-2"
+      },
+      {
+        "name": "774M",
+        "link": "https://github.com/openai/gpt-2"
+      },
+      {
+        "name": "1558M",
+        "link": "https://github.com/openai/gpt-2"
       }
     ]
+  },
+  {
+    "paper_title": "Language Models are Few-Shot Learners",
+    "paper_link": "https://arxiv.org/abs/2005.14165",
+    "model_name": "GPT-3"
   },
   {
     "paper_title": "Efficient Contextualized Representation:Language Model Pruning for Sequence Labeling",
