@@ -11,6 +11,17 @@
     ]
   },
   {
+    "paper_title": "DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations",
+    "paper_link": "https://arxiv.org/abs/2006.03659",
+    "name": "DeCLUTR",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/JohnGiorgi/DeCLUTR"
+      }
+    ]
+  },
+  {
     "paper_title": "Improving Sentence Representations with Consensus Maximisation",
     "paper_link": "https://arxiv.org/abs/1810.01064",
     "name": "Multi-view"

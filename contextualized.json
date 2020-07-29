@@ -22,6 +22,52 @@
     ]
   },
   {
+    "paper_title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+    "paper_link": "https://arxiv.org/abs/2003.10555",
+    "code": [
+      {
+        "language": "TF",
+        "link": "https://github.com/google-research/electra"
+      }
+    ],
+    "model_name": "ELECTRA",
+    "pretrained_models": [
+      {
+        "name": "ELECTRA-Small",
+        "link": "https://storage.googleapis.com/electra-data/electra_small.zip"
+      },
+      {
+        "name": "ELECTRA-Base",
+        "link": "https://storage.googleapis.com/electra-data/electra_base.zip"
+      },
+      {
+        "name": "ELECTRA-Large",
+        "link": "https://storage.googleapis.com/electra-data/electra_large.zip"
+      }
+    ]
+  },
+  {
+    "paper_title": "Unsupervised Cross-lingual Representation Learning at Scale",
+    "paper_link": "https://arxiv.org/abs/1911.02116",
+    "code": [
+      {
+        "language": "Pytorch",
+        "link": "https://github.com/facebookresearch/xlm"
+      }
+    ],
+    "model_name": "XLM-R (XLM-RoBERTa)",
+    "pretrained_models": [
+      {
+        "name": "xlmr.large",
+        "link": "https://dl.fbaipublicfiles.com/fairseq/models/xlmr.large.tar.gz"
+      },
+      {
+        "name": "xlmr.base",
+        "link": "https://dl.fbaipublicfiles.com/fairseq/models/xlmr.base.tar.gz"
+      }
+    ]
+  },
+  {
     "paper_title": "Universal Language Model Fine-tuning for Text Classification",
     "paper_link": "https://arxiv.org/abs/1801.06146",
     "code": [
