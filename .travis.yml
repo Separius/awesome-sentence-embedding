@@ -1,5 +1,4 @@
 language: ruby
 install: gem install mdl awesome_bot
 script:
-  # - mdl -r ~MD013,~MD033 README.md
-  - travis_wait 120 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/,img.shields.io,drive.google.com --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ README.md
+  - travis_wait 120 awesome_bot --allow-dupe --skip-save-results --allow-redirect --white-list researchgate.net,mi.eng.cam.ac.uk/~nm480/drive.google.com --base_url https://github.com/Separius/awesome-sentence-embedding/blob/master/ README_BASE.md,*.json
