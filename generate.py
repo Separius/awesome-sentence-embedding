@@ -1,7 +1,9 @@
+import re
 import json
 import urllib.parse
 import urllib.request
 from operator import attrgetter
+
 from tqdm import tqdm
 
 arxiv_prefix = 'https://arxiv.org/abs/'
@@ -15,6 +17,12 @@ class AttrDict(dict):
         super().__init__(*args, **kwargs)
         self.__dict__ = self
 
+def find_nth(haystack, needle, n):
+    start = haystack.find(needle)
+    while start >= 0 and n > 1:
+        start = haystack.find(needle, start+len(needle))
+        n -= 1
+    return start
 
 def fancy_code(code, no_attrs=True):
     if no_attrs:
@@ -42,6 +50,8 @@ def fancy_code(code, no_attrs=True):
         tmp = code['link'][github_prefix_len:]
         if tmp.endswith('/'):
             tmp = tmp[:-1]
+        if len(re.findall('/', tmp)) > 2:
+            tmp = tmp[:find_nth(tmp, '/', 2)]
         github_stars = ' ![](https://img.shields.io/github/stars/{}.svg?style=social )'.format(tmp)
     else:
         github_stars = ''

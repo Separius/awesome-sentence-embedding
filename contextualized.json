@@ -339,7 +339,7 @@
       },
       {
         "language": "PaddlePaddle",
-        "link": "https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE",
+        "link": "https://github.com/PaddlePaddle/ERNIE",
         "unofficial": true
       },
       {
@@ -361,7 +361,7 @@
       },
       {
         "name": "ERNIE",
-        "link": "https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE"
+        "link": "https://github.com/PaddlePaddle/ERNIE"
       },
       {
         "name": "KoBERT",
