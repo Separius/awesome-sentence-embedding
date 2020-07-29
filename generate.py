@@ -2,9 +2,10 @@ import re
 import json
 import urllib.parse
 import urllib.request
-from operator import attrgetter
+from operator import attrgetter, itemgetter
 
 from tqdm import tqdm
+from natsort import natsorted
 
 arxiv_prefix = 'https://arxiv.org/abs/'
 arxiv_prefix_len = len(arxiv_prefix)
@@ -12,6 +13,13 @@ github_prefix = 'https://github.com/'
 github_prefix_len = len(github_prefix)
 arxiv_papers = set()
 
+def get_and_sort_meta_info(json_file):
+    with open(json_file) as f:
+        meta_info = json.load(f)
+    meta_info = natsorted(meta_info, key=itemgetter('paper_link'))
+    with open(json_file, 'w') as f:
+        f.write(json.dumps(meta_info, indent=4))
+    return meta_info
 
 class AttrDict(dict):
     def __init__(self, *args, **kwargs):
@@ -93,8 +101,7 @@ def generate_word_embedding_table():
     header = ['|date|paper|citation count|training code|pretrained models|',
               '|:---:|:---:|:---:|:---:|:---:|']
     generated_lines = []
-    with open('word-embedding.json') as f:
-        meta_info = json.load(f)
+    meta_info = get_and_sort_meta_info('word-embedding.json')
     for paper in tqdm(meta_info, desc='word embedding'):
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
@@ -119,8 +126,7 @@ def generate_contextualized_table():
     header = ['|date|paper|citation count|code|pretrained models|',
               '|:---:|:---:|:---:|:---:|:---:|']
     generated_lines = []
-    with open('contextualized.json') as f:
-        meta_info = json.load(f)
+    meta_info = get_and_sort_meta_info('contextualized.json')
     for paper in tqdm(meta_info, desc='contextualized'):
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
@@ -153,8 +159,7 @@ def generate_encoder_table():
     header = ['|date|paper|citation count|code|model_name|',
               '|:---:|:---:|:---:|:---:|:---:|']
     generated_lines = []
-    with open('encoder.json') as f:
-        meta_info = json.load(f)
+    meta_info = get_and_sort_meta_info('encoder.json')
     for paper in tqdm(meta_info, 'encoder'):
         citation_part, date_part, paper_part = fetch_common_parts(paper)
         if 'code' in paper:
@@ -173,7 +178,7 @@ def generate_encoder_table():
 
 
 if __name__ == '__main__':
-    with open('README_BASE.md') as f:
+    with open('README_BASE.md', 'r') as f:
         readme = f.read()
     readme = readme.replace('{{{word-embedding-table}}}', generate_word_embedding_table())
     readme = readme.replace('{{{contextualized-table}}}', generate_contextualized_table())

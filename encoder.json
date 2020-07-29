@@ -1,497 +1,497 @@
 [
-  {
-    "paper_title": "An efficient framework for learning sentence representations",
-    "paper_link": "https://arxiv.org/abs/1803.02893",
-    "name": "Quick-Thought",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/lajanugen/S2V"
-      }
-    ]
-  },
-  {
-    "paper_title": "DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations",
-    "paper_link": "https://arxiv.org/abs/2006.03659",
-    "name": "DeCLUTR",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/JohnGiorgi/DeCLUTR"
-      }
-    ]
-  },
-  {
-    "paper_title": "Improving Sentence Representations with Consensus Maximisation",
-    "paper_link": "https://arxiv.org/abs/1810.01064",
-    "name": "Multi-view"
-  },
-  {
-    "paper_title": "GLOSS: Generative Latent Optimization of Sentence Representations",
-    "paper_link": "https://arxiv.org/abs/1907.06385",
-    "name": "GLOSS"
-  },
-  {
-    "paper_title": "Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm",
-    "paper_link": "https://arxiv.org/abs/1708.00524",
-    "name": "DeepMoji",
-    "code": [
-      {
-        "language": "Keras",
-        "link": "https://github.com/bfelbo/DeepMoji"
-      },
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/huggingface/torchMoji",
-        "load_pretrained": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Supervised Learning of Universal Sentence Representations from Natural Language Inference Data",
-    "paper_link": "https://arxiv.org/abs/1705.02364",
-    "name": "InferSent",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/facebookresearch/InferSent"
-      }
-    ]
-  },
-  {
-    "paper_title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond",
-    "paper_link": "https://arxiv.org/abs/1812.10464",
-    "name": "LASER",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/facebookresearch/LASER"
-      }
-    ]
-  },
-  {
-    "paper_title": "Learning general purpose distributed sentence representations via large scale multi-task learning",
-    "paper_link": "https://arxiv.org/abs/1804.00079",
-    "name": "GenSen",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/Maluuba/gensen"
-      }
-    ]
-  },
-  {
-    "paper_title": "Distributed Representations of Sentences and Documents",
-    "paper_link": "https://arxiv.org/abs/1405.4053",
-    "name": "Doc2Vec",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/inejc/paragraph-vectors",
-        "unofficial": true
-      },
-      {
-        "language": "Python",
-        "link": "https://github.com/jhlau/doc2vec",
-        "unofficial": true,
-        "pretrained": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
-    "paper_link": "https://arxiv.org/abs/1908.10084",
-    "name": "Sentence-BERT",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/UKPLab/sentence-transformers",
-        "pretrained": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features",
-    "paper_link": "https://arxiv.org/abs/1703.02507",
-    "name": "Sent2Vec",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/epfml/sent2vec"
-      }
-    ]
-  },
-  {
-    "paper_title": "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books",
-    "paper_link": "https://arxiv.org/abs/1506.06724",
-    "name": "SkipThought",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/ryankiros/skip-thoughts"
-      },
-      {
-        "language": "TF",
-        "link": "https://github.com/tensorflow/models/tree/master/research/skip_thoughts",
-        "unofficial": true,
-        "pretrained": true
-      },
-      {
-        "language": "Pytorch, Torch",
-        "link": "https://github.com/Cadene/skip-thoughts.torch",
-        "unofficial": true,
-        "load_pretrained": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Learning to Generate Reviews and Discovering Sentiment",
-    "paper_link": "https://arxiv.org/abs/1704.01444",
-    "name": "Sentiment Neuron",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/openai/generating-reviews-discovering-sentiment"
-      },
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/guillitte/pytorch-sentiment-neuron",
-        "unofficial": true,
-        "load_pretrained": true
-      },
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/NVIDIA/sentiment-discovery",
-        "unofficial": true,
-        "pretrained": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Word Mover's Embedding: From Word2Vec to Document Embedding",
-    "paper_link": "https://arxiv.org/abs/1811.01713",
-    "name": "WordMoversEmbeddings",
-    "code": [
-      {
-        "language": "C, Python",
-        "link": "https://github.com/IBM/WordMoversEmbeddings",
-        "pretrained": false
-      }
-    ]
-  },
-  {
-    "paper_title": "Towards Universal Paraphrastic Sentence Embeddings",
-    "paper_link": "https://arxiv.org/abs/1511.08198",
-    "name": "ParagramPhrase",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/jwieting/iclr2016"
-      }
-    ]
-  },
-  {
-    "paper_title": "Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings",
-    "paper_link": "https://arxiv.org/abs/1705.00364",
-    "name": "GRAN",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/jwieting/acl2017"
-      }
-    ]
-  },
-  {
-    "paper_title": "Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations",
-    "paper_link": "https://arxiv.org/abs/1711.05732",
-    "name": "para-nmt",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/jwieting/para-nmt-50m"
-      }
-    ]
-  },
-  {
-    "paper_title": "Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models",
-    "paper_link": "https://arxiv.org/abs/1411.2539",
-    "name": "VSE",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/ryankiros/visual-semantic-embedding"
-      },
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/linxd5/VSE_Pytorch",
-        "unofficial": true,
-        "load_pretrained": true
-      }
-    ]
-  },
-  {
-    "paper_title": "VSE++: Improving Visual-Semantic Embeddings with Hard Negatives",
-    "paper_link": "https://arxiv.org/abs/1707.05612",
-    "name": "VSE++",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/fartashf/vsepp"
-      }
-    ]
-  },
-  {
-    "paper_title": "End-Task Oriented Textual Entailment via Deep Explorations of Inter-Sentence Interactions",
-    "paper_link": "https://arxiv.org/abs/1804.08813",
-    "name": "DEISTE",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/yinwenpeng/SciTail"
-      }
-    ]
-  },
-  {
-    "paper_title": "BioSentVec: creating sentence embeddings for biomedical texts",
-    "paper_link": "https://arxiv.org/abs/1810.09302",
-    "name": "BioSentVec",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/ncbi-nlp/BioSentVec"
-      }
-    ]
-  },
-  {
-    "paper_title": "DisSent: Learning Sentence Representations from Explicit Discourse Relations",
-    "paper_link": "https://arxiv.org/abs/1710.04334",
-    "name": "DisSent",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/windweller/DisExtract",
-        "email_for_pretrained": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Multilingual Universal Sentence Encoder",
-    "paper_link": "https://arxiv.org/abs/1907.04307",
-    "name": "MultilingualUSE",
-    "code": [
-      {
-        "language": "TF-Hub",
-        "link": "https://tfhub.dev/google/universal-sentence-encoder-multilingual/1",
-        "no_training_code": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Universal Sentence Encoder",
-    "paper_link": "https://arxiv.org/abs/1803.11175",
-    "name": "USE",
-    "code": [
-      {
-        "language": "TF-Hub",
-        "link": "https://tfhub.dev/google/universal-sentence-encoder-large/2",
-        "no_training_code": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Learning Distributed Representations of Sentences from Unlabelled Data",
-    "paper_link": "https://arxiv.org/abs/1602.03483",
-    "name": "FastSent",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/fh295/SentenceRepresentation"
-      }
-    ]
-  },
-  {
-    "paper_title": "Embedding Text in Hyperbolic Spaces",
-    "paper_link": "https://arxiv.org/abs/1806.04313",
-    "name": "HyperText",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/brain-research/hyperbolictext",
-        "pretrained": false
-      }
-    ]
-  },
-  {
-    "paper_title": "StarSpace: Embed All The Things!",
-    "paper_link": "https://arxiv.org/abs/1709.03856",
-    "name": "StarSpace",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/facebookresearch/StarSpace"
-      }
-    ]
-  },
-  {
-    "paper_title": "A Hierarchical Multi-task Approach for Learning Embeddings from Semantic Tasks",
-    "paper_link": "https://arxiv.org/abs/1811.06031",
-    "name": "HMTL",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/huggingface/hmtl"
-      }
-    ]
-  },
-  {
-    "paper_title": "Learning Generic Sentence Representations Using Convolutional Neural Networks",
-    "paper_link": "https://arxiv.org/abs/1611.07897",
-    "name": "ConvSent",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/zhegan27/ConvSent",
-        "pretrained": false
-      }
-    ]
-  },
-  {
-    "paper_title": "Context Mover’s Distance & Barycenters: Optimal transport of contexts for building representations",
-    "paper_link": "https://arxiv.org/abs/1808.09663",
-    "name": "CMD",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/context-mover/context-mover-distance-and-barycenters"
-      }
-    ]
-  },
-  {
-    "paper_title": "No Training Required: Exploring Random Encoders for Sentence Classification",
-    "paper_link": "https://arxiv.org/abs/1901.10444",
-    "name": "randsent",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/facebookresearch/randsent",
-        "pretrained": false
-      }
-    ]
-  },
-  {
-    "paper_title": "Order-Embeddings of Images and Language",
-    "paper_link": "https://arxiv.org/abs/1511.06361",
-    "name": "order-embedding",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/ivendrov/order-embedding"
-      }
-    ]
-  },
-  {
-    "paper_title": "Dual-Path Convolutional Image-Text Embedding with Instance Loss",
-    "paper_link": "https://arxiv.org/abs/1711.05535",
-    "name": "Image-Text-Embedding",
-    "code": [
-      {
-        "language": "Matlab",
-        "link": "https://github.com/layumi/Image-Text-Embedding"
-      }
-    ]
-  },
-  {
-    "paper_title": "Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model",
-    "paper_link": "https://arxiv.org/abs/1810.12836",
-    "name": "USE-xling",
-    "code": [
-      {
-        "language": "TF-Hub",
-        "link": "https://tfhub.dev/s?q=universal-sentence-encoder-xling",
-        "no_training_code": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Learning Universal Sentence Representations with Mean-Max Attention Autoencoder",
-    "paper_link": "https://arxiv.org/abs/1809.06590",
-    "name": "Mean-MaxAAE",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/Zminghua/SentEncoding"
-      }
-    ]
-  },
-  {
-    "paper_title": "CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model",
-    "paper_link": "https://arxiv.org/abs/1902.06423",
-    "name": "CMOW",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/florianmai/word2mat",
-        "pretrained": false
-      }
-    ]
-  },
-  {
-    "paper_title": "Convolutional Neural Network for Universal Sentence Embeddings",
-    "paper_link": "https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf",
-    "name": "CSE",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/XiaoqiJiao/COLING2018"
-      }
-    ],
-    "s2_paper_id": "d82732de6336dd6443ff33cccbb92ced0196ecc1"
-  },
-  {
-    "paper_title": "From Word Embeddings to Document Distances",
-    "paper_link": "http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf",
-    "name": "Word Mover's Distance",
-    "code": [
-      {
-        "language": "C, Python",
-        "link": "https://github.com/mkusner/wmd",
-        "pretrained": false
-      }
-    ],
-    "s2_paper_id": "2871f115e7a11c903258491c75d4171fac679344"
-  },
-  {
-    "paper_title": "Charagram: Embedding Words and Sentences via Character n-grams",
-    "paper_link": "https://arxiv.org/abs/1607.02789",
-    "name": "Charagram",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/jwieting/charagram"
-      }
-    ]
-  },
-  {
-    "paper_title": "Representation Learning with Contrastive Predictive Coding",
-    "paper_link": "https://arxiv.org/abs/1807.03748",
-    "name": "CPC",
-    "code": [
-      {
-        "language": "Keras",
-        "link": "https://github.com/davidtellez/contrastive-predictive-coding",
-        "unofficial": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings",
-    "paper_link": "https://www.aclweb.org/anthology/W19-4601",
-    "name": "AraSIF",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/DFKI-Interactive-Machine-Learning/AraSIF"
-      }
-    ]
-  }
+    {
+        "paper_title": "From Word Embeddings to Document Distances",
+        "paper_link": "http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf",
+        "name": "Word Mover's Distance",
+        "code": [
+            {
+                "language": "C, Python",
+                "link": "https://github.com/mkusner/wmd",
+                "pretrained": false
+            }
+        ],
+        "s2_paper_id": "2871f115e7a11c903258491c75d4171fac679344"
+    },
+    {
+        "paper_title": "Distributed Representations of Sentences and Documents",
+        "paper_link": "https://arxiv.org/abs/1405.4053",
+        "name": "Doc2Vec",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/inejc/paragraph-vectors",
+                "unofficial": true
+            },
+            {
+                "language": "Python",
+                "link": "https://github.com/jhlau/doc2vec",
+                "unofficial": true,
+                "pretrained": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models",
+        "paper_link": "https://arxiv.org/abs/1411.2539",
+        "name": "VSE",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/ryankiros/visual-semantic-embedding"
+            },
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/linxd5/VSE_Pytorch",
+                "unofficial": true,
+                "load_pretrained": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books",
+        "paper_link": "https://arxiv.org/abs/1506.06724",
+        "name": "SkipThought",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/ryankiros/skip-thoughts"
+            },
+            {
+                "language": "TF",
+                "link": "https://github.com/tensorflow/models/tree/master/research/skip_thoughts",
+                "unofficial": true,
+                "pretrained": true
+            },
+            {
+                "language": "Pytorch, Torch",
+                "link": "https://github.com/Cadene/skip-thoughts.torch",
+                "unofficial": true,
+                "load_pretrained": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Order-Embeddings of Images and Language",
+        "paper_link": "https://arxiv.org/abs/1511.06361",
+        "name": "order-embedding",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/ivendrov/order-embedding"
+            }
+        ]
+    },
+    {
+        "paper_title": "Towards Universal Paraphrastic Sentence Embeddings",
+        "paper_link": "https://arxiv.org/abs/1511.08198",
+        "name": "ParagramPhrase",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/jwieting/iclr2016"
+            }
+        ]
+    },
+    {
+        "paper_title": "Learning Distributed Representations of Sentences from Unlabelled Data",
+        "paper_link": "https://arxiv.org/abs/1602.03483",
+        "name": "FastSent",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/fh295/SentenceRepresentation"
+            }
+        ]
+    },
+    {
+        "paper_title": "Charagram: Embedding Words and Sentences via Character n-grams",
+        "paper_link": "https://arxiv.org/abs/1607.02789",
+        "name": "Charagram",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/jwieting/charagram"
+            }
+        ]
+    },
+    {
+        "paper_title": "Learning Generic Sentence Representations Using Convolutional Neural Networks",
+        "paper_link": "https://arxiv.org/abs/1611.07897",
+        "name": "ConvSent",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/zhegan27/ConvSent",
+                "pretrained": false
+            }
+        ]
+    },
+    {
+        "paper_title": "Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features",
+        "paper_link": "https://arxiv.org/abs/1703.02507",
+        "name": "Sent2Vec",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/epfml/sent2vec"
+            }
+        ]
+    },
+    {
+        "paper_title": "Learning to Generate Reviews and Discovering Sentiment",
+        "paper_link": "https://arxiv.org/abs/1704.01444",
+        "name": "Sentiment Neuron",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/openai/generating-reviews-discovering-sentiment"
+            },
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/guillitte/pytorch-sentiment-neuron",
+                "unofficial": true,
+                "load_pretrained": true
+            },
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/NVIDIA/sentiment-discovery",
+                "unofficial": true,
+                "pretrained": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings",
+        "paper_link": "https://arxiv.org/abs/1705.00364",
+        "name": "GRAN",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/jwieting/acl2017"
+            }
+        ]
+    },
+    {
+        "paper_title": "Supervised Learning of Universal Sentence Representations from Natural Language Inference Data",
+        "paper_link": "https://arxiv.org/abs/1705.02364",
+        "name": "InferSent",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/facebookresearch/InferSent"
+            }
+        ]
+    },
+    {
+        "paper_title": "VSE++: Improving Visual-Semantic Embeddings with Hard Negatives",
+        "paper_link": "https://arxiv.org/abs/1707.05612",
+        "name": "VSE++",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/fartashf/vsepp"
+            }
+        ]
+    },
+    {
+        "paper_title": "Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm",
+        "paper_link": "https://arxiv.org/abs/1708.00524",
+        "name": "DeepMoji",
+        "code": [
+            {
+                "language": "Keras",
+                "link": "https://github.com/bfelbo/DeepMoji"
+            },
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/huggingface/torchMoji",
+                "load_pretrained": true
+            }
+        ]
+    },
+    {
+        "paper_title": "StarSpace: Embed All The Things!",
+        "paper_link": "https://arxiv.org/abs/1709.03856",
+        "name": "StarSpace",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/facebookresearch/StarSpace"
+            }
+        ]
+    },
+    {
+        "paper_title": "DisSent: Learning Sentence Representations from Explicit Discourse Relations",
+        "paper_link": "https://arxiv.org/abs/1710.04334",
+        "name": "DisSent",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/windweller/DisExtract",
+                "email_for_pretrained": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Dual-Path Convolutional Image-Text Embedding with Instance Loss",
+        "paper_link": "https://arxiv.org/abs/1711.05535",
+        "name": "Image-Text-Embedding",
+        "code": [
+            {
+                "language": "Matlab",
+                "link": "https://github.com/layumi/Image-Text-Embedding"
+            }
+        ]
+    },
+    {
+        "paper_title": "Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations",
+        "paper_link": "https://arxiv.org/abs/1711.05732",
+        "name": "para-nmt",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/jwieting/para-nmt-50m"
+            }
+        ]
+    },
+    {
+        "paper_title": "An efficient framework for learning sentence representations",
+        "paper_link": "https://arxiv.org/abs/1803.02893",
+        "name": "Quick-Thought",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/lajanugen/S2V"
+            }
+        ]
+    },
+    {
+        "paper_title": "Universal Sentence Encoder",
+        "paper_link": "https://arxiv.org/abs/1803.11175",
+        "name": "USE",
+        "code": [
+            {
+                "language": "TF-Hub",
+                "link": "https://tfhub.dev/google/universal-sentence-encoder-large/2",
+                "no_training_code": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Learning general purpose distributed sentence representations via large scale multi-task learning",
+        "paper_link": "https://arxiv.org/abs/1804.00079",
+        "name": "GenSen",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/Maluuba/gensen"
+            }
+        ]
+    },
+    {
+        "paper_title": "End-Task Oriented Textual Entailment via Deep Explorations of Inter-Sentence Interactions",
+        "paper_link": "https://arxiv.org/abs/1804.08813",
+        "name": "DEISTE",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/yinwenpeng/SciTail"
+            }
+        ]
+    },
+    {
+        "paper_title": "Embedding Text in Hyperbolic Spaces",
+        "paper_link": "https://arxiv.org/abs/1806.04313",
+        "name": "HyperText",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/brain-research/hyperbolictext",
+                "pretrained": false
+            }
+        ]
+    },
+    {
+        "paper_title": "Representation Learning with Contrastive Predictive Coding",
+        "paper_link": "https://arxiv.org/abs/1807.03748",
+        "name": "CPC",
+        "code": [
+            {
+                "language": "Keras",
+                "link": "https://github.com/davidtellez/contrastive-predictive-coding",
+                "unofficial": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Context Mover\u2019s Distance & Barycenters: Optimal transport of contexts for building representations",
+        "paper_link": "https://arxiv.org/abs/1808.09663",
+        "name": "CMD",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/context-mover/context-mover-distance-and-barycenters"
+            }
+        ]
+    },
+    {
+        "paper_title": "Learning Universal Sentence Representations with Mean-Max Attention Autoencoder",
+        "paper_link": "https://arxiv.org/abs/1809.06590",
+        "name": "Mean-MaxAAE",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/Zminghua/SentEncoding"
+            }
+        ]
+    },
+    {
+        "paper_title": "Improving Sentence Representations with Consensus Maximisation",
+        "paper_link": "https://arxiv.org/abs/1810.01064",
+        "name": "Multi-view"
+    },
+    {
+        "paper_title": "BioSentVec: creating sentence embeddings for biomedical texts",
+        "paper_link": "https://arxiv.org/abs/1810.09302",
+        "name": "BioSentVec",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/ncbi-nlp/BioSentVec"
+            }
+        ]
+    },
+    {
+        "paper_title": "Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model",
+        "paper_link": "https://arxiv.org/abs/1810.12836",
+        "name": "USE-xling",
+        "code": [
+            {
+                "language": "TF-Hub",
+                "link": "https://tfhub.dev/s?q=universal-sentence-encoder-xling",
+                "no_training_code": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Word Mover's Embedding: From Word2Vec to Document Embedding",
+        "paper_link": "https://arxiv.org/abs/1811.01713",
+        "name": "WordMoversEmbeddings",
+        "code": [
+            {
+                "language": "C, Python",
+                "link": "https://github.com/IBM/WordMoversEmbeddings",
+                "pretrained": false
+            }
+        ]
+    },
+    {
+        "paper_title": "A Hierarchical Multi-task Approach for Learning Embeddings from Semantic Tasks",
+        "paper_link": "https://arxiv.org/abs/1811.06031",
+        "name": "HMTL",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/huggingface/hmtl"
+            }
+        ]
+    },
+    {
+        "paper_title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond",
+        "paper_link": "https://arxiv.org/abs/1812.10464",
+        "name": "LASER",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/facebookresearch/LASER"
+            }
+        ]
+    },
+    {
+        "paper_title": "No Training Required: Exploring Random Encoders for Sentence Classification",
+        "paper_link": "https://arxiv.org/abs/1901.10444",
+        "name": "randsent",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/facebookresearch/randsent",
+                "pretrained": false
+            }
+        ]
+    },
+    {
+        "paper_title": "CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model",
+        "paper_link": "https://arxiv.org/abs/1902.06423",
+        "name": "CMOW",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/florianmai/word2mat",
+                "pretrained": false
+            }
+        ]
+    },
+    {
+        "paper_title": "Multilingual Universal Sentence Encoder",
+        "paper_link": "https://arxiv.org/abs/1907.04307",
+        "name": "MultilingualUSE",
+        "code": [
+            {
+                "language": "TF-Hub",
+                "link": "https://tfhub.dev/google/universal-sentence-encoder-multilingual/1",
+                "no_training_code": true
+            }
+        ]
+    },
+    {
+        "paper_title": "GLOSS: Generative Latent Optimization of Sentence Representations",
+        "paper_link": "https://arxiv.org/abs/1907.06385",
+        "name": "GLOSS"
+    },
+    {
+        "paper_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+        "paper_link": "https://arxiv.org/abs/1908.10084",
+        "name": "Sentence-BERT",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/UKPLab/sentence-transformers",
+                "pretrained": true
+            }
+        ]
+    },
+    {
+        "paper_title": "DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations",
+        "paper_link": "https://arxiv.org/abs/2006.03659",
+        "name": "DeCLUTR",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/JohnGiorgi/DeCLUTR"
+            }
+        ]
+    },
+    {
+        "paper_title": "Convolutional Neural Network for Universal Sentence Embeddings",
+        "paper_link": "https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf",
+        "name": "CSE",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/XiaoqiJiao/COLING2018"
+            }
+        ],
+        "s2_paper_id": "d82732de6336dd6443ff33cccbb92ced0196ecc1"
+    },
+    {
+        "paper_title": "Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings",
+        "paper_link": "https://www.aclweb.org/anthology/W19-4601",
+        "name": "AraSIF",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/DFKI-Interactive-Machine-Learning/AraSIF"
+            }
+        ]
+    }
 ]

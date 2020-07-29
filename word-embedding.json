@@ -1,585 +1,585 @@
 [
-  {
-    "paper_title": "GloVe: Global Vectors for Word Representation",
-    "paper_link": "https://nlp.stanford.edu/pubs/glove.pdf",
-    "code": [
-      {
-        "language": "C",
-        "link": "https://github.com/stanfordnlp/GloVe"
-      }
-    ],
-    "name": "GloVe",
-    "pretrained_link": "https://github.com/stanfordnlp/GloVe#download-pre-trained-word-vectors",
-    "doi": "10.3115/v1/D14-1162"
-  },
-  {
-    "paper_title": "ViCo: Word Embeddings from Visual Co-occurrences",
-    "paper_link": "https://arxiv.org/abs/1908.08527",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/BigRedT/vico/"
-      }
-    ],
-    "name": "ViCo",
-    "pretrained_link": "https://github.com/BigRedT/vico/#just-give-me-pretrained-vico"
-  },
-  {
-    "paper_title": "Unsupervised word embeddings capture latent knowledge from materials science literature",
-    "paper_link": "https://www.nature.com/articles/s41586-019-1335-8",
-    "code": [
-      {
-        "language": "Gensim",
-        "link": "https://github.com/materialsintelligence/mat2vec"
-      }
-    ],
-    "doi": "10.1038/s41586-019-1335-8"
-  },
-  {
-    "paper_title": "An Unsupervised Character-Aware Neural Approach to Word and Context Representation Learning",
-    "paper_link": "https://arxiv.org/abs/1908.01819",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/GiuseppeMarra/char-word-embeddings"
-      }
-    ]
-  },
-  {
-    "paper_title": "Spherical Text Embedding",
-    "paper_link": "https://arxiv.org/abs/1911.01196",
-    "code": [
-      {
-        "language": "C",
-        "link": "https://github.com/yumeng5/Spherical-Text-Embedding"
-      }
-    ]
-  },
-  {
-    "paper_title": "Efficient Estimation of Word Representations in Vector Space",
-    "paper_link": "https://arxiv.org/abs/1301.3781",
-    "code": [
-      {
-        "language": "C",
-        "link": "https://github.com/tmikolov/word2vec"
-      }
-    ],
-    "name": "Word2Vec",
-    "pretrained_link": "https://code.google.com/archive/p/word2vec/"
-  },
-  {
-    "paper_title": "Enriching Word Vectors with Subword Information",
-    "paper_link": "https://arxiv.org/abs/1607.04606",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/facebookresearch/fastText"
-      }
-    ],
-    "name": "fastText",
-    "pretrained_link": "https://fasttext.cc/docs/en/english-vectors.html"
-  },
-  {
-    "paper_title": "BPEmb: Tokenization-free Pre-trained Subword Embeddings in 275 Languages",
-    "paper_link": "https://arxiv.org/abs/1710.02187",
-    "code": [
-      {
-        "language": "Gensim",
-        "link": "https://github.com/bheinzerling/bpemb"
-      }
-    ],
-    "name": "BPEmb",
-    "pretrained_link": "https://github.com/bheinzerling/bpemb#downloads-for-each-language"
-  },
-  {
-    "paper_title": "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge",
-    "paper_link": "https://arxiv.org/abs/1612.03975",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/commonsense/conceptnet-numberbatch"
-      }
-    ],
-    "name": "Numberbatch",
-    "pretrained_link": "https://github.com/commonsense/conceptnet-numberbatch#downloads"
-  },
-  {
-    "paper_title": "Non-distributional Word Vector Representations",
-    "paper_link": "https://arxiv.org/abs/1506.05230",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/mfaruqui/non-distributional"
-      }
-    ],
-    "name": "WordFeat",
-    "pretrained_link": "https://github.com/mfaruqui/non-distributional/blob/master/binary-vectors.txt.gz"
-  },
-  {
-    "paper_title": "Sparse Overcomplete Word Vector Representations",
-    "paper_link": "https://arxiv.org/abs/1506.02004",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/mfaruqui/sparse-coding"
-      }
-    ]
-  },
-  {
-    "paper_title": "A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks",
-    "paper_link": "https://arxiv.org/abs/1611.01587",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/hassyGo/charNgram2vec"
-      },
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/hassyGo/pytorch-playground/tree/master/jmt"
-      }
-    ],
-    "name": "charNgram2vec",
-    "pretrained_link": "https://www.logos.t.u-tokyo.ac.jp/~hassy/publications/arxiv2016jmt/jmt_pre-trained_embeddings.tar.gz"
-  },
-  {
-    "paper_title": "Matrix Factorization using Window Sampling and Negative Sampling for Improved Word Representations",
-    "paper_link": "https://arxiv.org/abs/1606.00819",
-    "code": [
-      {
-        "language": "Go",
-        "link": "https://github.com/alexandres/lexvec"
-      }
-    ],
-    "name": "lexvec",
-    "pretrained_link": "https://github.com/alexandres/lexvec#pre-trained-vectors"
-  },
-  {
-    "paper_title": "Hash Embeddings for Efficient Word Representations",
-    "paper_link": "https://arxiv.org/abs/1709.03933",
-    "code": [
-      {
-        "language": "Keras",
-        "link": "https://github.com/dsv77/hashembedding"
-      },
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/YannDubs/Hash-Embeddings",
-        "unofficial": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Dependency-Based Word Embeddings",
-    "paper_link": "http://www.aclweb.org/anthology/P14-2050",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://bitbucket.org/yoavgo/word2vecf/src/default/"
-      },
-      {
-        "language": "DL4J",
-        "link": "https://github.com/IsaacChanghau/Word2VecfJava",
-        "unofficial": true
-      }
-    ],
-    "name": "word2vecf",
-    "pretrained_link": "https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/",
-    "doi": "10.3115/v1/P14-2050"
-  },
-  {
-    "paper_title": "Learning Word Meta-Embeddings",
-    "paper_link": "http://www.aclweb.org/anthology/P16-1128",
-    "name": "Meta-Emb",
-    "pretrained_link": "http://cistern.cis.lmu.de/meta-emb/",
-    "broken_link": true,
-    "doi": "10.18653/v1/P16-1128"
-  },
-  {
-    "paper_title": "Dict2vec : Learning Word Embeddings using Lexical Dictionaries",
-    "paper_link": "http://aclweb.org/anthology/D17-1024",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/tca19/dict2vec"
-      }
-    ],
-    "name": "Dict2vec",
-    "pretrained_link": "https://github.com/tca19/dict2vec#download-pre-trained-vectors",
-    "doi": "10.18653/v1/D17-1024"
-  },
-  {
-    "paper_title": "Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints",
-    "paper_link": "https://arxiv.org/abs/1706.00374",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/nmrksic/attract-repel"
-      }
-    ],
-    "name": "Attract-Repel",
-    "pretrained_link": "https://github.com/nmrksic/attract-repel#available-word-vector-spaces"
-  },
-  {
-    "paper_title": "Siamese CBOW: Optimizing Word Embeddings for Sentence Representations",
-    "paper_link": "https://arxiv.org/abs/1606.04640",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://bitbucket.org/TomKenter/siamese-cbow/src/master/"
-      },
-      {
-        "language": "TF",
-        "link": "https://github.com/raphael-sch/SiameseCBOW",
-        "unofficial": true
-      }
-    ],
-    "name": "Siamese CBOW",
-    "pretrained_link": "https://bitbucket.org/TomKenter/siamese-cbow/src/master/"
-  },
-  {
-    "paper_title": "Offline bilingual word vectors, orthogonal transformations and the inverted softmax",
-    "paper_link": "https://arxiv.org/abs/1702.03859",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/Babylonpartners/fastText_multilingual"
-      }
-    ]
-  },
-  {
-    "paper_title": "From Paraphrase Database to Compositional Paraphrase Model and Back",
-    "paper_link": "https://arxiv.org/abs/1506.03487",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/jwieting/paragram-word"
-      }
-    ],
-    "name": "PARAGRAM",
-    "pretrained_link": "http://ttic.uchicago.edu/~wieting/paragram-word-demo.zip"
-  },
-  {
-    "paper_title": "Poincaré Embeddings for Learning Hierarchical Representations",
-    "paper_link": "https://arxiv.org/abs/1705.08039",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/facebookresearch/poincare-embeddings"
-      }
-    ]
-  },
-  {
-    "paper_title": "Dynamic Meta-Embeddings for Improved Sentence Representations",
-    "paper_link": "https://arxiv.org/abs/1804.07983",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/facebookresearch/DME"
-      }
-    ],
-    "name": "DME/CDME",
-    "pretrained_link": "https://github.com/facebookresearch/DME#pre-trained-models"
-  },
-  {
-    "paper_title": "WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models",
-    "paper_link": "https://rusvectores.org/static/data/webvectors_aist.pdf",
-    "name": "RusVectōrēs",
-    "pretrained_link": "http://rusvectores.org/en/models/"
-  },
-  {
-    "paper_title": "Swivel: Improving Embeddings by Noticing What's Missing",
-    "paper_link": "https://arxiv.org/abs/1602.02215",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/tensorflow/models/tree/master/research/swivel"
-      }
-    ]
-  },
-  {
-    "paper_title": "Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings",
-    "paper_link": "https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf",
-    "name": "ChineseEmbedding",
-    "pretrained_link": "https://ai.tencent.com/ailab/nlp/en/embedding.html",
-    "doi": "10.18653/v1/n18-2028"
-  },
-  {
-    "paper_title": "Representation Tradeoffs for Hyperbolic Embeddings",
-    "paper_link": "https://arxiv.org/abs/1804.03329",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/HazyResearch/hyperbolics"
-      }
-    ],
-    "name": "h-MDS",
-    "pretrained_link": "https://github.com/HazyResearch/hyperbolics"
-  },
-  {
-    "paper_title": "Analogical Reasoning on Chinese Morphological and Semantic Relations",
-    "paper_link": "https://arxiv.org/abs/1805.06504",
-    "name": "ChineseWordVectors",
-    "pretrained_link": "https://github.com/Embedding/Chinese-Word-Vectors"
-  },
-  {
-    "paper_title": "Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics",
-    "paper_link": "http://www.aclweb.org/anthology/D17-1023",
-    "code": [
-      {
-        "language": "C",
-        "link": "https://github.com/zhezhaoa/ngram2vec"
-      }
-    ],
-    "doi": "10.18653/v1/d17-1023"
-  },
-  {
-    "paper_title": "FRAGE: Frequency-Agnostic Word Representation",
-    "paper_link": "https://arxiv.org/abs/1809.06858",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/ChengyueGongR/Frequency-Agnostic"
-      }
-    ]
-  },
-  {
-    "paper_title": "Wikipedia2Vec: An Optimized Tool for LearningEmbeddings of Words and Entities from Wikipedia",
-    "paper_link": "https://arxiv.org/abs/1812.06280",
-    "code": [
-      {
-        "language": "Cython",
-        "link": "https://github.com/wikipedia2vec/wikipedia2vec"
-      }
-    ],
-    "name": "Wikipedia2Vec",
-    "pretrained_link": "https://wikipedia2vec.github.io/wikipedia2vec/pretrained/"
-  },
-  {
-    "paper_title": "SensEmbed: Learning Sense Embeddings for Word and Relational Similarity",
-    "paper_link": "http://www.aclweb.org/anthology/P/P15/P15-1010.pdf",
-    "name": "SensEmbed",
-    "pretrained_link": "http://lcl.uniroma1.it/sensembed/sensembed_vectors.gz",
-    "doi": "10.3115/v1/P15-1010"
-  },
-  {
-    "paper_title": "Morphological Priors for Probabilistic Neural Word Embeddings",
-    "paper_link": "https://arxiv.org/abs/1608.01056",
-    "code": [
-      {
-        "language": "Theano",
-        "link": "https://github.com/rguthrie3/MorphologicalPriorsForWordEmbeddings"
-      }
-    ]
-  },
-  {
-    "paper_title": "SPINE: SParse Interpretable Neural Embeddings",
-    "paper_link": "https://arxiv.org/abs/1711.08792",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/harsh19/SPINE"
-      }
-    ],
-    "name": "SPINE",
-    "pretrained_link": "https://drive.google.com/drive/folders/1ksVcWDADmnp0Cl5kezjHqTg3Jnh8q031?usp=sharing"
-  },
-  {
-    "paper_title": "Context encoders as a simple but powerful extension of word2vec",
-    "paper_link": "https://arxiv.org/abs/1706.02496",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/cod3licious/conec"
-      }
-    ]
-  },
-  {
-    "paper_title": "Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec",
-    "paper_link": "https://arxiv.org/abs/1605.02019",
-    "code": [
-      {
-        "language": "Chainer",
-        "link": "https://github.com/cemoody/lda2vec"
-      },
-      {
-        "language": "TF",
-        "link": "https://github.com/meereeum/lda2vec-tf",
-        "unofficial": true
-      }
-    ]
-  },
-  {
-    "paper_title": "Topical Word Embeddings",
-    "paper_link": "https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9314/9535",
-    "code": [
-      {
-        "language": "Cython",
-        "link": "https://github.com/largelymfs/topical_word_embeddings"
-      }
-    ],
-    "name": "",
-    "pretrained_link": "",
-    "s2_paper_id": "6363cfe79b33d66deeeba0e68e89f15b3e1e657f"
-  },
-  {
-    "paper_title": "Word Representations via Gaussian Embedding",
-    "paper_link": "https://arxiv.org/abs/1412.6623",
-    "code": [
-      {
-        "language": "Cython",
-        "link": "https://github.com/seomoz/word2gauss"
-      }
-    ]
-  },
-  {
-    "paper_title": "Making Sense of Word Embeddings",
-    "paper_link": "https://arxiv.org/abs/1708.03390",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/uhh-lt/sensegram"
-      }
-    ],
-    "name": "sensegram",
-    "pretrained_link": "http://ltdata1.informatik.uni-hamburg.de/sensegram/"
-  },
-  {
-    "paper_title": "A Probabilistic Model for Learning Multi-Prototype Word Embeddings",
-    "paper_link": "http://www.aclweb.org/anthology/C14-1016",
-    "code": [
-      {
-        "language": "DMTK",
-        "link": "https://github.com/Microsoft/distributed_skipgram_mixture"
-      }
-    ],
-    "s2_paper_id": "3a90fbc91c59b63fcca1a93efe962e1fe8ed51ef"
-  },
-  {
-    "paper_title": "cw2vec: Learning Chinese Word Embeddings with Stroke n-gram Information",
-    "paper_link": "http://www.statnlp.org/wp-content/uploads/papers/2018/cw2vec/cw2vec.pdf",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/bamtercelboo/cw2vec"
-      }
-    ],
-    "s2_paper_id": "57b57e88edcc9a20c78388e847b42e088b451c55"
-  },
-  {
-    "paper_title": "AraVec: A set of Arabic Word Embedding Models for use in Arabic NLP",
-    "paper_link": "https://www.researchgate.net/publication/319880027_AraVec_A_set_of_Arabic_Word_Embedding_Models_for_use_in_Arabic_NLP",
-    "code": [
-      {
-        "language": "Gensim",
-        "link": "https://github.com/bakrianoo/aravec"
-      }
-    ],
-    "name": "AraVec",
-    "pretrained_link": "https://github.com/bakrianoo/aravec#n-grams-models-1",
-    "doi": "10.1016/j.procs.2017.10.117"
-  },
-  {
-    "paper_title": "Probabilistic FastText for Multi-Sense Word Embeddings",
-    "paper_link": "https://arxiv.org/abs/1806.02901",
-    "code": [
-      {
-        "language": "C++",
-        "link": "https://github.com/benathi/multisense-prob-fasttext"
-      }
-    ],
-    "name": "Probabilistic FastText",
-    "pretrained_link": "https://github.com/benathi/multisense-prob-fasttext#3-loading-and-analyzing-pre-trained-models"
-  },
-  {
-    "paper_title": "Multimodal Word Distributions",
-    "paper_link": "https://arxiv.org/abs/1704.08424",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/benathi/word2gm"
-      }
-    ],
-    "name": "word2gm",
-    "pretrained_link": "https://github.com/benathi/word2gm#trained-model"
-  },
-  {
-    "paper_title": "Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components",
-    "paper_link": "https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf",
-    "code": [
-      {
-        "language": "C",
-        "link": "https://github.com/hkust-knowcomp/jwe"
-      }
-    ],
-    "doi": "10.18653/v1/d17-1027"
-  },
-  {
-    "paper_title": "Learning Chinese Word Representations From Glyphs Of Characters",
-    "paper_link": "https://arxiv.org/abs/1708.04755",
-    "code": [
-      {
-        "language": "C",
-        "link": "https://github.com/ray1007/gwe"
-      }
-    ]
-  },
-  {
-    "paper_title": "Joint Learning of Character and Word Embeddings",
-    "paper_link": "https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/11000/10834",
-    "code": [
-      {
-        "language": "C",
-        "link": "https://github.com/Leonard-Xu/CWE"
-      }
-    ],
-    "s2_paper_id": "1e662c87a36779dbe9f56f7ffd3ade756059d094"
-  },
-  {
-    "paper_title": "Counter-fitting Word Vectors to Linguistic Constraints",
-    "paper_link": "https://arxiv.org/abs/1603.00892",
-    "code": [
-      {
-        "language": "Python",
-        "link": "https://github.com/nmrksic/counter-fitting"
-      }
-    ],
-    "name": "counter-fitting",
-    "pretrained_link": "http://mi.eng.cam.ac.uk/~nm480/counter-fitted-vectors.txt.zip",
-    "broken_link": true
-  },
-  {
-    "paper_title": "VCWE: Visual Character-Enhanced Word Embeddings",
-    "paper_link": "https://arxiv.org/abs/1902.08795",
-    "code": [
-      {
-        "language": "Pytorch",
-        "link": "https://github.com/HSLCY/VCWE"
-      }
-    ],
-    "pretrained_link": "https://github.com/HSLCY/VCWE/blob/master/embedding/zh_wiki_VCWE_ep50.txt",
-    "name": "VCWE"
-  },
-  {
-    "paper_title": "Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks",
-    "paper_link": "https://arxiv.org/abs/1809.04283",
-    "code": [
-      {
-        "language": "TF",
-        "link": "https://github.com/malllabiisc/WordGCN"
-      }
-    ],
-    "pretrained_link": "https://drive.google.com/open?id=17wgNSMkyQwVHeHipk_Mp3y2Q0Kvhu6Mm",
-    "name": "SynGCN"
-  },
-  {
-    "paper_title": "Learning Cross-lingual Embeddings from Twitter via Distant Supervision",
-    "paper_link": "https://arxiv.org/abs/1905.07358",
-    "code": [
-      {
-        "language": "Text",
-        "link": "https://github.com/pedrada88/crossembeddings-twitter"
-      }
-    ],
-    "pretrained_link": "https://github.com/pedrada88/crossembeddings-twitter#twitter-pre-trained-word-embeddings"
-  }
+    {
+        "paper_title": "Dict2vec : Learning Word Embeddings using Lexical Dictionaries",
+        "paper_link": "http://aclweb.org/anthology/D17-1024",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/tca19/dict2vec"
+            }
+        ],
+        "name": "Dict2vec",
+        "pretrained_link": "https://github.com/tca19/dict2vec#download-pre-trained-vectors",
+        "doi": "10.18653/v1/D17-1024"
+    },
+    {
+        "paper_title": "A Probabilistic Model for Learning Multi-Prototype Word Embeddings",
+        "paper_link": "http://www.aclweb.org/anthology/C14-1016",
+        "code": [
+            {
+                "language": "DMTK",
+                "link": "https://github.com/Microsoft/distributed_skipgram_mixture"
+            }
+        ],
+        "s2_paper_id": "3a90fbc91c59b63fcca1a93efe962e1fe8ed51ef"
+    },
+    {
+        "paper_title": "Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics",
+        "paper_link": "http://www.aclweb.org/anthology/D17-1023",
+        "code": [
+            {
+                "language": "C",
+                "link": "https://github.com/zhezhaoa/ngram2vec"
+            }
+        ],
+        "doi": "10.18653/v1/d17-1023"
+    },
+    {
+        "paper_title": "Dependency-Based Word Embeddings",
+        "paper_link": "http://www.aclweb.org/anthology/P14-2050",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://bitbucket.org/yoavgo/word2vecf/src/default/"
+            },
+            {
+                "language": "DL4J",
+                "link": "https://github.com/IsaacChanghau/Word2VecfJava",
+                "unofficial": true
+            }
+        ],
+        "name": "word2vecf",
+        "pretrained_link": "https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/",
+        "doi": "10.3115/v1/P14-2050"
+    },
+    {
+        "paper_title": "Learning Word Meta-Embeddings",
+        "paper_link": "http://www.aclweb.org/anthology/P16-1128",
+        "name": "Meta-Emb",
+        "pretrained_link": "http://cistern.cis.lmu.de/meta-emb/",
+        "broken_link": true,
+        "doi": "10.18653/v1/P16-1128"
+    },
+    {
+        "paper_title": "SensEmbed: Learning Sense Embeddings for Word and Relational Similarity",
+        "paper_link": "http://www.aclweb.org/anthology/P/P15/P15-1010.pdf",
+        "name": "SensEmbed",
+        "pretrained_link": "http://lcl.uniroma1.it/sensembed/sensembed_vectors.gz",
+        "doi": "10.3115/v1/P15-1010"
+    },
+    {
+        "paper_title": "cw2vec: Learning Chinese Word Embeddings with Stroke n-gram Information",
+        "paper_link": "http://www.statnlp.org/wp-content/uploads/papers/2018/cw2vec/cw2vec.pdf",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/bamtercelboo/cw2vec"
+            }
+        ],
+        "s2_paper_id": "57b57e88edcc9a20c78388e847b42e088b451c55"
+    },
+    {
+        "paper_title": "Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings",
+        "paper_link": "https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf",
+        "name": "ChineseEmbedding",
+        "pretrained_link": "https://ai.tencent.com/ailab/nlp/en/embedding.html",
+        "doi": "10.18653/v1/n18-2028"
+    },
+    {
+        "paper_title": "Efficient Estimation of Word Representations in Vector Space",
+        "paper_link": "https://arxiv.org/abs/1301.3781",
+        "code": [
+            {
+                "language": "C",
+                "link": "https://github.com/tmikolov/word2vec"
+            }
+        ],
+        "name": "Word2Vec",
+        "pretrained_link": "https://code.google.com/archive/p/word2vec/"
+    },
+    {
+        "paper_title": "Word Representations via Gaussian Embedding",
+        "paper_link": "https://arxiv.org/abs/1412.6623",
+        "code": [
+            {
+                "language": "Cython",
+                "link": "https://github.com/seomoz/word2gauss"
+            }
+        ]
+    },
+    {
+        "paper_title": "Sparse Overcomplete Word Vector Representations",
+        "paper_link": "https://arxiv.org/abs/1506.02004",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/mfaruqui/sparse-coding"
+            }
+        ]
+    },
+    {
+        "paper_title": "From Paraphrase Database to Compositional Paraphrase Model and Back",
+        "paper_link": "https://arxiv.org/abs/1506.03487",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/jwieting/paragram-word"
+            }
+        ],
+        "name": "PARAGRAM",
+        "pretrained_link": "http://ttic.uchicago.edu/~wieting/paragram-word-demo.zip"
+    },
+    {
+        "paper_title": "Non-distributional Word Vector Representations",
+        "paper_link": "https://arxiv.org/abs/1506.05230",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/mfaruqui/non-distributional"
+            }
+        ],
+        "name": "WordFeat",
+        "pretrained_link": "https://github.com/mfaruqui/non-distributional/blob/master/binary-vectors.txt.gz"
+    },
+    {
+        "paper_title": "Swivel: Improving Embeddings by Noticing What's Missing",
+        "paper_link": "https://arxiv.org/abs/1602.02215",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/tensorflow/models/tree/master/research/swivel"
+            }
+        ]
+    },
+    {
+        "paper_title": "Counter-fitting Word Vectors to Linguistic Constraints",
+        "paper_link": "https://arxiv.org/abs/1603.00892",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/nmrksic/counter-fitting"
+            }
+        ],
+        "name": "counter-fitting",
+        "pretrained_link": "http://mi.eng.cam.ac.uk/~nm480/counter-fitted-vectors.txt.zip",
+        "broken_link": true
+    },
+    {
+        "paper_title": "Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec",
+        "paper_link": "https://arxiv.org/abs/1605.02019",
+        "code": [
+            {
+                "language": "Chainer",
+                "link": "https://github.com/cemoody/lda2vec"
+            },
+            {
+                "language": "TF",
+                "link": "https://github.com/meereeum/lda2vec-tf",
+                "unofficial": true
+            }
+        ]
+    },
+    {
+        "paper_title": "Matrix Factorization using Window Sampling and Negative Sampling for Improved Word Representations",
+        "paper_link": "https://arxiv.org/abs/1606.00819",
+        "code": [
+            {
+                "language": "Go",
+                "link": "https://github.com/alexandres/lexvec"
+            }
+        ],
+        "name": "lexvec",
+        "pretrained_link": "https://github.com/alexandres/lexvec#pre-trained-vectors"
+    },
+    {
+        "paper_title": "Siamese CBOW: Optimizing Word Embeddings for Sentence Representations",
+        "paper_link": "https://arxiv.org/abs/1606.04640",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://bitbucket.org/TomKenter/siamese-cbow/src/master/"
+            },
+            {
+                "language": "TF",
+                "link": "https://github.com/raphael-sch/SiameseCBOW",
+                "unofficial": true
+            }
+        ],
+        "name": "Siamese CBOW",
+        "pretrained_link": "https://bitbucket.org/TomKenter/siamese-cbow/src/master/"
+    },
+    {
+        "paper_title": "Enriching Word Vectors with Subword Information",
+        "paper_link": "https://arxiv.org/abs/1607.04606",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/facebookresearch/fastText"
+            }
+        ],
+        "name": "fastText",
+        "pretrained_link": "https://fasttext.cc/docs/en/english-vectors.html"
+    },
+    {
+        "paper_title": "Morphological Priors for Probabilistic Neural Word Embeddings",
+        "paper_link": "https://arxiv.org/abs/1608.01056",
+        "code": [
+            {
+                "language": "Theano",
+                "link": "https://github.com/rguthrie3/MorphologicalPriorsForWordEmbeddings"
+            }
+        ]
+    },
+    {
+        "paper_title": "A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks",
+        "paper_link": "https://arxiv.org/abs/1611.01587",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/hassyGo/charNgram2vec"
+            },
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/hassyGo/pytorch-playground/tree/master/jmt"
+            }
+        ],
+        "name": "charNgram2vec",
+        "pretrained_link": "https://www.logos.t.u-tokyo.ac.jp/~hassy/publications/arxiv2016jmt/jmt_pre-trained_embeddings.tar.gz"
+    },
+    {
+        "paper_title": "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge",
+        "paper_link": "https://arxiv.org/abs/1612.03975",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/commonsense/conceptnet-numberbatch"
+            }
+        ],
+        "name": "Numberbatch",
+        "pretrained_link": "https://github.com/commonsense/conceptnet-numberbatch#downloads"
+    },
+    {
+        "paper_title": "Offline bilingual word vectors, orthogonal transformations and the inverted softmax",
+        "paper_link": "https://arxiv.org/abs/1702.03859",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/Babylonpartners/fastText_multilingual"
+            }
+        ]
+    },
+    {
+        "paper_title": "Multimodal Word Distributions",
+        "paper_link": "https://arxiv.org/abs/1704.08424",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/benathi/word2gm"
+            }
+        ],
+        "name": "word2gm",
+        "pretrained_link": "https://github.com/benathi/word2gm#trained-model"
+    },
+    {
+        "paper_title": "Poincar\u00e9 Embeddings for Learning Hierarchical Representations",
+        "paper_link": "https://arxiv.org/abs/1705.08039",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/facebookresearch/poincare-embeddings"
+            }
+        ]
+    },
+    {
+        "paper_title": "Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints",
+        "paper_link": "https://arxiv.org/abs/1706.00374",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/nmrksic/attract-repel"
+            }
+        ],
+        "name": "Attract-Repel",
+        "pretrained_link": "https://github.com/nmrksic/attract-repel#available-word-vector-spaces"
+    },
+    {
+        "paper_title": "Context encoders as a simple but powerful extension of word2vec",
+        "paper_link": "https://arxiv.org/abs/1706.02496",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/cod3licious/conec"
+            }
+        ]
+    },
+    {
+        "paper_title": "Making Sense of Word Embeddings",
+        "paper_link": "https://arxiv.org/abs/1708.03390",
+        "code": [
+            {
+                "language": "Python",
+                "link": "https://github.com/uhh-lt/sensegram"
+            }
+        ],
+        "name": "sensegram",
+        "pretrained_link": "http://ltdata1.informatik.uni-hamburg.de/sensegram/"
+    },
+    {
+        "paper_title": "Learning Chinese Word Representations From Glyphs Of Characters",
+        "paper_link": "https://arxiv.org/abs/1708.04755",
+        "code": [
+            {
+                "language": "C",
+                "link": "https://github.com/ray1007/gwe"
+            }
+        ]
+    },
+    {
+        "paper_title": "Hash Embeddings for Efficient Word Representations",
+        "paper_link": "https://arxiv.org/abs/1709.03933",
+        "code": [
+            {
+                "language": "Keras",
+                "link": "https://github.com/dsv77/hashembedding"
+            },
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/YannDubs/Hash-Embeddings",
+                "unofficial": true
+            }
+        ]
+    },
+    {
+        "paper_title": "BPEmb: Tokenization-free Pre-trained Subword Embeddings in 275 Languages",
+        "paper_link": "https://arxiv.org/abs/1710.02187",
+        "code": [
+            {
+                "language": "Gensim",
+                "link": "https://github.com/bheinzerling/bpemb"
+            }
+        ],
+        "name": "BPEmb",
+        "pretrained_link": "https://github.com/bheinzerling/bpemb#downloads-for-each-language"
+    },
+    {
+        "paper_title": "SPINE: SParse Interpretable Neural Embeddings",
+        "paper_link": "https://arxiv.org/abs/1711.08792",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/harsh19/SPINE"
+            }
+        ],
+        "name": "SPINE",
+        "pretrained_link": "https://drive.google.com/drive/folders/1ksVcWDADmnp0Cl5kezjHqTg3Jnh8q031?usp=sharing"
+    },
+    {
+        "paper_title": "Representation Tradeoffs for Hyperbolic Embeddings",
+        "paper_link": "https://arxiv.org/abs/1804.03329",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/HazyResearch/hyperbolics"
+            }
+        ],
+        "name": "h-MDS",
+        "pretrained_link": "https://github.com/HazyResearch/hyperbolics"
+    },
+    {
+        "paper_title": "Dynamic Meta-Embeddings for Improved Sentence Representations",
+        "paper_link": "https://arxiv.org/abs/1804.07983",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/facebookresearch/DME"
+            }
+        ],
+        "name": "DME/CDME",
+        "pretrained_link": "https://github.com/facebookresearch/DME#pre-trained-models"
+    },
+    {
+        "paper_title": "Analogical Reasoning on Chinese Morphological and Semantic Relations",
+        "paper_link": "https://arxiv.org/abs/1805.06504",
+        "name": "ChineseWordVectors",
+        "pretrained_link": "https://github.com/Embedding/Chinese-Word-Vectors"
+    },
+    {
+        "paper_title": "Probabilistic FastText for Multi-Sense Word Embeddings",
+        "paper_link": "https://arxiv.org/abs/1806.02901",
+        "code": [
+            {
+                "language": "C++",
+                "link": "https://github.com/benathi/multisense-prob-fasttext"
+            }
+        ],
+        "name": "Probabilistic FastText",
+        "pretrained_link": "https://github.com/benathi/multisense-prob-fasttext#3-loading-and-analyzing-pre-trained-models"
+    },
+    {
+        "paper_title": "Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks",
+        "paper_link": "https://arxiv.org/abs/1809.04283",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/malllabiisc/WordGCN"
+            }
+        ],
+        "pretrained_link": "https://drive.google.com/open?id=17wgNSMkyQwVHeHipk_Mp3y2Q0Kvhu6Mm",
+        "name": "SynGCN"
+    },
+    {
+        "paper_title": "FRAGE: Frequency-Agnostic Word Representation",
+        "paper_link": "https://arxiv.org/abs/1809.06858",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/ChengyueGongR/Frequency-Agnostic"
+            }
+        ]
+    },
+    {
+        "paper_title": "Wikipedia2Vec: An Optimized Tool for LearningEmbeddings of Words and Entities from Wikipedia",
+        "paper_link": "https://arxiv.org/abs/1812.06280",
+        "code": [
+            {
+                "language": "Cython",
+                "link": "https://github.com/wikipedia2vec/wikipedia2vec"
+            }
+        ],
+        "name": "Wikipedia2Vec",
+        "pretrained_link": "https://wikipedia2vec.github.io/wikipedia2vec/pretrained/"
+    },
+    {
+        "paper_title": "VCWE: Visual Character-Enhanced Word Embeddings",
+        "paper_link": "https://arxiv.org/abs/1902.08795",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/HSLCY/VCWE"
+            }
+        ],
+        "pretrained_link": "https://github.com/HSLCY/VCWE/blob/master/embedding/zh_wiki_VCWE_ep50.txt",
+        "name": "VCWE"
+    },
+    {
+        "paper_title": "Learning Cross-lingual Embeddings from Twitter via Distant Supervision",
+        "paper_link": "https://arxiv.org/abs/1905.07358",
+        "code": [
+            {
+                "language": "Text",
+                "link": "https://github.com/pedrada88/crossembeddings-twitter"
+            }
+        ],
+        "pretrained_link": "https://github.com/pedrada88/crossembeddings-twitter#twitter-pre-trained-word-embeddings"
+    },
+    {
+        "paper_title": "An Unsupervised Character-Aware Neural Approach to Word and Context Representation Learning",
+        "paper_link": "https://arxiv.org/abs/1908.01819",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/GiuseppeMarra/char-word-embeddings"
+            }
+        ]
+    },
+    {
+        "paper_title": "ViCo: Word Embeddings from Visual Co-occurrences",
+        "paper_link": "https://arxiv.org/abs/1908.08527",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/BigRedT/vico/"
+            }
+        ],
+        "name": "ViCo",
+        "pretrained_link": "https://github.com/BigRedT/vico/#just-give-me-pretrained-vico"
+    },
+    {
+        "paper_title": "Spherical Text Embedding",
+        "paper_link": "https://arxiv.org/abs/1911.01196",
+        "code": [
+            {
+                "language": "C",
+                "link": "https://github.com/yumeng5/Spherical-Text-Embedding"
+            }
+        ]
+    },
+    {
+        "paper_title": "GloVe: Global Vectors for Word Representation",
+        "paper_link": "https://nlp.stanford.edu/pubs/glove.pdf",
+        "code": [
+            {
+                "language": "C",
+                "link": "https://github.com/stanfordnlp/GloVe"
+            }
+        ],
+        "name": "GloVe",
+        "pretrained_link": "https://github.com/stanfordnlp/GloVe#download-pre-trained-word-vectors",
+        "doi": "10.3115/v1/D14-1162"
+    },
+    {
+        "paper_title": "WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models",
+        "paper_link": "https://rusvectores.org/static/data/webvectors_aist.pdf",
+        "name": "RusVect\u014dr\u0113s",
+        "pretrained_link": "http://rusvectores.org/en/models/"
+    },
+    {
+        "paper_title": "Topical Word Embeddings",
+        "paper_link": "https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9314/9535",
+        "code": [
+            {
+                "language": "Cython",
+                "link": "https://github.com/largelymfs/topical_word_embeddings"
+            }
+        ],
+        "name": "",
+        "pretrained_link": "",
+        "s2_paper_id": "6363cfe79b33d66deeeba0e68e89f15b3e1e657f"
+    },
+    {
+        "paper_title": "Joint Learning of Character and Word Embeddings",
+        "paper_link": "https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/11000/10834",
+        "code": [
+            {
+                "language": "C",
+                "link": "https://github.com/Leonard-Xu/CWE"
+            }
+        ],
+        "s2_paper_id": "1e662c87a36779dbe9f56f7ffd3ade756059d094"
+    },
+    {
+        "paper_title": "Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components",
+        "paper_link": "https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf",
+        "code": [
+            {
+                "language": "C",
+                "link": "https://github.com/hkust-knowcomp/jwe"
+            }
+        ],
+        "doi": "10.18653/v1/d17-1027"
+    },
+    {
+        "paper_title": "Unsupervised word embeddings capture latent knowledge from materials science literature",
+        "paper_link": "https://www.nature.com/articles/s41586-019-1335-8",
+        "code": [
+            {
+                "language": "Gensim",
+                "link": "https://github.com/materialsintelligence/mat2vec"
+            }
+        ],
+        "doi": "10.1038/s41586-019-1335-8"
+    },
+    {
+        "paper_title": "AraVec: A set of Arabic Word Embedding Models for use in Arabic NLP",
+        "paper_link": "https://www.researchgate.net/publication/319880027_AraVec_A_set_of_Arabic_Word_Embedding_Models_for_use_in_Arabic_NLP",
+        "code": [
+            {
+                "language": "Gensim",
+                "link": "https://github.com/bakrianoo/aravec"
+            }
+        ],
+        "name": "AraVec",
+        "pretrained_link": "https://github.com/bakrianoo/aravec#n-grams-models-1",
+        "doi": "10.1016/j.procs.2017.10.117"
+    }
 ]

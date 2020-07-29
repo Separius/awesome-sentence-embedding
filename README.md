@@ -42,9 +42,9 @@ A curated list of pretrained sentence and word embedding models
 |date|paper|citation count|training code|pretrained models|
 |:---:|:---:|:---:|:---:|:---:|
 |-|[Dict2vec : Learning Word Embeddings using Lexical Dictionaries](http://aclweb.org/anthology/D17-1024)|N/A|[C++](https://github.com/tca19/dict2vec ) ![](https://img.shields.io/github/stars/tca19/dict2vec.svg?style=social )|[Dict2vec](https://github.com/tca19/dict2vec#download-pre-trained-vectors )|
-|-|[WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models](https://rusvectores.org/static/data/webvectors_aist.pdf)|N/A|-|[RusVectōrēs](http://rusvectores.org/en/models/ )|
-|-|[Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings](https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf)|N/A|-|[ChineseEmbedding](https://ai.tencent.com/ailab/nlp/en/embedding.html )|
 |-|[Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics](http://www.aclweb.org/anthology/D17-1023)|N/A|[C](https://github.com/zhezhaoa/ngram2vec ) ![](https://img.shields.io/github/stars/zhezhaoa/ngram2vec.svg?style=social )|-|
+|-|[Directional Skip-Gram: Explicitly Distinguishing Left and Right Context for Word Embeddings](https://ai.tencent.com/ailab/media/publications/naacl2018/directional_skip-gram.pdf)|N/A|-|[ChineseEmbedding](https://ai.tencent.com/ailab/nlp/en/embedding.html )|
+|-|[WebVectors: A Toolkit for Building Web Interfaces for Vector Semantic Models](https://rusvectores.org/static/data/webvectors_aist.pdf)|N/A|-|[RusVectōrēs](http://rusvectores.org/en/models/ )|
 |-|[Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components](https://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-ChineseEmbedding.pdf)|N/A|[C](https://github.com/hkust-knowcomp/jwe ) ![](https://img.shields.io/github/stars/hkust-knowcomp/jwe.svg?style=social )|-|
 |2013/01|[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)|999+|[C](https://github.com/tmikolov/word2vec ) ![](https://img.shields.io/github/stars/tmikolov/word2vec.svg?style=social )|[Word2Vec](https://code.google.com/archive/p/word2vec/ )|
 |2014/12|[Word Representations via Gaussian Embedding](https://arxiv.org/abs/1412.6623)|201|[Cython](https://github.com/seomoz/word2gauss ) ![](https://img.shields.io/github/stars/seomoz/word2gauss.svg?style=social )|-|
@@ -134,8 +134,8 @@ A curated list of pretrained sentence and word embedding models
 |2019/07|[SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/abs/1907.10529)|139|[Pytorch](https://github.com/facebookresearch/SpanBERT ) ![](https://img.shields.io/github/stars/facebookresearch/SpanBERT.svg?style=social )|[SpanBERT](https://github.com/facebookresearch/SpanBERT#pre-trained-models )|
 |2019/07|[ERNIE 2.0: A Continual Pre-training Framework for Language Understanding](https://arxiv.org/abs/1907.12412)|52|[PaddlePaddle](https://github.com/PaddlePaddle/ERNIE ) ![](https://img.shields.io/github/stars/PaddlePaddle/ERNIE.svg?style=social )|[ERNIE 2.0](https://github.com/PaddlePaddle/ERNIE#models )|
 |2019/07|[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)|913|[Pytorch](https://github.com/pytorch/fairseq ) ![](https://img.shields.io/github/stars/pytorch/fairseq.svg?style=social )<br>[Pytorch, TF2.0](https://github.com/huggingface/transformers ) ![](https://img.shields.io/github/stars/huggingface/transformers.svg?style=social )|[RoBERTa](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md#pre-trained-models )|
-|2019/09|[UNITER: Learning UNiversal Image-TExt Representations](https://arxiv.org/abs/1909.11740)|1||-|
 |2019/09|[Subword ELMo](https://arxiv.org/abs/1909.08357)|1|[Pytorch](https://github.com/Jiangtong-Li/Subword-ELMo/ ) ![](https://img.shields.io/github/stars/Jiangtong-Li/Subword-ELMo.svg?style=social )|-|
+|2019/09|[UNITER: Learning UNiversal Image-TExt Representations](https://arxiv.org/abs/1909.11740)|1||-|
 |2019/09|[MultiFiT: Efficient Multi-lingual Language Model Fine-tuning](https://arxiv.org/abs/1909.04761)|15|[Pytorch](https://github.com/n-waves/ulmfit-multilingual ) ![](https://img.shields.io/github/stars/n-waves/ulmfit-multilingual.svg?style=social )|-|
 |2019/09|[Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)|17||-|
 |2019/09|[K-BERT: Enabling Language Representation with Knowledge Graph](https://arxiv.org/abs/1909.07606)|19||-|
@@ -158,7 +158,7 @@ A curated list of pretrained sentence and word embedding models
 |2020/04|[MPNet: Masked and Permuted Pre-training for Language Understanding](https://arxiv.org/abs/2004.09297)|2|[Pytorch](https://github.com/microsoft/MPNet ) ![](https://img.shields.io/github/stars/microsoft/MPNet.svg?style=social )|[MPNet](https://modelrelease.blob.core.windows.net/pre-training/MPNet/mpnet.base.tar.gz )|
 |2020/05|[ParsBERT: Transformer-based Model for Persian Language Understanding](https://arxiv.org/abs/2005.12515)|0|[Pytorch](https://github.com/hooshvare/parsbert ) ![](https://img.shields.io/github/stars/hooshvare/parsbert.svg?style=social )|[ParsBERT](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased )|
 |2020/05|[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)|56|-|-|
-|2020/07|[InfoXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre-Training](https://arxiv.org/abs/2007.07834)|N/A|[Pytorch](https://github.com/microsoft/unilm/tree/master/infoxlm ) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social )|-|
+|2020/07|[InfoXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre-Training](https://arxiv.org/abs/2007.07834)|0|[Pytorch](https://github.com/microsoft/unilm/tree/master/infoxlm ) ![](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social )|-|
 
 ## Pooling Methods
 
