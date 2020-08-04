@@ -68,6 +68,7 @@ A curated list of pretrained sentence and word embedding models
 * [SWEM](https://github.com/dinghanshen/SWEM): [Baseline Needs More Love: On Simple Word-Embedding-Based Modelsand Associated Pooling Mechanisms](https://arxiv.org/abs/1805.09843)
 * [VLAWE](https://github.com/raduionescu/vlawe-boswe/): [Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation](https://arxiv.org/abs/1902.08850)
 * [Efficient Sentence Embedding using Discrete Cosine Transform](https://arxiv.org/abs/1909.03104)
+* [fse: Gensim add-on for fast sentence embeddings. Supports Mean, Max, SIF, uSIF](https://github.com/oborchers/Fast_Sentence_Embeddings) ![](https://img.shields.io/github/stars/oborchers/Fast_Sentence_Embeddings.svg?style=social)
 
 ## Encoders
 
