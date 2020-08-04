@@ -173,7 +173,7 @@ A curated list of pretrained sentence and word embedding models
 * [VLAWE](https://github.com/raduionescu/vlawe-boswe/): [Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation](https://arxiv.org/abs/1902.08850)
 * [Efficient Sentence Embedding using Discrete Cosine Transform](https://arxiv.org/abs/1909.03104)
 * [fse](https://github.com/oborchers/Fast_Sentence_Embeddings): [
-Gensim add-on for fast sentence embeddings](https://img.shields.io/github/stars/oborchers/Fast_Sentence_Embeddings.svg?style=social)
+Gensim add-on for fast sentence embeddings] ![](https://img.shields.io/github/stars/oborchers/Fast_Sentence_Embeddings.svg?style=social)
 
 ## Encoders
 
