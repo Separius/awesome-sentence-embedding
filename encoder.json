@@ -461,6 +461,18 @@
         ]
     },
     {
+        "paper_title": "SBERT-WK: A Sentence Embedding Method By Dissecting BERT-based Word Models",
+        "paper_link": "https://arxiv.org/abs/2002.06652",
+        "name": "SBERT-WK",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/BinWang28/SBERT-WK-Sentence-Embedding",
+                "pretrained": true
+            }
+        ]
+    },
+    {
         "paper_title": "DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations",
         "paper_link": "https://arxiv.org/abs/2006.03659",
         "name": "DeCLUTR",
