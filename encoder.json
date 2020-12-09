@@ -472,6 +472,30 @@
         ]
     },
     {
+        "paper_title": "Language-agnostic BERT Sentence Embedding",
+        "paper_link": "https://arxiv.org/abs/2007.01852",
+        "name": "LaBSE",
+        "code": [
+            {
+                "language": "TF-Hub",
+                "link": "https://tfhub.dev/google/LaBSE/1",
+                "no_training_code": true
+            }
+        ]
+    },
+    {
+        "paper_title": "On the Sentence Embeddings from Pre-trained Language Models",
+        "paper_link": "https://arxiv.org/abs/2011.05864",
+        "name": "BERT-flow",
+        "code": [
+            {
+                "language": "TF",
+                "link": "https://github.com/bohanli/BERT-flow",
+                "pretrained": true
+            }
+        ]
+    },
+    {
         "paper_title": "Convolutional Neural Network for Universal Sentence Embeddings",
         "paper_link": "https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf",
         "name": "CSE",
