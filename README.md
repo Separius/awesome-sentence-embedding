@@ -173,8 +173,6 @@ A curated list of pretrained sentence and word embedding models
 * [VLAWE](https://github.com/raduionescu/vlawe-boswe/): [Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation](https://arxiv.org/abs/1902.08850)
 * [Efficient Sentence Embedding using Discrete Cosine Transform](https://arxiv.org/abs/1909.03104)
 * [fse: Gensim add-on for fast sentence embeddings. Supports Mean, Max, SIF, uSIF](https://github.com/oborchers/Fast_Sentence_Embeddings) ![](https://img.shields.io/github/stars/oborchers/Fast_Sentence_Embeddings.svg?style=social)
-* [Efficient Sentence Embedding via Semantic Subspace Analysis](https://arxiv.org/pdf/2002.09620.pdf)
-
 
 ## Encoders
 
@@ -222,7 +220,6 @@ A curated list of pretrained sentence and word embedding models
 |2019/08|[Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084)|259|[Pytorch](https://github.com/UKPLab/sentence-transformers ) ![](https://img.shields.io/github/stars/UKPLab/sentence-transformers.svg?style=social )|Sentence-BERT|
 |2020/06|[DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations](https://arxiv.org/abs/2006.03659)|4|[Pytorch](https://github.com/JohnGiorgi/DeCLUTR ) ![](https://img.shields.io/github/stars/JohnGiorgi/DeCLUTR.svg?style=social )|DeCLUTR|
 |2020/07|[Language-agnostic BERT Sentence Embedding](https://arxiv.org/abs/2007.01852)|5|[TF-Hub](https://tfhub.dev/google/LaBSE/1 )|LaBSE|
-|2020/07|[SBERT-WK: A Sentence Embedding Method by Dissecting BERT-based Word Models](https://arxiv.org/pdf/2002.06652.pdf)|8|[Pytorch](https://github.com/BinWang28/SBERT-WK-Sentence-Embedding)|SBERT-WK|
 |2020/11|[On the Sentence Embeddings from Pre-trained Language Models](https://arxiv.org/abs/2011.05864)|0|[TF](https://github.com/bohanli/BERT-flow ) ![](https://img.shields.io/github/stars/bohanli/BERT-flow.svg?style=social )|BERT-flow|
 
 ## Evaluation
