@@ -484,6 +484,18 @@
         ]
     },
     {
+        "paper_title": "SBERT-WK: A Sentence Embedding Method By Dissecting BERT-based Word Models",
+        "paper_link": "https://arxiv.org/abs/2002.06652",
+        "name": "SBERT-WK",
+        "code": [
+            {
+                "language": "Pytorch",
+                "link": "https://github.com/BinWang28/SBERT-WK-Sentence-Embedding",
+                "pretrained": true
+            }
+        ]
+    },
+    {
         "paper_title": "On the Sentence Embeddings from Pre-trained Language Models",
         "paper_link": "https://arxiv.org/abs/2011.05864",
         "name": "BERT-flow",
@@ -494,7 +506,7 @@
                 "pretrained": true
             }
         ]
-    },
+    }, 
     {
         "paper_title": "Convolutional Neural Network for Universal Sentence Embeddings",
         "paper_link": "https://pdfs.semanticscholar.org/d827/32de6336dd6443ff33cccbb92ced0196ecc1.pdf",
